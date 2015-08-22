@@ -1,0 +1,2245 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt version="0.9.6" LC_NUMERIC="en_AU.UTF-8" root="/run/media/alex/SBPD/Video/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P" title="Anonymous Submission">
+ <profile progressive="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="15" colorspace="709" frame_rate_den="1" width="1280" description="HD 720p 15 fps" sample_aspect_num="1" height="720" sample_aspect_den="1"/>
+ <producer id="black" out="500" in="0">
+  <property name="mlt_type">producer</property>
+  <property name="length">15000</property>
+  <property name="eof">pause</property>
+  <property name="resource">black</property>
+  <property name="aspect_ratio">0</property>
+  <property name="mlt_service">colour</property>
+ </producer>
+ <playlist id="black_track">
+  <entry out="9676" in="0" producer="black"/>
+ </playlist>
+ <producer id="13_2_audio" out="781" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">782</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/3.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">55126</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">110392</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+ </producer>
+ <producer id="7_2_audio" out="909" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">910</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/15.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">161366</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">109019</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+ </producer>
+ <producer id="10_2_audio" out="286" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">287</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/18.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">113306</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">108683</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+ </producer>
+ <producer id="11_2_audio" out="464" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">465</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/19.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">263772</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">108381</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+ </producer>
+ <playlist id="playlist1">
+  <blank length="2166"/>
+  <entry out="517" in="471" producer="13_2_audio"/>
+  <blank length="5874"/>
+  <entry out="251" in="223" producer="7_2_audio"/>
+  <blank length="955"/>
+  <entry out="93" in="11" producer="10_2_audio"/>
+  <blank length="170"/>
+  <entry out="144" in="65" producer="11_2_audio"/>
+ </playlist>
+ <producer id="1_1" out="1812" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">1813</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/1.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">134465</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">112432</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="12_1" out="131" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">132</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/2.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">61317</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">108251</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="13_1" out="781" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">782</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/3.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">55126</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">110392</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="13_2_video" out="781" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">782</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/3.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">55126</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">110392</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="14_1" out="1092" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">1093</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/4.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">121084</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">109235</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="18" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot19.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="19" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot20.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="20" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot21.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="21" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot22.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="22" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot23.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="23" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot24.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="24" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot25.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="25" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot26.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="26" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot27.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="27" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot28.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="28" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot29.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="29" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot30.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="30" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot31.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="31" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot32.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="32" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot33.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="33" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot34.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="34" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot35.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="35" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot36.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="36" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot37.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="37" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot38.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="38" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot39.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="39" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot40.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="40" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot41.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="41" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot42.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="42" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot43.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="43" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot44.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="44" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot45.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="45" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot46.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="46" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot47.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="47" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot48.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="15_1" out="425" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">426</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/6.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">94396</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">108985</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="16_1" out="1346" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">1347</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/7.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">139393</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">109453</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="slowmotion:16:10" out="133" in="0">
+  <property name="mlt_type">producer</property>
+  <property name="length">134</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/7.mp4?10</property>
+  <property name="aspect_ratio">1</property>
+  <property name="mlt_service">framebuffer</property>
+  <property name="strobe">1</property>
+ </producer>
+ <producer id="49" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/8/snapshot50.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="50" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/8/snapshot51.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="51" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/8/snapshot52.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="52" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/8/snapshot53.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="53" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/8/snapshot54.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="54" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/8/snapshot55.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="55" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/8/snapshot56.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="56" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/8/snapshot57.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="17_1" out="696" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">697</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/9.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">66684</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">109859</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="2_1" out="744" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">745</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/10.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">57800</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">108274</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="3_1" out="488" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">489</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/11.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">61187</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">109829</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="4_1" out="482" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">483</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/12.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">147479</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">108433</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="slowmotion:4:3" out="160" in="0">
+  <property name="mlt_type">producer</property>
+  <property name="length">161</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/12.mp4?3</property>
+  <property name="aspect_ratio">1</property>
+  <property name="mlt_service">framebuffer</property>
+ </producer>
+ <producer id="5_1" out="1157" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">1158</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/13.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">72488</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">109500</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="6_1" out="695" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">696</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/14.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">56193</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">108957</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="7_1" out="909" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">910</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/15.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">161366</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">109019</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="slowmotion:7_1_video:10" out="90" in="0">
+  <property name="mlt_type">producer</property>
+  <property name="length">91</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/15.mp4?10</property>
+  <property name="aspect_ratio">1</property>
+  <property name="mlt_service">framebuffer</property>
+ </producer>
+ <producer id="7_2_video" out="909" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">910</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/15.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">161366</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">109019</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="8_1" out="216" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">217</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/16.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">81223</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">109069</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="9_1" out="632" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">633</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/17.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">59454</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">108902</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="10_2_video" out="286" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">287</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/18.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">113306</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">108683</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="10_1" out="286" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">287</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/18.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">113306</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">108683</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="11_1" out="464" in="0" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">465</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/19.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">263772</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">108381</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="11_2_video" out="464" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">465</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/19.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">263772</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">108381</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <playlist id="playlist2">
+  <entry out="1123" in="18" producer="1_1"/>
+  <entry out="1802" in="1226" producer="1_1"/>
+  <entry out="110" in="13" producer="12_1"/>
+  <entry out="400" in="16" producer="13_1"/>
+  <entry out="447" in="401" producer="13_2_video"/>
+  <entry out="552" in="518" producer="13_1"/>
+  <entry out="675" in="573" producer="13_1"/>
+  <entry out="548" in="11" producer="14_1"/>
+  <entry out="772" in="617" producer="14_1"/>
+  <entry out="943" in="876" producer="14_1"/>
+  <entry out="1043" in="970" producer="14_1"/>
+  <entry out="7" in="0" producer="18"/>
+  <entry out="7" in="0" producer="19"/>
+  <entry out="7" in="0" producer="20"/>
+  <entry out="7" in="0" producer="21"/>
+  <entry out="7" in="0" producer="22"/>
+  <entry out="7" in="0" producer="23"/>
+  <entry out="7" in="0" producer="24"/>
+  <entry out="7" in="0" producer="25"/>
+  <entry out="7" in="0" producer="26"/>
+  <entry out="7" in="0" producer="27"/>
+  <entry out="7" in="0" producer="28"/>
+  <entry out="7" in="0" producer="29"/>
+  <entry out="7" in="0" producer="30"/>
+  <entry out="7" in="0" producer="31"/>
+  <entry out="7" in="0" producer="32"/>
+  <entry out="7" in="0" producer="33"/>
+  <entry out="7" in="0" producer="34"/>
+  <entry out="7" in="0" producer="35"/>
+  <entry out="7" in="0" producer="36"/>
+  <entry out="7" in="0" producer="37"/>
+  <entry out="7" in="0" producer="38"/>
+  <entry out="7" in="0" producer="39"/>
+  <entry out="7" in="0" producer="40"/>
+  <entry out="7" in="0" producer="41"/>
+  <entry out="7" in="0" producer="42"/>
+  <entry out="7" in="0" producer="43"/>
+  <entry out="7" in="0" producer="44"/>
+  <entry out="7" in="0" producer="45"/>
+  <entry out="7" in="0" producer="46"/>
+  <entry out="7" in="0" producer="47"/>
+  <entry out="98" in="13" producer="15_1"/>
+  <entry out="188" in="161" producer="15_1"/>
+  <entry out="266" in="206" producer="15_1"/>
+  <entry out="364" in="280" producer="15_1"/>
+  <entry out="396" in="370" producer="15_1"/>
+  <entry out="163" in="10" producer="16_1"/>
+  <entry out="21" in="16" producer="slowmotion:16:10"/>
+  <entry out="313" in="224" producer="16_1"/>
+  <entry out="493" in="353" producer="16_1"/>
+  <entry out="560" in="538" producer="16_1"/>
+  <entry out="660" in="598" producer="16_1"/>
+  <entry out="1004" in="720" producer="16_1"/>
+  <entry out="1128" in="1039" producer="16_1"/>
+  <entry out="1185" in="1161" producer="16_1"/>
+  <entry out="1239" in="1205" producer="16_1"/>
+  <entry out="1329" in="1269" producer="16_1"/>
+  <entry out="7" in="0" producer="49"/>
+  <entry out="7" in="0" producer="50"/>
+  <entry out="7" in="0" producer="51"/>
+  <entry out="7" in="0" producer="52"/>
+  <entry out="7" in="0" producer="53"/>
+  <entry out="7" in="0" producer="54"/>
+  <entry out="7" in="0" producer="55"/>
+  <entry out="7" in="0" producer="56"/>
+  <entry out="151" in="11" producer="17_1"/>
+  <entry out="336" in="260" producer="17_1"/>
+  <entry out="523" in="362" producer="17_1"/>
+  <entry out="544" in="529" producer="17_1"/>
+  <entry out="677" in="562" producer="17_1"/>
+  <entry out="268" in="8" producer="2_1"/>
+  <entry out="317" in="313" producer="2_1"/>
+  <entry out="320" in="319" producer="2_1"/>
+  <entry out="411" in="324" producer="2_1"/>
+  <entry out="420" in="417" producer="2_1"/>
+  <entry out="463" in="442" producer="2_1"/>
+  <entry out="717" in="502" producer="2_1"/>
+  <entry out="160" in="11" producer="3_1"/>
+  <entry out="200" in="167" producer="3_1"/>
+  <entry out="336" in="208" producer="3_1"/>
+  <entry out="466" in="345" producer="3_1"/>
+  <entry out="129" in="15" producer="4_1"/>
+  <entry out="55" in="43" producer="slowmotion:4:3"/>
+  <entry out="341" in="227" producer="4_1"/>
+  <entry out="465" in="392" producer="4_1"/>
+  <entry out="87" in="7" producer="5_1"/>
+  <entry out="156" in="117" producer="5_1"/>
+  <entry out="352" in="289" producer="5_1"/>
+  <entry out="463" in="363" producer="5_1"/>
+  <entry out="532" in="501" producer="5_1"/>
+  <entry out="801" in="643" producer="5_1"/>
+  <entry out="1061" in="844" producer="5_1"/>
+  <entry out="1143" in="1078" producer="5_1"/>
+  <entry out="263" in="27" producer="6_1"/>
+  <entry out="373" in="303" producer="6_1"/>
+  <entry out="583" in="430" producer="6_1"/>
+  <entry out="671" in="618" producer="6_1"/>
+  <entry out="103" in="6" producer="7_1"/>
+  <entry out="222" in="124" producer="7_1"/>
+  <entry out="29" in="22" producer="slowmotion:7_1_video:10"/>
+  <entry out="320" in="300" producer="7_2_video"/>
+  <entry out="411" in="336" producer="7_1"/>
+  <entry out="461" in="431" producer="7_1"/>
+  <entry out="515" in="471" producer="7_1"/>
+  <entry out="600" in="533" producer="7_1"/>
+  <entry out="216" in="10" producer="8_1"/>
+  <entry out="239" in="13" producer="9_1"/>
+  <entry out="325" in="266" producer="9_1"/>
+  <entry out="470" in="331" producer="9_1"/>
+  <entry out="567" in="505" producer="9_1"/>
+  <entry out="611" in="574" producer="9_1"/>
+  <entry out="93" in="11" producer="10_2_video"/>
+  <entry out="233" in="117" producer="10_1"/>
+  <entry out="64" in="12" producer="11_1"/>
+  <entry out="182" in="103" producer="11_2_video"/>
+  <entry out="464" in="192" producer="11_1"/>
+ </playlist>
+ <producer id="48" out="74" in="0" title="Anonymous Submission">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/chart.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1058</property>
+  <property name="meta.media.height">794</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="57" out="153" in="0">
+  <property name="mlt_type">producer</property>
+  <property name="length">154</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="xmldata">&lt;kdenlivetitle LC_NUMERIC="en_AU.UTF-8" out="75" width="1280" duration="75" height="720">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position y="186.472" x="26.9663">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="0,0,0,255" font-italic="0" font-underline="0" font-outline-color="0,0,0,255" font="Oxygen-Sans" font-outline="0" font-pixel-size="72" font-weight="50">网站：http://onstut.pe.hu/
+
+电子邮件：hkz85825915@gmail.com&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1280,720"/>
+ &lt;endviewport rect="0,0,1280,720"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+ </producer>
+ <playlist id="playlist3">
+  <blank length="3777"/>
+  <entry out="74" in="0" producer="48"/>
+  <blank length="1159"/>
+  <entry out="74" in="0" producer="48"/>
+  <blank length="4437"/>
+  <entry out="153" in="0" producer="57"/>
+ </playlist>
+ <tractor id="maintractor" global_feed="1" out="9676" in="0" title="Anonymous Submission">
+  <property name="meta.volume">1</property>
+  <track producer="black_track"/>
+  <track hide="video" producer="playlist1"/>
+  <track producer="playlist2"/>
+  <track producer="playlist3"/>
+  <transition id="transition0">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition1">
+   <property name="a_track">1</property>
+   <property name="b_track">3</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition2" out="9676" in="9523">
+   <property name="a_track">2</property>
+   <property name="b_track">3</property>
+   <property name="distort">0</property>
+   <property name="geometry">0/0:100%x100%:100%</property>
+   <property name="fill">1</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">affine</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+   <property name="keyed">1</property>
+   <property name="rotate_x">0</property>
+   <property name="rotate_y">0</property>
+   <property name="rotate_z">0</property>
+   <property name="shear_x">0</property>
+   <property name="shear_y">0</property>
+   <property name="shear_z">0</property>
+  </transition>
+ </tractor>
+ <kdenlivedoc projectfolder="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P" version="0.88" kdenliveversion="15.04.3" profile="/home/alex/.local/share/kdenlive//profiles/customprofile0">
+  <customeffects/>
+  <documentproperties renderexportaudio="0" rendertwopass="0" verticalzoom="1" renderrescale="0" renderscanning="0" generateproxy="0" zoom="3" proxyimageminsize="2000" rendercategory="MP4" renderguide="0" renderrescaleheight="180" renderendguide="-1" renderratio="1" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -vcodec mpeg2video -g 5 -s 640x480 -qscale 7" renderdestination="" renderzone="0" proxyminsize="1000" documentid="1438601747809" renderstartguide="-1" zoneout="100" renderbitrate="20" zonein="0" renderaudiobitrate="160" renderprofile="H.264/AAC High Profile" rendertcoverlay="0" renderplay="0" position="9676" generateimageproxy="0" proxyextension="ts" rendertctype="0" enableproxy="0" renderrescalewidth="320" renderurl="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/untitled.mp4"/>
+  <documentmetadata/>
+  <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Oxygen-Sans'; font-size:10pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></documentnotes>
+  <profileinfo progressive="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="15" frame_rate_den="1" width="1280" description="HD 720p 15 fps" sample_aspect_num="1" height="720" sample_aspect_den="1"/>
+  <tracksinfo>
+   <trackinfo type="audio" mute="0" blind="1" locked="0" trackname="Audio 1"/>
+   <trackinfo mute="0" blind="0" locked="0" trackname="Video 2"/>
+   <trackinfo mute="0" blind="0" locked="0" trackname="Video 1"/>
+  </tracksinfo>
+  <folder opened="1" id="1" name="5"/>
+  <folder id="2" name="8"/>
+  <kdenlive_producer type="3" frequency="22050" pix_fmt="yuv420p" videocodecid="hevc" name="1.mp4" analysisdata="" videocodec="HEVC (High Efficiency Video Coding)" id="1" aspect_ratio="1" channels="1" audiocodec="AAC (Advanced Audio Coding)" default_video="0" video_max="0" file_hash="fe15ad5ca7219da1d50f3b1ed4759be3" progressive="1" fps="15" file_size="3796908" default_audio="1" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/1.mp4" frame_size="1600x896" duration="1813" colorspace="709" audio_max="50">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer type="3" frequency="22050" pix_fmt="yuv420p" videocodecid="hevc" name="10.mp4" analysisdata="" videocodec="HEVC (High Efficiency Video Coding)" id="2" aspect_ratio="1" channels="1" audiocodec="AAC (Advanced Audio Coding)" default_video="0" video_max="0" file_hash="1fa6c3773b16089055a7834048f4012b" progressive="1" fps="15" file_size="1055539" default_audio="1" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/10.mp4" frame_size="1600x896" duration="745" colorspace="709" audio_max="28">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer type="3" frequency="22050" pix_fmt="yuv420p" videocodecid="hevc" name="11.mp4" analysisdata="" videocodec="HEVC (High Efficiency Video Coding)" id="3" aspect_ratio="1" channels="1" audiocodec="AAC (Advanced Audio Coding)" default_video="0" video_max="0" file_hash="c89dc1f42746aee3c2b853cdeebba1fa" progressive="1" fps="15" file_size="716909" default_audio="1" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/11.mp4" frame_size="1600x896" duration="489" colorspace="709" audio_max="34">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer type="3" frequency="22050" pix_fmt="yuv420p" videocodecid="hevc" name="12.mp4" analysisdata="" videocodec="HEVC (High Efficiency Video Coding)" id="4" aspect_ratio="1" channels="1" audiocodec="AAC (Advanced Audio Coding)" default_video="0" video_max="0" file_hash="31f6e9b634eb5b016861c8f5be70734a" progressive="1" fps="15" file_size="1048294" default_audio="1" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/12.mp4" frame_size="1600x896" duration="483" colorspace="709" audio_max="29">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer type="3" frequency="22050" pix_fmt="yuv420p" videocodecid="hevc" name="13.mp4" analysisdata="" videocodec="HEVC (High Efficiency Video Coding)" id="5" aspect_ratio="1" channels="1" audiocodec="AAC (Advanced Audio Coding)" default_video="0" video_max="0" file_hash="05a7de900f50a1bc297da630decef640" progressive="1" fps="15" file_size="1800384" default_audio="1" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/13.mp4" frame_size="1600x896" duration="1158" colorspace="709" audio_max="45">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer type="3" frequency="22050" pix_fmt="yuv420p" videocodecid="hevc" name="14.mp4" analysisdata="" videocodec="HEVC (High Efficiency Video Coding)" id="6" aspect_ratio="1" channels="1" audiocodec="AAC (Advanced Audio Coding)" default_video="0" video_max="0" file_hash="6b5312cebfdee6604b0226316eccc257" progressive="1" fps="15" file_size="983033" default_audio="1" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/14.mp4" frame_size="1600x896" duration="696" colorspace="709" audio_max="31">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer type="3" frequency="22050" pix_fmt="yuv420p" videocodecid="hevc" name="15.mp4" analysisdata="" videocodec="HEVC (High Efficiency Video Coding)" id="7" aspect_ratio="1" channels="1" audiocodec="AAC (Advanced Audio Coding)" default_video="0" video_max="0" file_hash="6a82d299704c661a8799f1baadd9b202" progressive="1" fps="15" file_size="2084695" default_audio="1" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/15.mp4" frame_size="1600x896" duration="910" colorspace="709" audio_max="32">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer type="3" frequency="22050" pix_fmt="yuv420p" videocodecid="hevc" name="16.mp4" analysisdata="" videocodec="HEVC (High Efficiency Video Coding)" id="8" aspect_ratio="1" channels="1" audiocodec="AAC (Advanced Audio Coding)" default_video="0" video_max="0" file_hash="b582d205d7d6baeb596fe3b15c349252" progressive="1" fps="15" file_size="353593" default_audio="1" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/16.mp4" frame_size="1600x896" duration="217" colorspace="709" audio_max="26">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer type="3" frequency="22050" pix_fmt="yuv420p" videocodecid="hevc" name="17.mp4" analysisdata="" videocodec="HEVC (High Efficiency Video Coding)" id="9" aspect_ratio="1" channels="1" audiocodec="AAC (Advanced Audio Coding)" default_video="0" video_max="0" file_hash="747b8cb4781407c2e0f49d175d63a2df" progressive="1" fps="15" file_size="913386" default_audio="1" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/17.mp4" frame_size="1600x896" duration="633" colorspace="709" audio_max="27">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer type="3" frequency="22050" pix_fmt="yuv420p" videocodecid="hevc" name="18.mp4" analysisdata="" videocodec="HEVC (High Efficiency Video Coding)" id="10" aspect_ratio="1" channels="1" audiocodec="AAC (Advanced Audio Coding)" default_video="0" video_max="0" file_hash="1a33bf8e1a1756f4f61fbf62100e06b3" progressive="1" fps="15" file_size="540566" default_audio="1" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/18.mp4" frame_size="1600x896" duration="287" colorspace="709" audio_max="27">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer type="3" frequency="22050" pix_fmt="yuv420p" videocodecid="hevc" name="19.mp4" analysisdata="" videocodec="HEVC (High Efficiency Video Coding)" id="11" aspect_ratio="1" channels="1" audiocodec="AAC (Advanced Audio Coding)" default_video="0" video_max="0" file_hash="9e15caf7bd5690e73d9382cd75edc5c2" progressive="1" fps="15" file_size="1458708" default_audio="1" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/19.mp4" frame_size="1600x896" duration="465" colorspace="709" audio_max="23">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer type="3" frequency="22050" pix_fmt="yuv420p" videocodecid="hevc" name="2.mp4" analysisdata="" videocodec="HEVC (High Efficiency Video Coding)" id="12" aspect_ratio="1" channels="1" audiocodec="AAC (Advanced Audio Coding)" default_video="0" video_max="0" file_hash="e94f2823ac3c4af14c8adc84e47555d8" progressive="1" fps="15" file_size="193543" default_audio="1" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/2.mp4" frame_size="1600x896" duration="132" colorspace="709" audio_max="26">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer type="3" frequency="22050" pix_fmt="yuv420p" videocodecid="h264" name="3.mp4" analysisdata="" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" id="13" aspect_ratio="1" channels="1" audiocodec="AAC (Advanced Audio Coding)" default_video="0" video_max="0" file_hash="da58a49a2e3ac6cd10934630d110888a" progressive="1" fps="15" file_size="1105898" default_audio="1" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/3.mp4" frame_size="1600x896" duration="782" colorspace="709" audio_max="37">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2avc1mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer type="3" frequency="22050" pix_fmt="yuv420p" videocodecid="hevc" name="4.mp4" analysisdata="" videocodec="HEVC (High Efficiency Video Coding)" id="14" aspect_ratio="1" channels="1" audiocodec="AAC (Advanced Audio Coding)" default_video="0" video_max="0" file_hash="1e12d52a867ccd8f973d9bcca7afd06f" progressive="1" fps="15" file_size="2138110" default_audio="1" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/4.mp4" frame_size="1600x896" duration="1093" colorspace="709" audio_max="43">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer type="3" frequency="22050" pix_fmt="yuv420p" videocodecid="hevc" name="6.mp4" analysisdata="" videocodec="HEVC (High Efficiency Video Coding)" id="15" aspect_ratio="1" channels="1" audiocodec="AAC (Advanced Audio Coding)" default_video="0" video_max="0" file_hash="12c762b19eae412a833a39e245bfa182" progressive="1" fps="15" file_size="735486" default_audio="1" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/6.mp4" frame_size="1600x896" duration="426" colorspace="709" audio_max="30">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer type="3" frequency="22050" pix_fmt="yuv420p" videocodecid="hevc" name="7.mp4" analysisdata="" videocodec="HEVC (High Efficiency Video Coding)" id="16" aspect_ratio="1" channels="1" audiocodec="AAC (Advanced Audio Coding)" default_video="0" video_max="0" file_hash="f0d5d626debf6f77a216dcd9db4f3c21" progressive="1" fps="15" file_size="2844704" default_audio="1" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/7.mp4" frame_size="1600x896" duration="1347" colorspace="709" audio_max="35">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer type="3" frequency="22050" pix_fmt="yuv420p" videocodecid="hevc" name="9.mp4" analysisdata="" videocodec="HEVC (High Efficiency Video Coding)" id="17" aspect_ratio="1" channels="1" audiocodec="AAC (Advanced Audio Coding)" default_video="0" video_max="0" file_hash="598f42143ec4b8feab88895bc8d06fb3" progressive="1" fps="15" file_size="1050726" default_audio="1" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/9.mp4" frame_size="1600x896" duration="697" colorspace="709" audio_max="35">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer type="5" file_hash="9057d4cc4cd897e9f579928a13479faf" aspect_ratio="1" id="18" name="snapshot19.png" analysisdata="" frame_size="1600x900" out="74" file_size="164903" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot19.png"/>
+  <kdenlive_producer type="5" file_hash="ed9b39a516a3f264b2a2af79033fc616" aspect_ratio="1" id="19" name="snapshot20.png" analysisdata="" frame_size="1600x900" out="74" file_size="164352" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot20.png"/>
+  <kdenlive_producer type="5" file_hash="01e7f586793392ae0cb91e47560a1819" aspect_ratio="1" id="20" name="snapshot21.png" analysisdata="" frame_size="1600x900" out="74" file_size="163395" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot21.png"/>
+  <kdenlive_producer type="5" file_hash="e75de00b51b05e2cc46a9ece6e0c2227" aspect_ratio="1" id="21" name="snapshot22.png" analysisdata="" frame_size="1600x900" out="74" file_size="163551" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot22.png"/>
+  <kdenlive_producer type="5" file_hash="3854102988bce18c58381849a0e1ad17" aspect_ratio="1" id="22" name="snapshot23.png" analysisdata="" frame_size="1600x900" out="74" file_size="168522" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot23.png"/>
+  <kdenlive_producer type="5" file_hash="8f8626733c99c4e42755904184e63703" aspect_ratio="1" id="23" name="snapshot24.png" analysisdata="" frame_size="1600x900" out="74" file_size="174765" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot24.png"/>
+  <kdenlive_producer type="5" file_hash="7c293494bfba5827bf64e2b7fafed0a2" aspect_ratio="1" id="24" name="snapshot25.png" analysisdata="" frame_size="1600x900" out="74" file_size="178706" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot25.png"/>
+  <kdenlive_producer type="5" file_hash="445ff300c2b341dd55d122d11997ae5b" aspect_ratio="1" id="25" name="snapshot26.png" analysisdata="" frame_size="1600x900" out="74" file_size="175003" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot26.png"/>
+  <kdenlive_producer type="5" file_hash="a58c24dd93c7acc8569c8fdea366c41c" aspect_ratio="1" id="26" name="snapshot27.png" analysisdata="" frame_size="1600x900" out="74" file_size="179618" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot27.png"/>
+  <kdenlive_producer type="5" file_hash="7c51f64294eac08081126f0ef58313b0" aspect_ratio="1" id="27" name="snapshot28.png" analysisdata="" frame_size="1600x900" out="74" file_size="173123" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot28.png"/>
+  <kdenlive_producer type="5" file_hash="3223f225e4a5f6d31abf3f60838f6bb8" aspect_ratio="1" id="28" name="snapshot29.png" analysisdata="" frame_size="1600x900" out="74" file_size="180982" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot29.png"/>
+  <kdenlive_producer type="5" file_hash="f75f9fa7f90b0960bd3dc32fe1f9f9ba" aspect_ratio="1" id="29" name="snapshot30.png" analysisdata="" frame_size="1600x900" out="74" file_size="173963" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot30.png"/>
+  <kdenlive_producer type="5" file_hash="a4a402ed559918cf685f5c8cd0075eff" aspect_ratio="1" id="30" name="snapshot31.png" analysisdata="" frame_size="1600x900" out="74" file_size="171165" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot31.png"/>
+  <kdenlive_producer type="5" file_hash="c9e87feaf40b9f5180355135028b6a15" aspect_ratio="1" id="31" name="snapshot32.png" analysisdata="" frame_size="1600x900" out="74" file_size="158412" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot32.png"/>
+  <kdenlive_producer type="5" file_hash="289f05312044ed8ff1f28562802e118f" aspect_ratio="1" id="32" name="snapshot33.png" analysisdata="" frame_size="1600x900" out="74" file_size="158185" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot33.png"/>
+  <kdenlive_producer type="5" file_hash="269f1e79110cd4980f9a26ae58c57430" aspect_ratio="1" id="33" name="snapshot34.png" analysisdata="" frame_size="1600x900" out="74" file_size="152782" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot34.png"/>
+  <kdenlive_producer type="5" file_hash="b3024cb037ff09f2f4cee3796ceb886f" aspect_ratio="1" id="34" name="snapshot35.png" analysisdata="" frame_size="1600x900" out="74" file_size="150341" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot35.png"/>
+  <kdenlive_producer type="5" file_hash="b6a6577e30f16a5dd32bf9b1cf9901e8" aspect_ratio="1" id="35" name="snapshot36.png" analysisdata="" frame_size="1600x900" out="74" file_size="146657" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot36.png"/>
+  <kdenlive_producer type="5" file_hash="f58d0d2a4e975da73f6556f31d5b4ec2" aspect_ratio="1" id="36" name="snapshot37.png" analysisdata="" frame_size="1600x900" out="74" file_size="157916" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot37.png"/>
+  <kdenlive_producer type="5" file_hash="170fe0586bf5faee53ea2551b268601e" aspect_ratio="1" id="37" name="snapshot38.png" analysisdata="" frame_size="1600x900" out="74" file_size="164570" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot38.png"/>
+  <kdenlive_producer type="5" file_hash="a4f7f3d140a6bc3c42859a29982aadbf" aspect_ratio="1" id="38" name="snapshot39.png" analysisdata="" frame_size="1600x900" out="74" file_size="163394" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot39.png"/>
+  <kdenlive_producer type="5" file_hash="30408f75ef1eff0b3c019d2d890cabd4" aspect_ratio="1" id="39" name="snapshot40.png" analysisdata="" frame_size="1600x900" out="74" file_size="167377" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot40.png"/>
+  <kdenlive_producer type="5" file_hash="03d48b8b366eb01047fa6b7c3cc35131" aspect_ratio="1" id="40" name="snapshot41.png" analysisdata="" frame_size="1600x900" out="74" file_size="165737" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot41.png"/>
+  <kdenlive_producer type="5" file_hash="5aa27c2507d6be54aeca512cae13ef9f" aspect_ratio="1" id="41" name="snapshot42.png" analysisdata="" frame_size="1600x900" out="74" file_size="167354" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot42.png"/>
+  <kdenlive_producer type="5" file_hash="d32021edd07ecfbc919c8468acfad8b8" aspect_ratio="1" id="42" name="snapshot43.png" analysisdata="" frame_size="1600x900" out="74" file_size="167639" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot43.png"/>
+  <kdenlive_producer type="5" file_hash="51fb4624774c3a05d4d237bae1964413" aspect_ratio="1" id="43" name="snapshot44.png" analysisdata="" frame_size="1600x900" out="74" file_size="167519" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot44.png"/>
+  <kdenlive_producer type="5" file_hash="1a88e92266f8516bb03b0e342bc5b745" aspect_ratio="1" id="44" name="snapshot45.png" analysisdata="" frame_size="1600x900" out="74" file_size="168727" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot45.png"/>
+  <kdenlive_producer type="5" file_hash="b2831144f44a2e520300e57bf8aaefc8" aspect_ratio="1" id="45" name="snapshot46.png" analysisdata="" frame_size="1600x900" out="74" file_size="178336" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot46.png"/>
+  <kdenlive_producer type="5" file_hash="f8054e0585f9b0a989837959a2cc84d3" aspect_ratio="1" id="46" name="snapshot47.png" analysisdata="" frame_size="1600x900" out="74" file_size="182930" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot47.png"/>
+  <kdenlive_producer type="5" file_hash="4c60ae37eb311e799bd4c76aaa68a40a" aspect_ratio="1" id="47" name="snapshot48.png" analysisdata="" frame_size="1600x900" out="74" file_size="184717" groupid="1" groupname="5" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/5/snapshot48.png"/>
+  <kdenlive_producer type="5" file_hash="adf322551107abbf8866de6002bdf7ee" aspect_ratio="1" id="48" name="chart.png" analysisdata="" frame_size="1058x794" out="74" file_size="90850" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/chart.png"/>
+  <kdenlive_producer type="5" file_hash="550a66ee88e138c868a4657ab88e52cb" aspect_ratio="1" id="49" name="snapshot50.png" analysisdata="" frame_size="1600x900" out="74" file_size="165715" groupid="2" groupname="8" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/8/snapshot50.png"/>
+  <kdenlive_producer type="5" file_hash="4652556c5126b3613fd7b185a0e3d5b4" aspect_ratio="1" id="50" name="snapshot51.png" analysisdata="" frame_size="1600x900" out="74" file_size="165024" groupid="2" groupname="8" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/8/snapshot51.png"/>
+  <kdenlive_producer type="5" file_hash="fdd067c9ee298fd73a0c6b10f543cd2a" aspect_ratio="1" id="51" name="snapshot52.png" analysisdata="" frame_size="1600x900" out="74" file_size="172094" groupid="2" groupname="8" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/8/snapshot52.png"/>
+  <kdenlive_producer type="5" file_hash="5e7706c87383778a5a3afbfe6cc434c4" aspect_ratio="1" id="52" name="snapshot53.png" analysisdata="" frame_size="1600x900" out="74" file_size="170355" groupid="2" groupname="8" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/8/snapshot53.png"/>
+  <kdenlive_producer type="5" file_hash="11435641ae2e968f179802024b794cfa" aspect_ratio="1" id="53" name="snapshot54.png" analysisdata="" frame_size="1600x900" out="74" file_size="170271" groupid="2" groupname="8" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/8/snapshot54.png"/>
+  <kdenlive_producer type="5" file_hash="3e14f6c1a4ffb2df1421e0aee59aded9" aspect_ratio="1" id="54" name="snapshot55.png" analysisdata="" frame_size="1600x900" out="74" file_size="160656" groupid="2" groupname="8" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/8/snapshot55.png"/>
+  <kdenlive_producer type="5" file_hash="fcdc3bed3db4d56fd5d1ad4854be1813" aspect_ratio="1" id="55" name="snapshot56.png" analysisdata="" frame_size="1600x900" out="74" file_size="152748" groupid="2" groupname="8" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/8/snapshot56.png"/>
+  <kdenlive_producer type="5" file_hash="e0b08811f51ca6cce3e28e20c2ab9e4f" aspect_ratio="1" id="56" name="snapshot57.png" analysisdata="" frame_size="1600x900" out="74" file_size="151593" groupid="2" groupname="8" duration="75" in="0" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/8/snapshot57.png"/>
+  <kdenlive_producer type="6" thumbnail="37" aspect_ratio="1" id="57" transparency="1" name="Title clip" analysisdata="" frame_size="1280x720" out="74" groupid="1" groupname="5" duration="75" in="0" xmldata="&lt;kdenlivetitle LC_NUMERIC=&quot;en_AU.UTF-8&quot; out=&quot;75&quot; width=&quot;1280&quot; duration=&quot;75&quot; height=&quot;720&quot;>&#xa; &lt;item type=&quot;QGraphicsTextItem&quot; z-index=&quot;1&quot;>&#xa;  &lt;position y=&quot;186.472&quot; x=&quot;26.9663&quot;>&#xa;   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xa;  &lt;/position>&#xa;  &lt;content font-color=&quot;0,0,0,255&quot; font-italic=&quot;0&quot; font-underline=&quot;0&quot; font-outline-color=&quot;0,0,0,255&quot; font=&quot;Oxygen-Sans&quot; font-outline=&quot;0&quot; font-pixel-size=&quot;72&quot; font-weight=&quot;50&quot;>网站：http://onstut.pe.hu/&#xa;&#xa;电子邮件：hkz85825915@gmail.com&lt;/content>&#xa; &lt;/item>&#xa; &lt;startviewport rect=&quot;0,0,1280,720&quot;/>&#xa; &lt;endviewport rect=&quot;0,0,1280,720&quot;/>&#xa; &lt;background color=&quot;0,0,0,0&quot;/>&#xa;&lt;/kdenlivetitle>&#xa;"/>
+  <markers/>
+  <groups/>
+ </kdenlivedoc>
+</mlt>

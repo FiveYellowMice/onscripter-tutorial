@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt title="Anonymous Submission" version="0.9.6" root="/run/media/alex/SBPD/Video/Projects/小白也能轻松学会的Galgame制作/第3讲 耳机党福利" LC_NUMERIC="en_AU.UTF-8">
+ <profile colorspace="709" sample_aspect_num="1" description="HD 720p 15 fps" width="1280" frame_rate_den="1" height="720" progressive="1" frame_rate_num="15" display_aspect_num="16" display_aspect_den="9" sample_aspect_den="1"/>
+ <producer in="0" out="500" id="black">
+  <property name="mlt_type">producer</property>
+  <property name="length">15000</property>
+  <property name="eof">pause</property>
+  <property name="resource">black</property>
+  <property name="aspect_ratio">0</property>
+  <property name="mlt_service">colour</property>
+ </producer>
+ <playlist id="black_track">
+  <entry in="0" out="6424" producer="black"/>
+ </playlist>
+ <producer title="Anonymous Submission" in="0" out="8872" id="1_1">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">8873</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第3讲 耳机党福利/original.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1.00446</property>
+  <property name="meta.media.0.codec.width">1280</property>
+  <property name="meta.media.0.codec.height">720</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1.00446</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">56365</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">109736</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.25.101</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">225</property>
+  <property name="meta.media.sample_aspect_den">224</property>
+  <property name="aspect_ratio">1.00446</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="4435" id="slowmotion:1:2">
+  <property name="mlt_type">producer</property>
+  <property name="length">4436</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第3讲 耳机党福利/original.mp4?2</property>
+  <property name="aspect_ratio">1.00446</property>
+  <property name="mlt_service">framebuffer</property>
+ </producer>
+ <producer in="0" out="2217" id="slowmotion:1:4">
+  <property name="mlt_type">producer</property>
+  <property name="length">2218</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第3讲 耳机党福利/original.mp4?4</property>
+  <property name="aspect_ratio">1.00446</property>
+  <property name="mlt_service">framebuffer</property>
+  <property name="strobe">1</property>
+ </producer>
+ <playlist id="playlist4">
+  <entry in="0" out="625" producer="1_1"/>
+  <entry in="313" out="382" producer="slowmotion:1:2"/>
+  <entry in="766" out="839" producer="1_1"/>
+  <entry in="899" out="1002" producer="1_1"/>
+  <entry in="1048" out="1076" producer="1_1"/>
+  <entry in="1094" out="1135" producer="1_1"/>
+  <entry in="1142" out="1172" producer="1_1"/>
+  <entry in="1178" out="1183" producer="1_1"/>
+  <entry in="1188" out="1232" producer="1_1"/>
+  <entry in="1239" out="1341" producer="1_1"/>
+  <entry in="1395" out="1749" producer="1_1"/>
+  <entry in="1757" out="1895" producer="1_1"/>
+  <entry in="1919" out="1950" producer="1_1"/>
+  <entry in="1958" out="2058" producer="1_1"/>
+  <entry in="2100" out="2139" producer="1_1"/>
+  <entry in="2192" out="2383" producer="1_1"/>
+  <entry in="2437" out="2489" producer="1_1"/>
+  <entry in="2514" out="2836" producer="1_1"/>
+  <entry in="2864" out="3028" producer="1_1"/>
+  <entry in="3040" out="3252" producer="1_1"/>
+  <entry in="3294" out="3433" producer="1_1"/>
+  <entry in="3494" out="3647" producer="1_1"/>
+  <entry in="3648" out="3678" producer="1_1">
+   <filter id="dynamictext">
+    <property name="track">0</property>
+    <property name="argument">请无视多出来的这个反斜杠</property>
+    <property name="geometry">596.154/176.923:600x80:100</property>
+    <property name="family">DejaVu Sans</property>
+    <property name="size">48</property>
+    <property name="weight">400</property>
+    <property name="fgcolour">0x000000ff</property>
+    <property name="bgcolour">0x00000000</property>
+    <property name="olcolour">0x00000000</property>
+    <property name="pad">0</property>
+    <property name="halign">left</property>
+    <property name="valign">top</property>
+    <property name="outline">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">dynamictext</property>
+    <property name="kdenlive_id">dynamictext</property>
+    <property name="tag">dynamictext</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info">1/-1/</property>
+   </filter>
+  </entry>
+  <entry in="3725" out="3790" producer="1_1"/>
+  <entry in="3800" out="3820" producer="1_1"/>
+  <entry in="3825" out="4244" producer="1_1"/>
+  <entry in="4254" out="4415" producer="1_1"/>
+  <entry in="4441" out="4540" producer="1_1"/>
+  <entry in="4615" out="4626" producer="1_1"/>
+  <entry in="4641" out="4655" producer="1_1"/>
+  <entry in="4705" out="4981" producer="1_1"/>
+  <entry in="5030" out="5086" producer="1_1"/>
+  <entry in="5117" out="5131" producer="1_1"/>
+  <entry in="5135" out="5136" producer="1_1"/>
+  <entry in="5142" out="5151" producer="1_1"/>
+  <entry in="5158" out="5201" producer="1_1"/>
+  <entry in="5376" out="5467" producer="1_1"/>
+  <entry in="5525" out="5568" producer="1_1"/>
+  <entry in="5603" out="5619" producer="1_1"/>
+  <entry in="5629" out="5637" producer="1_1"/>
+  <entry in="6514" out="6776" producer="1_1"/>
+  <entry in="6785" out="7106" producer="1_1"/>
+  <entry in="1776" out="1857" producer="slowmotion:1:4"/>
+  <entry in="7435" out="7469" producer="1_1"/>
+  <entry in="7517" out="7636" producer="1_1"/>
+  <entry in="7660" out="7696" producer="1_1"/>
+  <entry in="7710" out="7812" producer="1_1"/>
+  <entry in="7833" out="8378" producer="1_1"/>
+  <entry in="8387" out="8872" producer="1_1"/>
+ </playlist>
+ <playlist id="playlist5"/>
+ <tractor title="Anonymous Submission" in="0" out="6424" global_feed="1" id="maintractor">
+  <property name="meta.volume">1</property>
+  <track producer="black_track"/>
+  <track producer="playlist4"/>
+  <track producer="playlist5"/>
+  <transition id="transition0">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+ </tractor>
+ <kdenlivedoc version="0.88" projectfolder="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第3讲 耳机党福利" kdenliveversion="15.04.2" profile="/home/alex/.local/share/kdenlive//profiles/customprofile5">
+  <customeffects/>
+  <documentproperties proxyminsize="1000" zoom="3" enableproxy="0" proxyimageminsize="2000" position="6424" zonein="0" generateimageproxy="0" proxyextension="ts" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -vcodec mpeg2video -g 5 -s 640x480 -qscale 7" documentid="1433856789685" verticalzoom="1" generateproxy="0" zoneout="100"/>
+  <documentmetadata/>
+  <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Oxygen-Sans'; font-size:10pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></documentnotes>
+  <profileinfo sample_aspect_num="1" description="HD 720p 15 fps" width="1280" frame_rate_den="1" height="720" frame_rate_num="15" progressive="1" display_aspect_num="16" display_aspect_den="9" sample_aspect_den="1"/>
+  <tracksinfo>
+   <trackinfo trackname="Video 2" blind="0" mute="0" locked="0"/>
+   <trackinfo trackname="Video 1" blind="0" mute="0" locked="0"/>
+  </tracksinfo>
+  <kdenlive_producer name="original.mp4" pix_fmt="yuv420p" progressive="1" channels="1" duration="8873" colorspace="709" fps="15" default_video="0" audiocodec="AAC (Advanced Audio Coding)" analysisdata="" type="3" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第3讲 耳机党福利/original.mp4" file_size="12602725" frame_size="1280x720" videocodecid="hevc" aspect_ratio="1.00446" video_max="0" default_audio="1" frequency="22050" id="1" audio_max="63" file_hash="b11cbf9484b2bc041fa302ba196bc2b4" videocodec="HEVC (High Efficiency Video Coding)">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.25.101</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <markers/>
+  <groups/>
+ </kdenlivedoc>
+</mlt>

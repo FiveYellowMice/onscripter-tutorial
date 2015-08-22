@@ -1,0 +1,4 @@
+Windows版的压缩包中包含了一大堆.dll文件，这些都是跟onscripter.exe密不可分的，请将它们视为一体。
+字体是从Windows XP里拷出来的，版权属于微软。
+
+Linux版只给一个二进制文件，这是我在64位的ArchLinux上用AUR上的onscripter-gbk-git编译的，依赖请自行搞定，不能运行者请自己去GitHub上下载编译。

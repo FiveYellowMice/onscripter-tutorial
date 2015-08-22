@@ -1,0 +1,1169 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt LC_NUMERIC="en_AU.UTF-8" title="Anonymous Submission" root="/run/media/alex/SBPD/Video/Projects/小白也能轻松学会的Galgame制作/第2讲 从百草园，到三味书屋" version="0.9.6">
+ <profile description="HD 720p 24 fps" height="720" colorspace="709" width="1280" display_aspect_num="16" frame_rate_num="24" sample_aspect_den="1" display_aspect_den="9" frame_rate_den="1" progressive="1" sample_aspect_num="1"/>
+ <producer in="0" id="black" out="15571">
+  <property name="mlt_type">producer</property>
+  <property name="length">15572</property>
+  <property name="eof">pause</property>
+  <property name="resource">black</property>
+  <property name="aspect_ratio">0</property>
+  <property name="mlt_service">colour</property>
+ </producer>
+ <playlist id="black_track">
+  <entry in="0" producer="black" out="11107"/>
+ </playlist>
+ <playlist id="playlist1"/>
+ <producer in="0" id="2_2" title="Anonymous Submission" out="2140">
+  <property name="mlt_type">producer</property>
+  <property name="length">2141</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第2讲 从百草园，到三味书屋/original2.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1.00446</property>
+  <property name="meta.media.0.codec.width">1280</property>
+  <property name="meta.media.0.codec.height">720</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1.00446</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">97617</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">109548</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.25.101</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">225</property>
+  <property name="meta.media.sample_aspect_den">224</property>
+  <property name="aspect_ratio">1.00446</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+ </producer>
+ <playlist id="playlist0">
+  <blank length="8974"/>
+  <entry in="26" producer="2_2" out="111">
+   <filter in="26" id="volume">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="gain">0.46</property>
+    <property name="disable">0</property>
+   </filter>
+   <filter id="ladspa.1049">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+    <property name="disable">0</property>
+   </filter>
+  </entry>
+  <entry in="127" producer="2_2" out="184">
+   <filter in="26" id="filter0">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter1">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="201" producer="2_2" out="253">
+   <filter in="26" id="filter2">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter3">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="255" producer="2_2" out="264">
+   <filter in="26" id="filter4">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter5">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="268" producer="2_2" out="317">
+   <filter in="26" id="filter6">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter7">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="349" producer="2_2" out="451">
+   <filter in="26" id="filter8">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter9">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="469" producer="2_2" out="493">
+   <filter in="26" id="filter10">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter11">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="524" producer="2_2" out="607">
+   <filter in="26" id="filter12">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter13">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="649" producer="2_2" out="803">
+   <filter in="26" id="filter14">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter15">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="845" producer="2_2" out="874">
+   <filter in="26" id="filter16">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter17">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="878" producer="2_2" out="1222">
+   <filter in="26" id="filter18">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter19">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="1311" producer="2_2" out="1400">
+   <filter in="26" id="filter20">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter21">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="1424" producer="2_2" out="1445">
+   <filter in="26" id="filter22">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter23">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="1465" producer="2_2" out="1526">
+   <filter in="26" id="filter24">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter25">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="1543" producer="2_2" out="1608">
+   <filter in="26" id="filter26">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter27">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="1623" producer="2_2" out="1645">
+   <filter in="26" id="filter28">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter29">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="1669" producer="2_2" out="1695">
+   <filter in="26" id="filter30">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter31">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="1716" producer="2_2" out="1745">
+   <filter in="26" id="filter32">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter33">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="1789" producer="2_2" out="1825">
+   <filter in="26" id="filter34">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter35">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="1863" producer="2_2" out="1911">
+   <filter in="26" id="filter36">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter37">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="1939" producer="2_2" out="1958">
+   <filter in="26" id="filter38">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter39">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="2012" producer="2_2" out="2026">
+   <filter in="26" id="filter40">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter41">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="2032" producer="2_2" out="2119">
+   <filter in="26" id="filter42">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter43">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+  <entry in="2120" producer="2_2" out="2140">
+   <filter in="26" id="filter44">
+    <property name="track">0</property>
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="gain">0.46</property>
+   </filter>
+   <filter id="filter45">
+    <property name="track">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">ladspa.1049</property>
+    <property name="kdenlive_id">ladspa.1049</property>
+    <property name="tag">ladspa.1049</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0</property>
+    <property name="wetness">0.394</property>
+   </filter>
+  </entry>
+ </playlist>
+ <producer in="0" id="1_1" title="Anonymous Submission" out="15571">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">15572</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第2讲 从百草园，到三味书屋/original.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1.00446</property>
+  <property name="meta.media.0.codec.width">1280</property>
+  <property name="meta.media.0.codec.height">720</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1.00446</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">93570</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">109487</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.25.101</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">225</property>
+  <property name="meta.media.sample_aspect_den">224</property>
+  <property name="aspect_ratio">1.00446</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <playlist id="playlist2">
+  <entry in="0" producer="1_1" out="164"/>
+  <entry in="182" producer="1_1" out="202"/>
+  <entry in="287" producer="1_1" out="390"/>
+  <entry in="426" producer="1_1" out="891"/>
+  <entry in="896" producer="1_1" out="908"/>
+  <entry in="921" producer="1_1" out="953"/>
+  <entry in="992" producer="1_1" out="1071"/>
+  <entry in="1081" producer="1_1" out="1097"/>
+  <entry in="1100" producer="1_1" out="1149"/>
+  <entry in="1153" producer="1_1" out="1170"/>
+  <entry in="1190" producer="1_1" out="1286"/>
+  <entry in="1289" producer="1_1" out="1292"/>
+  <entry in="1300" producer="1_1" out="1302"/>
+  <entry in="1305" producer="1_1" out="1318"/>
+  <entry in="1340" producer="1_1" out="1475"/>
+  <entry in="1477" producer="1_1" out="1506"/>
+  <entry in="1509" producer="1_1" out="1701"/>
+  <entry in="1714" producer="1_1" out="1873"/>
+  <entry in="1887" producer="1_1" out="1907"/>
+  <entry in="1924" producer="1_1" out="2189"/>
+  <entry in="2193" producer="1_1" out="2200"/>
+  <entry in="2205" producer="1_1" out="2212"/>
+  <entry in="2218" producer="1_1" out="2229"/>
+  <entry in="2241" producer="1_1" out="2251"/>
+  <entry in="2263" producer="1_1" out="2322"/>
+  <entry in="2323" producer="1_1" out="2393">
+   <filter id="dynamictext">
+    <property name="track">0</property>
+    <property name="argument">偁</property>
+    <property name="geometry">0/0:1280x720:100</property>
+    <property name="family">DejaVu Sans</property>
+    <property name="size">200</property>
+    <property name="weight">400</property>
+    <property name="fgcolour">0x000000ff</property>
+    <property name="bgcolour">0xffffffff</property>
+    <property name="olcolour">0x00000000</property>
+    <property name="pad">0</property>
+    <property name="halign">centre</property>
+    <property name="valign">middle</property>
+    <property name="outline">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">dynamictext</property>
+    <property name="kdenlive_id">dynamictext</property>
+    <property name="tag">dynamictext</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info">1/-1/</property>
+   </filter>
+  </entry>
+  <entry in="2394" producer="1_1" out="2491"/>
+  <entry in="2502" producer="1_1" out="2574"/>
+  <entry in="2594" producer="1_1" out="2785"/>
+  <entry in="2788" producer="1_1" out="2793"/>
+  <entry in="2796" producer="1_1" out="2805"/>
+  <entry in="2813" producer="1_1" out="3429"/>
+  <entry in="3447" producer="1_1" out="3505"/>
+  <entry in="3514" producer="1_1" out="3524"/>
+  <entry in="3528" producer="1_1" out="3559"/>
+  <entry in="3587" producer="1_1" out="3720"/>
+  <entry in="3738" producer="1_1" out="3949"/>
+  <entry in="3988" producer="1_1" out="4010"/>
+  <entry in="4018" producer="1_1" out="4025"/>
+  <entry in="4033" producer="1_1" out="4666"/>
+  <entry in="4717" producer="1_1" out="4748"/>
+  <entry in="4773" producer="1_1" out="4816"/>
+  <entry in="4860" producer="1_1" out="4863"/>
+  <entry in="4871" producer="1_1" out="4951"/>
+  <entry in="4963" producer="1_1" out="5225"/>
+  <entry in="5275" producer="1_1" out="5285"/>
+  <entry in="5295" producer="1_1" out="5412"/>
+  <entry in="5452" producer="1_1" out="5761"/>
+  <entry in="5786" producer="1_1" out="5886"/>
+  <entry in="5937" producer="1_1" out="5961"/>
+  <entry in="6024" producer="1_1" out="6046"/>
+  <entry in="6049" producer="1_1" out="6080"/>
+  <entry in="6094" producer="1_1" out="6608"/>
+  <entry in="6643" producer="1_1" out="6695"/>
+  <entry in="6740" producer="1_1" out="6806"/>
+  <entry in="6852" producer="1_1" out="6877"/>
+  <entry in="6892" producer="1_1" out="6970"/>
+  <entry in="7010" producer="1_1" out="7133"/>
+  <entry in="7168" producer="1_1" out="7187"/>
+  <entry in="7194" producer="1_1" out="7608"/>
+  <entry in="7640" producer="1_1" out="7746"/>
+  <entry in="7772" producer="1_1" out="7819"/>
+  <entry in="7831" producer="1_1" out="7855"/>
+  <entry in="7863" producer="1_1" out="7946"/>
+  <entry in="7989" producer="1_1" out="8053"/>
+  <entry in="8058" producer="1_1" out="8116"/>
+  <entry in="8138" producer="1_1" out="8170"/>
+  <entry in="8182" producer="1_1" out="8190"/>
+  <entry in="8209" producer="1_1" out="8270"/>
+  <entry in="8323" producer="1_1" out="8347"/>
+  <entry in="8372" producer="1_1" out="8439"/>
+  <entry in="8558" producer="1_1" out="8622"/>
+  <entry in="8642" producer="1_1" out="8678"/>
+  <entry in="8685" producer="1_1" out="8737"/>
+  <entry in="8797" producer="1_1" out="8802"/>
+  <entry in="8809" producer="1_1" out="8942"/>
+  <entry in="8953" producer="1_1" out="8960"/>
+  <entry in="8967" producer="1_1" out="9093"/>
+  <entry in="9135" producer="1_1" out="9434"/>
+  <entry in="9485" producer="1_1" out="9509"/>
+  <entry in="9548" producer="1_1" out="9623"/>
+  <entry in="9651" producer="1_1" out="9666"/>
+  <entry in="9677" producer="1_1" out="9691"/>
+  <entry in="9733" producer="1_1" out="9761"/>
+  <entry in="9802" producer="1_1" out="9808"/>
+  <entry in="9812" producer="1_1" out="9933"/>
+  <entry in="9956" producer="1_1" out="10037"/>
+  <entry in="10063" producer="1_1" out="10477"/>
+  <entry in="10527" producer="1_1" out="10613"/>
+  <entry in="10861" producer="1_1" out="10872"/>
+  <entry in="10881" producer="1_1" out="10992"/>
+  <entry in="11018" producer="1_1" out="11165"/>
+  <blank length="1549"/>
+  <entry in="14918" producer="1_1" out="15032"/>
+  <entry in="15043" producer="1_1" out="15131"/>
+  <entry in="15139" producer="1_1" out="15195"/>
+  <entry in="15204" producer="1_1" out="15245"/>
+  <entry in="15262" producer="1_1" out="15338"/>
+  <entry in="15357" producer="1_1" out="15358"/>
+  <entry in="15369" producer="1_1" out="15571"/>
+ </playlist>
+ <producer in="0" id="4" title="Anonymous Submission" out="119">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">120</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第2讲 从百草园，到三味书屋/titles/xyaxes.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer in="0" id="3" title="Anonymous Submission" out="224">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">225</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第2讲 从百草园，到三味书屋/titles/xasxis.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer in="0" id="6" title="Anonymous Submission" out="142">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">143</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第2讲 从百草园，到三味书屋/titles/20px.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer in="0" id="5" title="Anonymous Submission" out="239">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">240</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第2讲 从百草园，到三味书屋/titles/yasxis.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer in="0" id="7" title="Anonymous Submission" out="154">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">155</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第2讲 从百草园，到三味书屋/titles/90px.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer in="0" id="8" title="Anonymous Submission" out="119">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">120</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第2讲 从百草园，到三味书屋/titles/390px.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <playlist id="playlist3">
+  <blank length="5796"/>
+  <entry in="0" producer="4" out="52"/>
+  <entry in="0" producer="3" out="224"/>
+  <blank length="9"/>
+  <entry in="0" producer="6" out="142"/>
+  <blank length="124"/>
+  <entry in="83" producer="5" out="239"/>
+  <blank length="6"/>
+  <entry in="0" producer="7" out="154"/>
+  <entry in="0" producer="8" out="108"/>
+ </playlist>
+ <tractor in="0" id="maintractor" title="Anonymous Submission" out="11107" global_feed="1">
+  <property name="meta.volume">1</property>
+  <track producer="black_track"/>
+  <track producer="playlist1" hide="video"/>
+  <track producer="playlist0"/>
+  <track producer="playlist2"/>
+  <track producer="playlist3"/>
+  <transition id="transition0">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition1">
+   <property name="a_track">1</property>
+   <property name="b_track">3</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="internal_added">237</property>
+   <property name="combine">1</property>
+  </transition>
+  <transition id="transition2">
+   <property name="a_track">1</property>
+   <property name="b_track">4</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="internal_added">237</property>
+   <property name="combine">1</property>
+  </transition>
+  <transition in="5796" id="transition3" out="5848">
+   <property name="a_track">3</property>
+   <property name="b_track">4</property>
+   <property name="distort">0</property>
+   <property name="geometry">0/0:100%x100%:100%</property>
+   <property name="fill">1</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">affine</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+   <property name="keyed">1</property>
+   <property name="rotate_x">0</property>
+   <property name="rotate_y">0</property>
+   <property name="rotate_z">0</property>
+   <property name="shear_x">0</property>
+   <property name="shear_y">0</property>
+   <property name="shear_z">0</property>
+  </transition>
+  <transition in="5849" id="transition4" out="6073">
+   <property name="a_track">3</property>
+   <property name="b_track">4</property>
+   <property name="distort">0</property>
+   <property name="geometry">0/0:100%x100%:100%</property>
+   <property name="fill">1</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">affine</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+   <property name="keyed">1</property>
+   <property name="rotate_x">0</property>
+   <property name="rotate_y">0</property>
+   <property name="rotate_z">0</property>
+   <property name="shear_x">0</property>
+   <property name="shear_y">0</property>
+   <property name="shear_z">0</property>
+  </transition>
+  <transition in="6083" id="transition5" out="6225">
+   <property name="a_track">3</property>
+   <property name="b_track">4</property>
+   <property name="distort">0</property>
+   <property name="geometry">0/0:100%x100%:100%</property>
+   <property name="fill">1</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">affine</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+   <property name="keyed">1</property>
+   <property name="rotate_x">0</property>
+   <property name="rotate_y">0</property>
+   <property name="rotate_z">0</property>
+   <property name="shear_x">0</property>
+   <property name="shear_y">0</property>
+   <property name="shear_z">0</property>
+  </transition>
+  <transition in="6350" id="transition6" out="6506">
+   <property name="a_track">3</property>
+   <property name="b_track">4</property>
+   <property name="distort">0</property>
+   <property name="geometry">0/0:100%x100%:100%</property>
+   <property name="fill">1</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">affine</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+   <property name="keyed">1</property>
+   <property name="rotate_x">0</property>
+   <property name="rotate_y">0</property>
+   <property name="rotate_z">0</property>
+   <property name="shear_x">0</property>
+   <property name="shear_y">0</property>
+   <property name="shear_z">0</property>
+  </transition>
+  <transition in="6513" id="transition7" out="6667">
+   <property name="a_track">3</property>
+   <property name="b_track">4</property>
+   <property name="distort">0</property>
+   <property name="geometry">0/0:100%x100%:100%</property>
+   <property name="fill">1</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">affine</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+   <property name="keyed">1</property>
+   <property name="rotate_x">0</property>
+   <property name="rotate_y">0</property>
+   <property name="rotate_z">0</property>
+   <property name="shear_x">0</property>
+   <property name="shear_y">0</property>
+   <property name="shear_z">0</property>
+  </transition>
+  <transition in="6668" id="transition8" out="6776">
+   <property name="a_track">3</property>
+   <property name="b_track">4</property>
+   <property name="distort">0</property>
+   <property name="geometry">0/0:100%x100%:100%</property>
+   <property name="fill">1</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">affine</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+   <property name="keyed">1</property>
+   <property name="rotate_x">0</property>
+   <property name="rotate_y">0</property>
+   <property name="rotate_z">0</property>
+   <property name="shear_x">0</property>
+   <property name="shear_y">0</property>
+   <property name="shear_z">0</property>
+  </transition>
+ </tractor>
+ <kdenlivedoc projectfolder="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第2讲 从百草园，到三味书屋" profile="atsc_720p_24" version="0.88" kdenliveversion="15.04.1">
+  <customeffects/>
+  <documentproperties proxyminsize="1000" position="6850" generateproxy="0" verticalzoom="1" zoom="3" zoneout="11142" zonein="0" enableproxy="0" generateimageproxy="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -vcodec mpeg2video -g 5 -s 640x480 -qscale 7" documentid="1432551912507" proxyextension="ts" proxyimageminsize="2000"/>
+  <documentmetadata/>
+  <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Oxygen-Sans'; font-size:10pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></documentnotes>
+  <profileinfo description="HD 720p 24 fps" height="720" width="1280" display_aspect_num="16" frame_rate_num="24" frame_rate_den="1" sample_aspect_den="1" display_aspect_den="9" progressive="1" sample_aspect_num="1"/>
+  <tracksinfo>
+   <trackinfo mute="0" locked="0" type="audio" blind="1" trackname="Audio 1"/>
+   <trackinfo mute="0" locked="0" blind="0" trackname="Video 3"/>
+   <trackinfo mute="0" locked="0" blind="0" trackname="Video 2"/>
+   <trackinfo mute="0" locked="0" blind="0" trackname="Video 1"/>
+  </tracksinfo>
+  <kdenlive_producer colorspace="709" audiocodec="AAC (Advanced Audio Coding)" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第2讲 从百草园，到三味书屋/original.mp4" videocodecid="h264" aspect_ratio="1.00446" frequency="22050" default_audio="1" frame_size="1280x720" fps="15" video_max="0" type="3" default_video="0" file_hash="ca12911b31ec9f70f095afad132eb43f" id="1" progressive="1" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" file_size="16810177" audio_max="53" channels="1" name="original.mp4" pix_fmt="yuv420p" analysisdata="" duration="15572">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2avc1mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.25.101</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer colorspace="709" audiocodec="AAC (Advanced Audio Coding)" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第2讲 从百草园，到三味书屋/original2.mp4" videocodecid="h264" aspect_ratio="1.00446" frequency="22050" default_audio="1" frame_size="1280x720" fps="15" video_max="0" type="3" default_video="0" file_hash="476bb907459adc5af5d6cd81a2798043" id="2" progressive="1" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" file_size="2361068" audio_max="63" channels="1" name="original2.mp4" pix_fmt="yuv420p" analysisdata="" duration="2141">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2avc1mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.25.101</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer in="0" transparency="1" frame_size="1280x720" type="5" id="3" file_size="8995" aspect_ratio="1" out="119" name="xasxis.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第2讲 从百草园，到三味书屋/titles/xasxis.png" duration="120" analysisdata="" file_hash="9baf100a68859ed26c74250249e1957a" thumbnail="100"/>
+  <kdenlive_producer in="0" transparency="1" frame_size="1280x720" type="5" id="4" file_size="6200" aspect_ratio="1" out="119" name="xyaxes.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第2讲 从百草园，到三味书屋/titles/xyaxes.png" duration="120" analysisdata="" file_hash="aae3b266721fcbf90a6feabd2a194538" thumbnail="100"/>
+  <kdenlive_producer in="0" transparency="1" frame_size="1280x720" type="5" id="5" file_size="8662" aspect_ratio="1" out="119" name="yasxis.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第2讲 从百草园，到三味书屋/titles/yasxis.png" duration="120" analysisdata="" file_hash="f6222acccf64142d0243669583d4d1a0" thumbnail="100"/>
+  <kdenlive_producer in="0" transparency="1" frame_size="1280x720" type="5" id="6" file_size="6163" aspect_ratio="1" out="119" name="20px.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第2讲 从百草园，到三味书屋/titles/20px.png" duration="120" analysisdata="" file_hash="d8c46a533aceef2d55a3e8a96092018e" thumbnail="100"/>
+  <kdenlive_producer in="0" transparency="1" frame_size="1280x720" type="5" id="7" file_size="9042" aspect_ratio="1" out="119" name="90px.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第2讲 从百草园，到三味书屋/titles/90px.png" duration="120" analysisdata="" file_hash="50db67b2ba112d969474216144ff2c68" thumbnail="100"/>
+  <kdenlive_producer in="0" transparency="1" frame_size="1280x720" type="5" id="8" file_size="9117" aspect_ratio="1" out="119" name="390px.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第2讲 从百草园，到三味书屋/titles/390px.png" duration="120" analysisdata="" file_hash="a4388877a761b10e662b23ca70e180cb" thumbnail="100"/>
+  <markers/>
+  <groups/>
+ </kdenlivedoc>
+</mlt>

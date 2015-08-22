@@ -1,0 +1,69 @@
+;mode800
+
+*define
+effect 2,10,1000
+effect 3,10,500
+transmode alpha
+rmenu "保存",save,"读取",load,"自动",automode,"跳过",skip,"隐藏文字",windowerase,"回想模式",lookback,"重置",reset,"退出",end
+game
+*start
+setwindow 10,490,26,3,30,30,0,5,20,0,1,#999999,0,480,800,110
+bgm "music/illurock.ogg"
+bg "image/lecturehall.jpg",2
+嗯……艾琳教授讲的课很精彩。\
+但是老实说我并没有十分认真地听。\
+我的脑中充满了其他的事情。\
+这些事情都可以总结为一个问题。\
+我一直想要问某个人的问题。\
+bg black,3
+bg "image/uni.jpg",3
+在我们走出校园的时候，我看见了她。\
+ld c,"image/sylvie_normal.png",3
+她是个绝赞的人。\
+在我们很小的时候我就认识她了。\
+她也一直是我的好朋友。\
+但是……\
+最近……\
+我想……\
+我想要得到更多。\
+比仅仅是说话……比仅仅是每天课程结束了一起回家更多。\
+所以我决定了……\
+select "立即去问她",*rightaway,"以后再问吧",*later
+*rightaway
+ld c,"image/sylvie_smile.png",1
+「希尔菲」
+哦，嗨！今天我们一起回家吗？\
+「我」
+是的……\
+我这么说着，我的声音已经有些颤抖了。\
+bg black,3
+bg "image/meadow.jpg",3
+我们来到了附近的草地上。\
+这里的秋天非常美丽。\
+在我们小的时候，我们经常在这里玩。\
+「我」
+那个……嗯……\
+ld c,"image/sylvie_smile.png",3
+她转身，微笑着面对我。\
+我就要问她了……\
+「我」
+嗯……你可以……\
+「我」
+你可以成为我的视觉小说的美工吗？\
+ld c,"image/sylvie_surprised.png",1
+寂静。\
+她非常惊讶，然后……\
+ld c,"image/sylvie_smile.png",1
+「希尔菲」
+当然！不过视觉小说是什么？\
+bg black,2
+＃未完待续\
+end
+*later
+bg black,2
+于是我决定以后再问她。\
+但是我太优柔寡断了。\
+我无法在那一天问她，更无法在以后问。\
+我想我永远也不会知道了。\
+＃Ｂａｄ　Ｅｎｄｉｎｇ\
+end

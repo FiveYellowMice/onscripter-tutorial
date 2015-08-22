@@ -1,0 +1,543 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt root="/run/media/alex/SBPD/Video/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵" LC_NUMERIC="en_AU.UTF-8" title="Anonymous Submission" version="0.9.6">
+ <profile frame_rate_num="15" progressive="1" height="720" display_aspect_den="9" display_aspect_num="16" width="1280" description="HD 720p 15 fps" sample_aspect_num="1" colorspace="709" frame_rate_den="1" sample_aspect_den="1"/>
+ <producer in="0" id="black" out="500">
+  <property name="mlt_type">producer</property>
+  <property name="length">15000</property>
+  <property name="eof">pause</property>
+  <property name="resource">black</property>
+  <property name="aspect_ratio">0</property>
+  <property name="mlt_service">colour</property>
+ </producer>
+ <playlist id="black_track">
+  <entry in="0" producer="black" out="3088"/>
+ </playlist>
+ <producer in="0" id="3_2_audio" title="Anonymous Submission" out="525">
+  <property name="mlt_type">producer</property>
+  <property name="length">526</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/03.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">98040</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">108945</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+ </producer>
+ <playlist id="playlist1">
+  <blank length="1699"/>
+  <entry in="100" producer="3_2_audio" out="118"/>
+ </playlist>
+ <producer in="0" id="1_1" title="Anonymous Submission" out="1020">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">1021</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/01.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">214633</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">109359</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" id="2_1" title="Anonymous Submission" out="918">
+  <property name="mlt_type">producer</property>
+  <property name="length">919</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/02.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">89812</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">110150</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" id="3_1" title="Anonymous Submission" out="525">
+  <property name="mlt_type">producer</property>
+  <property name="length">526</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/03.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">98040</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">108945</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" id="3_2_video" title="Anonymous Submission" out="525">
+  <property name="mlt_type">producer</property>
+  <property name="length">526</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/03.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">98040</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">108945</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" id="4_1" title="Anonymous Submission" out="1526">
+  <property name="mlt_type">producer</property>
+  <property name="length">1527</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/04.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">37905</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">109787</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <playlist id="playlist2">
+  <entry in="9" producer="1_1" out="18"/>
+  <entry in="23" producer="1_1" out="296"/>
+  <entry in="302" producer="1_1" out="315"/>
+  <entry in="332" producer="1_1" out="398"/>
+  <entry in="417" producer="1_1" out="521"/>
+  <entry in="558" producer="1_1" out="650"/>
+  <entry in="715" producer="1_1" out="999"/>
+  <entry in="6" producer="2_1" out="330"/>
+  <entry in="348" producer="2_1" out="466"/>
+  <entry in="479" producer="2_1" out="615"/>
+  <entry in="630" producer="2_1" out="715"/>
+  <entry in="743" producer="2_1" out="826"/>
+  <entry in="856" producer="2_1" out="869"/>
+  <entry in="14" producer="3_1" out="99"/>
+  <entry in="100" producer="3_2_video" out="113"/>
+  <entry in="141" producer="3_2_video" out="145"/>
+  <entry in="159" producer="3_1" out="218"/>
+  <entry in="305" producer="3_1" out="346"/>
+  <entry in="395" producer="3_1" out="495"/>
+  <entry in="506" producer="3_1" out="514"/>
+  <entry in="14" producer="4_1" out="91"/>
+  <entry in="101" producer="4_1" out="405"/>
+  <entry in="431" producer="4_1" out="564"/>
+  <entry in="603" producer="4_1" out="616"/>
+  <entry in="672" producer="4_1" out="793"/>
+  <entry in="824" producer="4_1" out="843"/>
+  <entry in="852" producer="4_1" out="876"/>
+  <entry in="891" producer="4_1" out="909"/>
+  <entry in="934" producer="4_1" out="948"/>
+  <entry in="957" producer="4_1" out="980"/>
+  <entry in="994" producer="4_1" out="1053"/>
+  <entry in="1069" producer="4_1" out="1201"/>
+  <entry in="1233" producer="4_1" out="1356"/>
+  <entry in="1363" producer="4_1" out="1369"/>
+  <entry in="1374" producer="4_1" out="1380"/>
+  <entry in="1387" producer="4_1" out="1430"/>
+  <entry in="1450" producer="4_1" out="1477"/>
+ </playlist>
+ <producer in="0" id="15" title="Anonymous Submission" out="83">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">84</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/pics/snapshot70.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">548</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer in="0" id="16" title="Anonymous Submission" out="172">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">173</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/pics/axes.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <playlist id="playlist3">
+  <blank length="532"/>
+  <entry in="0" producer="15" out="83"/>
+  <blank length="2040"/>
+  <entry in="0" producer="16" out="172"/>
+ </playlist>
+ <tractor global_feed="1" in="0" id="maintractor" title="Anonymous Submission" out="3088">
+  <property name="meta.volume">1</property>
+  <track producer="black_track"/>
+  <track producer="playlist1" hide="video"/>
+  <track producer="playlist2"/>
+  <track producer="playlist3"/>
+  <transition id="transition0">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition1">
+   <property name="a_track">1</property>
+   <property name="b_track">3</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+ </tractor>
+ <kdenlivedoc projectfolder="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵" version="0.88" profile="/home/alex/.local/share/kdenlive//profiles/customprofile0" kdenliveversion="15.04.3">
+  <customeffects/>
+  <documentproperties generateproxy="0" position="3088" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -vcodec mpeg2video -g 5 -s 640x480 -qscale 7" proxyextension="ts" proxyimageminsize="2000" verticalzoom="1" documentid="1439291014711" generateimageproxy="0" zoom="3" proxyminsize="1000" zonein="0" enableproxy="0" zoneout="100"/>
+  <documentmetadata/>
+  <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Oxygen-Sans'; font-size:10pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></documentnotes>
+  <profileinfo frame_rate_num="15" progressive="1" height="720" display_aspect_den="9" display_aspect_num="16" width="1280" description="HD 720p 15 fps" sample_aspect_num="1" frame_rate_den="1" sample_aspect_den="1"/>
+  <tracksinfo>
+   <trackinfo trackname="Audio 1" blind="1" type="audio" locked="0" mute="0"/>
+   <trackinfo trackname="Video 2" blind="0" locked="0" mute="0"/>
+   <trackinfo trackname="Video 1" blind="0" locked="0" mute="0"/>
+  </tracksinfo>
+  <kdenlive_producer file_hash="e0b55715f788e2cc7c649c8262d41599" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/01.mp4" audiocodec="AAC (Advanced Audio Coding)" channels="1" video_max="0" colorspace="709" id="1" name="01.mp4" aspect_ratio="1" default_audio="1" videocodecid="h264" file_size="2786833" audio_max="58" pix_fmt="yuv420p" default_video="0" progressive="1" frame_size="1600x896" type="3" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" duration="1021" analysisdata="" fps="15" frequency="22050">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2avc1mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="bfa6bd926a132ff0a2824d125304b353" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/02.mp4" audiocodec="AAC (Advanced Audio Coding)" channels="1" video_max="0" colorspace="709" id="2" name="02.mp4" aspect_ratio="1" default_audio="1" videocodecid="h264" file_size="1567278" audio_max="60" pix_fmt="yuv420p" default_video="0" progressive="1" frame_size="1600x896" type="3" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" duration="919" analysisdata="" fps="15" frequency="22050">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2avc1mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="726cce880106f2b6cb86bea00c9631df" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/03.mp4" audiocodec="AAC (Advanced Audio Coding)" channels="1" video_max="0" colorspace="709" id="3" name="03.mp4" aspect_ratio="1" default_audio="1" videocodecid="h264" file_size="925887" audio_max="61" pix_fmt="yuv420p" default_video="0" progressive="1" frame_size="1600x896" type="3" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" duration="526" analysisdata="" fps="15" frequency="22050">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2avc1mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="c18815f60d3da33e61e8f2e25fe098c2" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/04.mp4" audiocodec="AAC (Advanced Audio Coding)" channels="1" video_max="0" colorspace="709" id="4" name="04.mp4" aspect_ratio="1" default_audio="1" videocodecid="h264" file_size="1935277" audio_max="62" pix_fmt="yuv420p" default_video="0" progressive="1" frame_size="1600x896" type="3" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" duration="1527" analysisdata="" fps="15" frequency="22050">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2avc1mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="318c0a1ffdf9bf454df7843e17229c31" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/05.mp4" audiocodec="AAC (Advanced Audio Coding)" channels="1" video_max="0" colorspace="709" id="5" name="05.mp4" aspect_ratio="1" default_audio="1" videocodecid="h264" file_size="1603236" audio_max="61" pix_fmt="yuv420p" default_video="0" progressive="1" frame_size="1600x896" type="3" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" duration="1111" analysisdata="" fps="15" frequency="22050">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2avc1mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="13380e69db308108cc07efbf1f75febc" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/06.mp4" audiocodec="AAC (Advanced Audio Coding)" channels="1" video_max="0" colorspace="709" id="6" name="06.mp4" aspect_ratio="1" default_audio="1" videocodecid="h264" file_size="1359012" audio_max="61" pix_fmt="yuv420p" default_video="0" progressive="1" frame_size="1600x896" type="3" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" duration="999" analysisdata="" fps="15" frequency="22050">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2avc1mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="20273375beaf6b28e7284498b89c5caf" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/07.mp4" audiocodec="AAC (Advanced Audio Coding)" channels="1" video_max="0" colorspace="709" id="7" name="07.mp4" aspect_ratio="1" default_audio="1" videocodecid="h264" file_size="619600" audio_max="61" pix_fmt="yuv420p" default_video="0" progressive="1" frame_size="1600x896" type="3" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" duration="420" analysisdata="" fps="15" frequency="22050">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2avc1mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="d300b729e5ef3fa614376bf894a83f47" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/08.mp4" audiocodec="AAC (Advanced Audio Coding)" channels="1" video_max="0" colorspace="709" id="8" name="08.mp4" aspect_ratio="1" default_audio="1" videocodecid="h264" file_size="689802" audio_max="57" pix_fmt="yuv420p" default_video="0" progressive="1" frame_size="1600x896" type="3" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" duration="456" analysisdata="" fps="15" frequency="22050">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2avc1mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="ed295f8a96f851302d27e11e84a893b7" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/09.mp4" audiocodec="AAC (Advanced Audio Coding)" channels="1" video_max="0" colorspace="709" id="9" name="09.mp4" aspect_ratio="1" default_audio="1" videocodecid="h264" file_size="1457956" audio_max="61" pix_fmt="yuv420p" default_video="0" progressive="1" frame_size="1600x896" type="3" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" duration="1032" analysisdata="" fps="15" frequency="22050">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2avc1mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="c188cf04a0bf044171b567fd68a6c888" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/10.mp4" audiocodec="AAC (Advanced Audio Coding)" channels="1" video_max="0" colorspace="709" id="10" name="10.mp4" aspect_ratio="1" default_audio="1" videocodecid="h264" file_size="540019" audio_max="48" pix_fmt="yuv420p" default_video="0" progressive="1" frame_size="1600x896" type="3" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" duration="377" analysisdata="" fps="15" frequency="22050">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2avc1mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="28a07eb584aa57a9153ed619f113069b" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/11.mp4" audiocodec="AAC (Advanced Audio Coding)" channels="1" video_max="0" colorspace="709" id="11" name="11.mp4" aspect_ratio="1" default_audio="1" videocodecid="h264" file_size="1146831" audio_max="60" pix_fmt="yuv420p" default_video="0" progressive="1" frame_size="1600x896" type="3" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" duration="887" analysisdata="" fps="15" frequency="22050">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2avc1mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="8bce736f04c545ef27d47ccc9d173d2d" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/12.mp4" audiocodec="AAC (Advanced Audio Coding)" channels="1" video_max="0" colorspace="709" id="12" name="12.mp4" aspect_ratio="1" default_audio="1" videocodecid="h264" file_size="1162583" audio_max="60" pix_fmt="yuv420p" default_video="0" progressive="1" frame_size="1600x896" type="3" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" duration="915" analysisdata="" fps="15" frequency="22050">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2avc1mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="406bf7344b1c22a857e7b70a19632e59" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/13.mp4" audiocodec="AAC (Advanced Audio Coding)" channels="1" video_max="0" colorspace="709" id="13" name="13.mp4" aspect_ratio="1" default_audio="1" videocodecid="h264" file_size="2011601" audio_max="61" pix_fmt="yuv420p" default_video="0" progressive="1" frame_size="1600x896" type="3" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" duration="1392" analysisdata="" fps="15" frequency="22050">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2avc1mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="75946e1254470470876a16b36485a75c" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/original/14.mp4" audiocodec="AAC (Advanced Audio Coding)" channels="1" video_max="0" colorspace="709" id="14" name="14.mp4" aspect_ratio="1" default_audio="1" videocodecid="h264" file_size="676910" audio_max="53" pix_fmt="yuv420p" default_video="0" progressive="1" frame_size="1600x896" type="3" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" duration="424" analysisdata="" fps="15" frequency="22050">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2avc1mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer name="snapshot70.png" analysisdata="" in="0" type="5" id="15" frame_size="1280x548" duration="75" aspect_ratio="1" file_hash="98ae1da76a54c45ee1fa23b6912fd2b4" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/pics/snapshot70.png" file_size="49676" out="74"/>
+  <kdenlive_producer name="axes.png" analysisdata="" in="0" type="5" id="16" frame_size="1280x720" duration="75" aspect_ratio="1" file_hash="9b5ca7b161e8a8081a39edd125678484" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第8讲 没有尖耳朵的精灵/pics/axes.png" file_size="17573" out="74"/>
+  <markers/>
+  <groups/>
+ </kdenlivedoc>
+</mlt>

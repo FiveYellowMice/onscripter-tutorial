@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt version="0.9.6" LC_NUMERIC="en_AU.UTF-8" root="/home/alex" title="Anonymous Submission">
+ <profile height="720" colorspace="709" width="1280" frame_rate_den="1" sample_aspect_num="1" display_aspect_num="16" description="HD 720p 15 fps" frame_rate_num="15" progressive="1" sample_aspect_den="1" display_aspect_den="9"/>
+ <producer out="500" in="0" id="black">
+  <property name="mlt_type">producer</property>
+  <property name="length">15000</property>
+  <property name="eof">pause</property>
+  <property name="resource">black</property>
+  <property name="aspect_ratio">0</property>
+  <property name="mlt_service">colour</property>
+ </producer>
+ <playlist id="black_track">
+  <entry out="3225" in="0" producer="black"/>
+ </playlist>
+ <playlist id="playlist1"/>
+ <producer out="1804" in="0" title="Anonymous Submission" id="1_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">1805</property>
+  <property name="eof">pause</property>
+  <property name="resource">Videos/Projects/小白也能轻松学会的Galgame制作/第4讲 我脱了裤子，你就让我看这个？/original/1.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1.00446</property>
+  <property name="meta.media.0.codec.width">1280</property>
+  <property name="meta.media.0.codec.height">720</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1.00446</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">90538</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">110656</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.25.101</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">225</property>
+  <property name="meta.media.sample_aspect_den">224</property>
+  <property name="aspect_ratio">1.00446</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer out="1708" in="0" title="Anonymous Submission" id="2_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">1709</property>
+  <property name="eof">pause</property>
+  <property name="resource">Videos/Projects/小白也能轻松学会的Galgame制作/第4讲 我脱了裤子，你就让我看这个？/original/2.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1.00446</property>
+  <property name="meta.media.0.codec.width">1280</property>
+  <property name="meta.media.0.codec.height">720</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1.00446</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">150146</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">110258</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.25.101</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">225</property>
+  <property name="meta.media.sample_aspect_den">224</property>
+  <property name="aspect_ratio">1.00446</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <playlist id="playlist2">
+  <entry out="327" in="25" producer="1_1"/>
+  <entry out="417" in="331" producer="1_1"/>
+  <entry out="841" in="425" producer="1_1"/>
+  <entry out="919" in="853" producer="1_1"/>
+  <entry out="993" in="930" producer="1_1"/>
+  <entry out="1071" in="1024" producer="1_1"/>
+  <entry out="1246" in="1078" producer="1_1"/>
+  <entry out="1371" in="1267" producer="1_1"/>
+  <entry out="1443" in="1405" producer="1_1"/>
+  <entry out="1519" in="1457" producer="1_1"/>
+  <entry out="1632" in="1546" producer="1_1"/>
+  <entry out="1711" in="1644" producer="1_1"/>
+  <entry out="1708" in="0" producer="2_1"/>
+ </playlist>
+ <playlist id="playlist3"/>
+ <tractor out="3225" in="0" title="Anonymous Submission" global_feed="1" id="maintractor">
+  <property name="meta.volume">1</property>
+  <track producer="black_track"/>
+  <track hide="video" producer="playlist1"/>
+  <track producer="playlist2"/>
+  <track producer="playlist3"/>
+  <transition id="transition0">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition1">
+   <property name="a_track">1</property>
+   <property name="b_track">3</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+ </tractor>
+ <kdenlivedoc version="0.88" kdenliveversion="15.04.2" projectfolder="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第4讲 我脱了裤子，你就让我看这个？" profile="/home/alex/.local/share/kdenlive//profiles/customprofile5">
+  <customeffects/>
+  <documentproperties position="1554" zoom="3" generateproxy="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -vcodec mpeg2video -g 5 -s 640x480 -qscale 7" documentid="1434282949472" proxyextension="ts" proxyimageminsize="2000" generateimageproxy="0" verticalzoom="1" enableproxy="0" zonein="0" zoneout="100" proxyminsize="1000"/>
+  <documentmetadata/>
+  <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Oxygen-Sans'; font-size:10pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></documentnotes>
+  <profileinfo height="720" frame_rate_den="1" width="1280" sample_aspect_num="1" display_aspect_num="16" description="HD 720p 15 fps" frame_rate_num="15" progressive="1" sample_aspect_den="1" display_aspect_den="9"/>
+  <tracksinfo>
+   <trackinfo locked="0" mute="0" blind="1" type="audio" trackname="Audio 1"/>
+   <trackinfo locked="0" mute="0" blind="0" trackname="Video 2"/>
+   <trackinfo locked="0" mute="0" blind="0" trackname="Video 1"/>
+  </tracksinfo>
+  <kdenlive_producer file_hash="51db423edeb2023188427138fb5ae33d" aspect_ratio="1.00446" videocodecid="hevc" frequency="22050" default_video="0" duration="1805" frame_size="1280x720" id="1" fps="15" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第4讲 我脱了裤子，你就让我看这个？/original/1.mp4" channels="1" type="3" videocodec="HEVC (High Efficiency Video Coding)" audiocodec="AAC (Advanced Audio Coding)" default_audio="1" analysisdata="" audio_max="63" video_max="0" file_size="3091954" name="1.mp4" progressive="1" pix_fmt="yuv420p" colorspace="709">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.25.101</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="8fca2ffb10a54bc3022133d1030a5e41" aspect_ratio="1.00446" videocodecid="hevc" frequency="22050" default_video="0" duration="1709" frame_size="1280x720" id="2" fps="15" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第4讲 我脱了裤子，你就让我看这个？/original/2.mp4" channels="1" type="3" videocodec="HEVC (High Efficiency Video Coding)" audiocodec="AAC (Advanced Audio Coding)" default_audio="1" analysisdata="" audio_max="63" video_max="0" file_size="3763612" name="2.mp4" progressive="1" pix_fmt="yuv420p" colorspace="709">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.25.101</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="2d3d312928bdebe82e6c90e462dcc9f8" aspect_ratio="1.00446" videocodecid="hevc" frequency="22050" default_video="0" duration="954" frame_size="1280x720" id="3" fps="15" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第4讲 我脱了裤子，你就让我看这个？/original/3.mp4" channels="1" type="3" videocodec="HEVC (High Efficiency Video Coding)" audiocodec="AAC (Advanced Audio Coding)" default_audio="1" analysisdata="" audio_max="63" video_max="0" file_size="2067647" name="3.mp4" progressive="1" pix_fmt="yuv420p" colorspace="709">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.25.101</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="416bba6f6165abeff4b5429bda0af9c6" aspect_ratio="1.00446" videocodecid="hevc" frequency="22050" default_video="0" duration="524" frame_size="1280x720" id="4" fps="15" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第4讲 我脱了裤子，你就让我看这个？/original/4.mp4" channels="1" type="3" videocodec="HEVC (High Efficiency Video Coding)" audiocodec="AAC (Advanced Audio Coding)" default_audio="1" analysisdata="" audio_max="63" video_max="0" file_size="1283747" name="4.mp4" progressive="1" pix_fmt="yuv420p" colorspace="709">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.25.101</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="618d88a54f486af3f02a0435bcdcc141" aspect_ratio="1.00446" videocodecid="hevc" frequency="22050" default_video="0" duration="193" frame_size="1280x720" id="5" fps="15" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第4讲 我脱了裤子，你就让我看这个？/original/5.mp4" channels="1" type="3" videocodec="HEVC (High Efficiency Video Coding)" audiocodec="AAC (Advanced Audio Coding)" default_audio="1" analysisdata="" audio_max="63" video_max="0" file_size="411766" name="5.mp4" progressive="1" pix_fmt="yuv420p" colorspace="709">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.25.101</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="fc25178eb60dff2b187d9d9c596e60eb" aspect_ratio="1.00446" videocodecid="hevc" frequency="22050" default_video="0" duration="3009" frame_size="1280x720" id="6" fps="15" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第4讲 我脱了裤子，你就让我看这个？/original/6.mp4" channels="1" type="3" videocodec="HEVC (High Efficiency Video Coding)" audiocodec="AAC (Advanced Audio Coding)" default_audio="1" analysisdata="" audio_max="58" video_max="0" file_size="8178190" name="6.mp4" progressive="1" pix_fmt="yuv420p" colorspace="709">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.25.101</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="8bf38054c61ec219cea3b95737fc0d43" aspect_ratio="1.00446" videocodecid="hevc" frequency="22050" default_video="0" duration="898" frame_size="1280x720" id="7" fps="15" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第4讲 我脱了裤子，你就让我看这个？/original/7.mp4" channels="1" type="3" videocodec="HEVC (High Efficiency Video Coding)" audiocodec="AAC (Advanced Audio Coding)" default_audio="1" analysisdata="" audio_max="63" video_max="0" file_size="1414438" name="7.mp4" progressive="1" pix_fmt="yuv420p" colorspace="709">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.25.101</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="d5faf4da8de8a4f0c7e7fa2f3d0d5341" aspect_ratio="1.00446" videocodecid="hevc" frequency="22050" default_video="0" duration="1144" frame_size="1280x720" id="8" fps="15" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第4讲 我脱了裤子，你就让我看这个？/original/8.mp4" channels="1" type="3" videocodec="HEVC (High Efficiency Video Coding)" audiocodec="AAC (Advanced Audio Coding)" default_audio="1" analysisdata="" audio_max="63" video_max="0" file_size="1881121" name="8.mp4" progressive="1" pix_fmt="yuv420p" colorspace="709">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.25.101</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_hash="59f20387c1734f7911d77897b24ef663" aspect_ratio="1.00446" videocodecid="hevc" frequency="22050" default_video="0" duration="809" frame_size="1280x720" id="9" fps="15" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第4讲 我脱了裤子，你就让我看这个？/original/9.mp4" channels="1" type="3" videocodec="HEVC (High Efficiency Video Coding)" audiocodec="AAC (Advanced Audio Coding)" default_audio="1" analysisdata="" audio_max="63" video_max="0" file_size="1413044" name="9.mp4" progressive="1" pix_fmt="yuv420p" colorspace="709">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.25.101</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <markers/>
+  <groups/>
+ </kdenlivedoc>
+</mlt>

@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt title="Anonymous Submission" LC_NUMERIC="en_AU.UTF-8" root="/home/alex" version="0.9.6">
+ <profile sample_aspect_num="1" colorspace="709" frame_rate_den="1" frame_rate_num="15" sample_aspect_den="1" display_aspect_num="16" description="HD 720p 15 fps" width="1280" height="720" display_aspect_den="9" progressive="1"/>
+ <producer out="500" in="0" id="black">
+  <property name="mlt_type">producer</property>
+  <property name="length">15000</property>
+  <property name="eof">pause</property>
+  <property name="resource">black</property>
+  <property name="aspect_ratio">0</property>
+  <property name="mlt_service">colour</property>
+ </producer>
+ <playlist id="black_track">
+  <entry out="1780" in="0" producer="black"/>
+ </playlist>
+ <playlist id="playlist1"/>
+ <producer title="Anonymous Submission" out="1812" in="0" id="1_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">1813</property>
+  <property name="eof">pause</property>
+  <property name="resource">Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/1.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">134465</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">112432</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer title="Anonymous Submission" out="131" in="0" id="12_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">132</property>
+  <property name="eof">pause</property>
+  <property name="resource">Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/2.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">hevc</property>
+  <property name="meta.media.0.codec.long_name">HEVC (High Efficiency Video Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">61317</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">108251</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <playlist id="playlist2">
+  <entry out="1123" in="18" producer="1_1"/>
+  <entry out="1802" in="1226" producer="1_1"/>
+  <entry out="110" in="13" producer="12_1"/>
+ </playlist>
+ <playlist id="playlist3"/>
+ <tractor title="Anonymous Submission" out="1780" in="0" global_feed="1" id="maintractor">
+  <property name="meta.volume">1</property>
+  <track producer="black_track"/>
+  <track producer="playlist1" hide="video"/>
+  <track producer="playlist2"/>
+  <track producer="playlist3"/>
+  <transition id="transition0">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition1">
+   <property name="a_track">1</property>
+   <property name="b_track">3</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+ </tractor>
+ <kdenlivedoc projectfolder="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P" profile="/home/alex/.local/share/kdenlive//profiles/customprofile0" kdenliveversion="15.04.3" version="0.88">
+  <customeffects/>
+  <documentproperties zonein="0" verticalzoom="1" enableproxy="0" proxyimageminsize="2000" proxyminsize="1000" generateimageproxy="0" documentid="1438601747809" zoom="3" proxyextension="ts" generateproxy="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -vcodec mpeg2video -g 5 -s 640x480 -qscale 7" zoneout="100" position="1780"/>
+  <documentmetadata/>
+  <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Oxygen-Sans'; font-size:10pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></documentnotes>
+  <profileinfo sample_aspect_num="1" frame_rate_den="1" frame_rate_num="15" sample_aspect_den="1" display_aspect_num="16" description="HD 720p 15 fps" width="1280" height="720" display_aspect_den="9" progressive="1"/>
+  <tracksinfo>
+   <trackinfo trackname="Audio 1" type="audio" mute="0" blind="1" locked="0"/>
+   <trackinfo trackname="Video 2" mute="0" blind="0" locked="0"/>
+   <trackinfo trackname="Video 1" mute="0" blind="0" locked="0"/>
+  </tracksinfo>
+  <kdenlive_producer file_size="3796908" fps="15" default_video="0" id="1" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/1.mp4" video_max="0" channels="1" frame_size="1600x896" frequency="22050" aspect_ratio="1" type="3" colorspace="709" progressive="1" duration="1813" file_hash="fe15ad5ca7219da1d50f3b1ed4759be3" videocodec="HEVC (High Efficiency Video Coding)" pix_fmt="yuv420p" audio_max="50" name="1.mp4" analysisdata="" videocodecid="hevc">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_size="1055539" fps="15" default_video="0" id="2" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/10.mp4" video_max="0" channels="1" frame_size="1600x896" frequency="22050" aspect_ratio="1" type="3" colorspace="709" progressive="1" duration="745" file_hash="1fa6c3773b16089055a7834048f4012b" videocodec="HEVC (High Efficiency Video Coding)" pix_fmt="yuv420p" audio_max="28" name="10.mp4" analysisdata="" videocodecid="hevc">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_size="716909" fps="15" default_video="0" id="3" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/11.mp4" video_max="0" channels="1" frame_size="1600x896" frequency="22050" aspect_ratio="1" type="3" colorspace="709" progressive="1" duration="489" file_hash="c89dc1f42746aee3c2b853cdeebba1fa" videocodec="HEVC (High Efficiency Video Coding)" pix_fmt="yuv420p" audio_max="34" name="11.mp4" analysisdata="" videocodecid="hevc">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_size="1048294" fps="15" default_video="0" id="4" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/12.mp4" video_max="0" channels="1" frame_size="1600x896" frequency="22050" aspect_ratio="1" type="3" colorspace="709" progressive="1" duration="483" file_hash="31f6e9b634eb5b016861c8f5be70734a" videocodec="HEVC (High Efficiency Video Coding)" pix_fmt="yuv420p" audio_max="29" name="12.mp4" analysisdata="" videocodecid="hevc">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_size="1800384" fps="15" default_video="0" id="5" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/13.mp4" video_max="0" channels="1" frame_size="1600x896" frequency="22050" aspect_ratio="1" type="3" colorspace="709" progressive="1" duration="1158" file_hash="05a7de900f50a1bc297da630decef640" videocodec="HEVC (High Efficiency Video Coding)" pix_fmt="yuv420p" audio_max="45" name="13.mp4" analysisdata="" videocodecid="hevc">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_size="983033" fps="15" default_video="0" id="6" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/14.mp4" video_max="0" channels="1" frame_size="1600x896" frequency="22050" aspect_ratio="1" type="3" colorspace="709" progressive="1" duration="696" file_hash="6b5312cebfdee6604b0226316eccc257" videocodec="HEVC (High Efficiency Video Coding)" pix_fmt="yuv420p" audio_max="31" name="14.mp4" analysisdata="" videocodecid="hevc">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_size="2084695" fps="15" default_video="0" id="7" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/15.mp4" video_max="0" channels="1" frame_size="1600x896" frequency="22050" aspect_ratio="1" type="3" colorspace="709" progressive="1" duration="910" file_hash="6a82d299704c661a8799f1baadd9b202" videocodec="HEVC (High Efficiency Video Coding)" pix_fmt="yuv420p" audio_max="32" name="15.mp4" analysisdata="" videocodecid="hevc">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_size="353593" fps="15" default_video="0" id="8" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/16.mp4" video_max="0" channels="1" frame_size="1600x896" frequency="22050" aspect_ratio="1" type="3" colorspace="709" progressive="1" duration="217" file_hash="b582d205d7d6baeb596fe3b15c349252" videocodec="HEVC (High Efficiency Video Coding)" pix_fmt="yuv420p" audio_max="26" name="16.mp4" analysisdata="" videocodecid="hevc">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_size="913386" fps="15" default_video="0" id="9" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/17.mp4" video_max="0" channels="1" frame_size="1600x896" frequency="22050" aspect_ratio="1" type="3" colorspace="709" progressive="1" duration="633" file_hash="747b8cb4781407c2e0f49d175d63a2df" videocodec="HEVC (High Efficiency Video Coding)" pix_fmt="yuv420p" audio_max="27" name="17.mp4" analysisdata="" videocodecid="hevc">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_size="540566" fps="15" default_video="0" id="10" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/18.mp4" video_max="0" channels="1" frame_size="1600x896" frequency="22050" aspect_ratio="1" type="3" colorspace="709" progressive="1" duration="287" file_hash="1a33bf8e1a1756f4f61fbf62100e06b3" videocodec="HEVC (High Efficiency Video Coding)" pix_fmt="yuv420p" audio_max="27" name="18.mp4" analysisdata="" videocodecid="hevc">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_size="1458708" fps="15" default_video="0" id="11" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/19.mp4" video_max="0" channels="1" frame_size="1600x896" frequency="22050" aspect_ratio="1" type="3" colorspace="709" progressive="1" duration="465" file_hash="9e15caf7bd5690e73d9382cd75edc5c2" videocodec="HEVC (High Efficiency Video Coding)" pix_fmt="yuv420p" audio_max="23" name="19.mp4" analysisdata="" videocodecid="hevc">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_size="193543" fps="15" default_video="0" id="12" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/2.mp4" video_max="0" channels="1" frame_size="1600x896" frequency="22050" aspect_ratio="1" type="3" colorspace="709" progressive="1" duration="132" file_hash="e94f2823ac3c4af14c8adc84e47555d8" videocodec="HEVC (High Efficiency Video Coding)" pix_fmt="yuv420p" audio_max="26" name="2.mp4" analysisdata="" videocodecid="hevc">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_size="1033767" fps="15" default_video="0" id="13" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/3.mp4" video_max="0" channels="1" frame_size="1600x896" frequency="22050" aspect_ratio="1" type="3" colorspace="709" progressive="1" duration="781" file_hash="2b62036488c7786940a17bbd850d0f37" videocodec="HEVC (High Efficiency Video Coding)" pix_fmt="yuv420p" audio_max="33" name="3.mp4" analysisdata="" videocodecid="hevc">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_size="2138110" fps="15" default_video="0" id="14" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/4.mp4" video_max="0" channels="1" frame_size="1600x896" frequency="22050" aspect_ratio="1" type="3" colorspace="709" progressive="1" duration="1093" file_hash="1e12d52a867ccd8f973d9bcca7afd06f" videocodec="HEVC (High Efficiency Video Coding)" pix_fmt="yuv420p" audio_max="43" name="4.mp4" analysisdata="" videocodecid="hevc">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_size="735486" fps="15" default_video="0" id="15" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/6.mp4" video_max="0" channels="1" frame_size="1600x896" frequency="22050" aspect_ratio="1" type="3" colorspace="709" progressive="1" duration="426" file_hash="12c762b19eae412a833a39e245bfa182" videocodec="HEVC (High Efficiency Video Coding)" pix_fmt="yuv420p" audio_max="30" name="6.mp4" analysisdata="" videocodecid="hevc">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_size="2844704" fps="15" default_video="0" id="16" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/7.mp4" video_max="0" channels="1" frame_size="1600x896" frequency="22050" aspect_ratio="1" type="3" colorspace="709" progressive="1" duration="1347" file_hash="f0d5d626debf6f77a216dcd9db4f3c21" videocodec="HEVC (High Efficiency Video Coding)" pix_fmt="yuv420p" audio_max="35" name="7.mp4" analysisdata="" videocodecid="hevc">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_size="1050726" fps="15" default_video="0" id="17" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/2P/original/9.mp4" video_max="0" channels="1" frame_size="1600x896" frequency="22050" aspect_ratio="1" type="3" colorspace="709" progressive="1" duration="697" file_hash="598f42143ec4b8feab88895bc8d06fb3" videocodec="HEVC (High Efficiency Video Coding)" pix_fmt="yuv420p" audio_max="35" name="9.mp4" analysisdata="" videocodecid="hevc">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <markers/>
+  <groups/>
+ </kdenlivedoc>
+</mlt>

@@ -1,0 +1,1691 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt LC_NUMERIC="en_AU.UTF-8" version="0.9.6" root="/run/media/alex/SBPD/Video/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症" title="Anonymous Submission">
+ <profile display_aspect_num="16" progressive="1" sample_aspect_num="1" width="1280" frame_rate_num="15" frame_rate_den="1" description="HD 720p 15 fps" sample_aspect_den="1" colorspace="709" display_aspect_den="9" height="720"/>
+ <producer out="500" in="0" id="black">
+  <property name="mlt_type">producer</property>
+  <property name="length">15000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/black</property>
+  <property name="aspect_ratio">0</property>
+  <property name="mlt_service">colour</property>
+ </producer>
+ <playlist id="black_track">
+  <entry out="5557" producer="black" in="0"/>
+ </playlist>
+ <playlist id="playlist1"/>
+ <producer out="900" in="0" title="Anonymous Submission" id="1_1">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">901</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/01.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">322589</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">111514</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer out="859" in="0" title="Anonymous Submission" id="2_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">860</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/02.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">111488</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">109937</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer out="152" in="0" title="Anonymous Submission" id="3_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">153</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/03.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">207424</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">111010</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer out="377" in="0" title="Anonymous Submission" id="4_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">378</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/04.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">304342</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">110993</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer out="487" in="0" title="Anonymous Submission" id="5_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">488</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/05.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">70729</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">111247</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer out="1010" in="0" title="Anonymous Submission" id="6_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">1011</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/06.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">71318</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">110347</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer out="182" in="0" title="Anonymous Submission" id="7_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">183</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/07.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">397082</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">110725</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer out="298" in="0" title="Anonymous Submission" id="8_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">299</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">96044</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">108833</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer out="130" in="0" title="Anonymous Submission" id="9_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">131</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/09.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">87382</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">109349</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer out="670" in="0" title="Anonymous Submission" id="10_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">671</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/10.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">70115</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">109416</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer out="249" in="0" title="Anonymous Submission" id="11_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">250</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/11.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">99381</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">111353</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer out="331" in="0" title="Anonymous Submission" id="12_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">332</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/12.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">78856</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">109832</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer out="236" in="0" title="Anonymous Submission" id="13_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">237</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/13.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">53482</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">110851</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer out="1100" in="0" title="Anonymous Submission" id="14_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">1101</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/14.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">54835</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">110291</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <playlist id="playlist2">
+  <entry out="884" producer="1_1" in="21"/>
+  <entry out="39" producer="2_1" in="14"/>
+  <entry out="555" producer="2_1" in="42"/>
+  <entry out="850" producer="2_1" in="793"/>
+  <entry out="135" producer="3_1" in="10"/>
+  <entry out="142" producer="4_1" in="0"/>
+  <entry out="354" producer="4_1" in="285"/>
+  <entry out="23" producer="5_1" in="11"/>
+  <entry out="128" producer="5_1" in="25"/>
+  <entry out="283" producer="5_1" in="136"/>
+  <entry out="327" producer="5_1" in="292"/>
+  <entry out="476" producer="5_1" in="333"/>
+  <entry out="404" producer="6_1" in="10"/>
+  <entry out="422" producer="6_1" in="411"/>
+  <entry out="450" producer="6_1" in="432"/>
+  <entry out="581" producer="6_1" in="466"/>
+  <entry out="617" producer="6_1" in="594"/>
+  <entry out="828" producer="6_1" in="642"/>
+  <entry out="896" producer="6_1" in="850"/>
+  <entry out="961" producer="6_1" in="903"/>
+  <entry out="169" producer="7_1" in="9"/>
+  <entry out="208" producer="8_1" in="10"/>
+  <entry out="271" producer="8_1" in="218"/>
+  <entry out="24" producer="9_1" in="18"/>
+  <entry out="113" producer="9_1" in="29"/>
+  <blank length="43"/>
+  <entry out="73" producer="10_1" in="15"/>
+  <entry out="103" producer="10_1" in="78"/>
+  <entry out="171" producer="10_1" in="113"/>
+  <entry out="214" producer="10_1" in="191"/>
+  <entry out="248" producer="10_1" in="224"/>
+  <entry out="346" producer="10_1" in="268"/>
+  <entry out="485" producer="10_1" in="481"/>
+  <entry out="540" producer="10_1" in="506"/>
+  <entry out="638" producer="10_1" in="582"/>
+  <entry out="216" producer="11_1" in="7"/>
+  <entry out="232" producer="11_1" in="220"/>
+  <entry out="209" producer="12_1" in="13"/>
+  <entry out="279" producer="12_1" in="245"/>
+  <entry out="316" producer="12_1" in="295"/>
+  <entry out="211" producer="13_1" in="22"/>
+  <entry out="217" producer="14_1" in="12"/>
+  <entry out="340" producer="14_1" in="273"/>
+  <entry out="721" producer="14_1" in="358"/>
+  <entry out="998" producer="14_1" in="802"/>
+  <entry out="1081" producer="14_1" in="1049"/>
+ </playlist>
+ <producer out="74" in="0" title="Anonymous Submission" id="35">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot89.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="36">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot90.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="37">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot91.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="38">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot92.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="39">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot93.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="40">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot94.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="41">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot95.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="42">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot96.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="43">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot97.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="44">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot98.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="45">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot99.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="17">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot100.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="18">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot101.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="19">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot102.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="20">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot103.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="21">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot104.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="22">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot105.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="23">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot106.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="24">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot107.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="25">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot108.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="26">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot109.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="27">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot110.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="28">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot111.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="29">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot112.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="30">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot113.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="31">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot114.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="32">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot115.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="33">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot116.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="34">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot117.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="46">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/09.d/snapshot118.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="47">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/09.d/snapshot119.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="48">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/09.d/snapshot120.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="49">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/09.d/snapshot121.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="50">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/09.d/snapshot122.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="51">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/09.d/snapshot123.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="52">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/09.d/snapshot124.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="53">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/09.d/snapshot125.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="54">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/14.d/snapshot126.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="55">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/14.d/snapshot127.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="56">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/14.d/snapshot128.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="57">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/14.d/snapshot129.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="58">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/14.d/snapshot130.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="74" in="0" title="Anonymous Submission" id="59">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/14.d/snapshot131.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="84" in="0" title="Anonymous Submission" id="60">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">85</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/14.d/snapshot132.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <playlist id="playlist3">
+  <blank length="3332"/>
+  <entry out="4" producer="35" in="0"/>
+  <entry out="4" producer="36" in="0"/>
+  <entry out="4" producer="37" in="0"/>
+  <entry out="4" producer="38" in="0"/>
+  <entry out="4" producer="39" in="0"/>
+  <entry out="4" producer="40" in="0"/>
+  <entry out="4" producer="41" in="0"/>
+  <entry out="4" producer="42" in="0"/>
+  <entry out="4" producer="43" in="0"/>
+  <entry out="4" producer="44" in="0"/>
+  <entry out="4" producer="45" in="0"/>
+  <entry out="4" producer="17" in="0"/>
+  <entry out="4" producer="18" in="0"/>
+  <entry out="4" producer="19" in="0"/>
+  <entry out="4" producer="20" in="0"/>
+  <entry out="4" producer="21" in="0"/>
+  <entry out="4" producer="22" in="0"/>
+  <entry out="4" producer="23" in="0"/>
+  <entry out="4" producer="24" in="0"/>
+  <entry out="4" producer="25" in="0"/>
+  <entry out="4" producer="26" in="0"/>
+  <entry out="4" producer="27" in="0"/>
+  <entry out="4" producer="28" in="0"/>
+  <entry out="4" producer="29" in="0"/>
+  <entry out="4" producer="30" in="0"/>
+  <entry out="4" producer="31" in="0"/>
+  <entry out="4" producer="32" in="0"/>
+  <entry out="4" producer="33" in="0"/>
+  <entry out="46" producer="34" in="0"/>
+  <blank length="92"/>
+  <entry out="4" producer="46" in="0"/>
+  <entry out="4" producer="47" in="0"/>
+  <entry out="4" producer="48" in="0"/>
+  <entry out="4" producer="49" in="0"/>
+  <entry out="4" producer="50" in="0"/>
+  <entry out="4" producer="51" in="0"/>
+  <entry out="4" producer="52" in="0"/>
+  <entry out="22" producer="53" in="0"/>
+  <blank length="1666"/>
+  <entry out="12" producer="54" in="0"/>
+  <entry out="14" producer="55" in="0"/>
+  <entry out="35" producer="56" in="0"/>
+  <entry out="27" producer="57" in="0"/>
+  <entry out="25" producer="58" in="0"/>
+  <entry out="18" producer="59" in="0"/>
+  <entry out="84" producer="60" in="0"/>
+ </playlist>
+ <tractor out="5557" global_feed="1" in="0" title="Anonymous Submission" id="maintractor">
+  <property name="meta.volume">1</property>
+  <track producer="black_track"/>
+  <track hide="video" producer="playlist1"/>
+  <track producer="playlist2"/>
+  <track producer="playlist3"/>
+  <transition id="transition0">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition1">
+   <property name="a_track">1</property>
+   <property name="b_track">3</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+ </tractor>
+ <kdenlivedoc version="0.88" projectfolder="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症" profile="/home/alex/.local/share/kdenlive//profiles/customprofile5" kdenliveversion="15.04.3">
+  <customeffects/>
+  <documentproperties enableproxy="0" zoom="3" generateimageproxy="0" proxyimageminsize="2000" generateproxy="0" zonein="0" position="5557" documentid="1436444888913" proxyextension="ts" proxyminsize="1000" zoneout="100" verticalzoom="1" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -vcodec mpeg2video -g 5 -s 640x480 -qscale 7"/>
+  <documentmetadata/>
+  <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Oxygen-Sans'; font-size:10pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">14&lt;/p>&lt;/body>&lt;/html></documentnotes>
+  <profileinfo display_aspect_num="16" progressive="1" sample_aspect_num="1" frame_rate_num="15" frame_rate_den="1" width="1280" description="HD 720p 15 fps" sample_aspect_den="1" display_aspect_den="9" height="720"/>
+  <tracksinfo>
+   <trackinfo mute="0" locked="0" trackname="Audio 1" blind="1" type="audio"/>
+   <trackinfo mute="0" locked="0" trackname="Video 2" blind="0"/>
+   <trackinfo mute="0" locked="0" trackname="Video 1" blind="0"/>
+  </tracksinfo>
+  <folder name="08.d" id="1"/>
+  <folder name="09.d" id="2"/>
+  <folder name="14.d" id="3"/>
+  <kdenlive_producer analysisdata="" duration="901" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" file_size="3293356" file_hash="28010f4ec91d10e885ebd88829e28523" audiocodec="AAC (Advanced Audio Coding)" pix_fmt="yuv420p" id="1" progressive="1" colorspace="709" aspect_ratio="1" type="3" audio_max="47" fps="15" name="01.mp4" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/01.mp4" default_video="0" video_max="0" videocodecid="h264" frequency="22050" frame_size="1600x896" channels="1" default_audio="1">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2avc1mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer analysisdata="" duration="860" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" file_size="1617827" file_hash="26aa5484c66ef0efb1f02d88b0caa395" audiocodec="AAC (Advanced Audio Coding)" pix_fmt="yuv420p" id="2" progressive="1" colorspace="709" aspect_ratio="1" type="3" audio_max="63" fps="15" name="02.mp4" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/02.mp4" default_video="0" video_max="0" videocodecid="h264" frequency="22050" frame_size="1600x896" channels="1" default_audio="1">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2avc1mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer analysisdata="" duration="153" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" file_size="412281" file_hash="9da76ca26f8d943705125e22ceb12b17" audiocodec="AAC (Advanced Audio Coding)" pix_fmt="yuv420p" id="3" progressive="1" colorspace="709" aspect_ratio="1" type="3" audio_max="62" fps="15" name="03.mp4" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/03.mp4" default_video="0" video_max="0" videocodecid="h264" frequency="22050" frame_size="1600x896" channels="1" default_audio="1">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2avc1mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer analysisdata="" duration="378" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" file_size="1319981" file_hash="f750fa58c1d9089f34f34354500f5e2a" audiocodec="AAC (Advanced Audio Coding)" pix_fmt="yuv420p" id="4" progressive="1" colorspace="709" aspect_ratio="1" type="3" audio_max="63" fps="15" name="04.mp4" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/04.mp4" default_video="0" video_max="0" videocodecid="h264" frequency="22050" frame_size="1600x896" channels="1" default_audio="1">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2avc1mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer analysisdata="" duration="488" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" file_size="757350" file_hash="3cdaf7f492e3e6579643ecd5e95212a2" audiocodec="AAC (Advanced Audio Coding)" pix_fmt="yuv420p" id="5" progressive="1" colorspace="709" aspect_ratio="1" type="3" audio_max="63" fps="15" name="05.mp4" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/05.mp4" default_video="0" video_max="0" videocodecid="h264" frequency="22050" frame_size="1600x896" channels="1" default_audio="1">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2avc1mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer analysisdata="" duration="1011" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" file_size="1567453" file_hash="f5c2f9fa3593dc4dccf5fd77def928af" audiocodec="AAC (Advanced Audio Coding)" pix_fmt="yuv420p" id="6" progressive="1" colorspace="709" aspect_ratio="1" type="3" audio_max="63" fps="15" name="06.mp4" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/06.mp4" default_video="0" video_max="0" videocodecid="h264" frequency="22050" frame_size="1600x896" channels="1" default_audio="1">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2avc1mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer analysisdata="" duration="183" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" file_size="775548" file_hash="30acd3997627a53fb5cc6f124dcb99be" audiocodec="AAC (Advanced Audio Coding)" pix_fmt="yuv420p" id="7" progressive="1" colorspace="709" aspect_ratio="1" type="3" audio_max="57" fps="15" name="07.mp4" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/07.mp4" default_video="0" video_max="0" videocodecid="h264" frequency="22050" frame_size="1600x896" channels="1" default_audio="1">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2avc1mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer analysisdata="" duration="299" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" file_size="522075" file_hash="375e58138c5de75ae562b0a82e89a832" audiocodec="AAC (Advanced Audio Coding)" pix_fmt="yuv420p" id="8" progressive="1" colorspace="709" aspect_ratio="1" type="3" audio_max="63" fps="15" name="08.mp4" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.mp4" default_video="0" video_max="0" videocodecid="h264" frequency="22050" frame_size="1600x896" channels="1" default_audio="1">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2avc1mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer analysisdata="" duration="131" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" file_size="218215" file_hash="d159426b41c77b1a79a3ef085307bf27" audiocodec="AAC (Advanced Audio Coding)" pix_fmt="yuv420p" id="9" progressive="1" colorspace="709" aspect_ratio="1" type="3" audio_max="50" fps="15" name="09.mp4" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/09.mp4" default_video="0" video_max="0" videocodecid="h264" frequency="22050" frame_size="1600x896" channels="1" default_audio="1">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2avc1mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer analysisdata="" duration="671" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" file_size="1025266" file_hash="c799fe4bae6fb0e4e1aecab2df1b8c93" audiocodec="AAC (Advanced Audio Coding)" pix_fmt="yuv420p" id="10" progressive="1" colorspace="709" aspect_ratio="1" type="3" audio_max="63" fps="15" name="10.mp4" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/10.mp4" default_video="0" video_max="0" videocodecid="h264" frequency="22050" frame_size="1600x896" channels="1" default_audio="1">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2avc1mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer analysisdata="" duration="250" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" file_size="446203" file_hash="aa23ea11a8efcacd2af09658d0a4bd98" audiocodec="AAC (Advanced Audio Coding)" pix_fmt="yuv420p" id="11" progressive="1" colorspace="709" aspect_ratio="1" type="3" audio_max="61" fps="15" name="11.mp4" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/11.mp4" default_video="0" video_max="0" videocodecid="h264" frequency="22050" frame_size="1600x896" channels="1" default_audio="1">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2avc1mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer analysisdata="" duration="332" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" file_size="533636" file_hash="ff82124fbd193dc98b4b9fcf6dc51b91" audiocodec="AAC (Advanced Audio Coding)" pix_fmt="yuv420p" id="12" progressive="1" colorspace="709" aspect_ratio="1" type="3" audio_max="63" fps="15" name="12.mp4" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/12.mp4" default_video="0" video_max="0" videocodecid="h264" frequency="22050" frame_size="1600x896" channels="1" default_audio="1">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2avc1mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer analysisdata="" duration="237" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" file_size="331006" file_hash="e814beb287c6c3d4f8e9e3fa0d82b773" audiocodec="AAC (Advanced Audio Coding)" pix_fmt="yuv420p" id="13" progressive="1" colorspace="709" aspect_ratio="1" type="3" audio_max="63" fps="15" name="13.mp4" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/13.mp4" default_video="0" video_max="0" videocodecid="h264" frequency="22050" frame_size="1600x896" channels="1" default_audio="1">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2avc1mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer analysisdata="" duration="1101" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" file_size="1555496" file_hash="072eb17a3680b1cdc0cacc0b18c594eb" audiocodec="AAC (Advanced Audio Coding)" pix_fmt="yuv420p" id="14" progressive="1" colorspace="709" aspect_ratio="1" type="3" audio_max="63" fps="15" name="14.mp4" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/14.mp4" default_video="0" video_max="0" videocodecid="h264" frequency="22050" frame_size="1600x896" channels="1" default_audio="1">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2avc1mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer analysisdata="" duration="802" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" file_size="2934044" file_hash="f03610fa6eda1b43106516ebbf9feeba" audiocodec="AAC (Advanced Audio Coding)" pix_fmt="yuv420p" id="15" progressive="1" colorspace="709" aspect_ratio="1" type="3" audio_max="56" fps="15" name="15.mp4" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/15.mp4" default_video="0" video_max="0" videocodecid="h264" frequency="22050" frame_size="1600x896" channels="1" default_audio="1">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2avc1mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer analysisdata="" duration="479" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" file_size="593651" file_hash="2def23b58dd50ddf0dc7d6e760e83ded" audiocodec="AAC (Advanced Audio Coding)" pix_fmt="yuv420p" id="16" progressive="1" colorspace="709" aspect_ratio="1" type="3" audio_max="60" fps="15" name="16.mp4" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/16.mp4" default_video="0" video_max="0" videocodecid="h264" frequency="22050" frame_size="1600x896" channels="1" default_audio="1">
+   <metaproperty tool="" name="meta.attr.0.stream.handler_name">VideoHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.handler_name">SoundHandler</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isomiso2avc1mp41</metaproperty>
+   <metaproperty tool="" name="meta.attr.encoder">Lavf56.36.100</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_size="151620" file_hash="5df8645f5124c805abb0157cf313d45e" aspect_ratio="1" out="74" name="snapshot100.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot100.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="17" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="145354" file_hash="4a8114daf39eee84b9cab03b994e9ba7" aspect_ratio="1" out="74" name="snapshot101.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot101.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="18" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="145820" file_hash="851e7b9c563e12ae1d3b939bff0f7254" aspect_ratio="1" out="74" name="snapshot102.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot102.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="19" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="146455" file_hash="d38fd13d6db5e0cf0a110e70a9238061" aspect_ratio="1" out="74" name="snapshot103.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot103.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="20" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="150547" file_hash="abe87518a45c08254640701fb9828f0f" aspect_ratio="1" out="74" name="snapshot104.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot104.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="21" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="147970" file_hash="efb8b4d4eca89cf3480c83d6915a45d8" aspect_ratio="1" out="74" name="snapshot105.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot105.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="22" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="147843" file_hash="ce1c978a9840ba27f174ffcd67578358" aspect_ratio="1" out="74" name="snapshot106.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot106.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="23" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="148937" file_hash="8d41f8dd262334f626f62e181e3ba7fc" aspect_ratio="1" out="74" name="snapshot107.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot107.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="24" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="141693" file_hash="bf90ccbdb0a354655484ce9dae7282cc" aspect_ratio="1" out="74" name="snapshot108.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot108.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="25" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="147555" file_hash="b137c689b767b2ebb6b2f521d1e206ea" aspect_ratio="1" out="74" name="snapshot109.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot109.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="26" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="147924" file_hash="7a7054b61c0e7ce82c8bb89d7c4174d9" aspect_ratio="1" out="74" name="snapshot110.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot110.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="27" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="144183" file_hash="7feefa055f1010714924be8de1e2c063" aspect_ratio="1" out="74" name="snapshot111.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot111.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="28" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="143382" file_hash="9feb4b18205d978fea36d07141496028" aspect_ratio="1" out="74" name="snapshot112.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot112.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="29" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="139995" file_hash="be90b27fb7eabbaf51b7fb67a1987477" aspect_ratio="1" out="74" name="snapshot113.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot113.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="30" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="141309" file_hash="3d9342de8d08f1076bde70957bf79690" aspect_ratio="1" out="74" name="snapshot114.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot114.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="31" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="145832" file_hash="0cdb5ab8eda312f11a138b0081543afb" aspect_ratio="1" out="74" name="snapshot115.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot115.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="32" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="143802" file_hash="033977d414617ce1a9aac98a796ea1b1" aspect_ratio="1" out="74" name="snapshot116.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot116.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="33" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="140550" file_hash="ae024d50d51d23c8f79fc222d7c6c71e" aspect_ratio="1" out="74" name="snapshot117.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot117.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="34" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="150832" file_hash="d8968be9fe89e62900d7a6ac68f167d5" aspect_ratio="1" out="74" name="snapshot89.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot89.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="35" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="154727" file_hash="5783d404c2e5aacaa835f3aaa1ff295e" aspect_ratio="1" out="74" name="snapshot90.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot90.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="36" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="150773" file_hash="6c127a4a4f3bd1d557866b81f3514790" aspect_ratio="1" out="74" name="snapshot91.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot91.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="37" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="152930" file_hash="16a615635890b2d1183507c2ebdc6284" aspect_ratio="1" out="74" name="snapshot92.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot92.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="38" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="147067" file_hash="d83ab87556fdd951e371946959112f64" aspect_ratio="1" out="74" name="snapshot93.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot93.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="39" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="143273" file_hash="3888080959851182c6fb4fdd5249b16e" aspect_ratio="1" out="74" name="snapshot94.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot94.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="40" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="150308" file_hash="525af2b89a693d1c9d6e5cc4d0a4435d" aspect_ratio="1" out="74" name="snapshot95.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot95.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="41" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="150874" file_hash="df8416708bc1b0e67460890b0a46f7a5" aspect_ratio="1" out="74" name="snapshot96.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot96.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="42" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="152862" file_hash="77e4235e3944ca78deabc6e0c1569a26" aspect_ratio="1" out="74" name="snapshot97.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot97.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="43" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="153646" file_hash="f579c21fa296d850bd2be6474902f1b5" aspect_ratio="1" out="74" name="snapshot98.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot98.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="44" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="148326" file_hash="bdb2c2b39f955fc2d11dd8c35f782ffe" aspect_ratio="1" out="74" name="snapshot99.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/08.d/snapshot99.png" groupid="1" duration="75" analysisdata="" frame_size="1600x900" in="0" id="45" groupname="08.d" type="5"/>
+  <kdenlive_producer file_size="136443" file_hash="76070cb0a416d6745284e7248030c5df" aspect_ratio="1" out="74" name="snapshot118.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/09.d/snapshot118.png" groupid="2" duration="75" analysisdata="" frame_size="1600x900" in="0" id="46" groupname="09.d" type="5"/>
+  <kdenlive_producer file_size="138892" file_hash="b8d685008438b3ee807a631204eb5a42" aspect_ratio="1" out="74" name="snapshot119.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/09.d/snapshot119.png" groupid="2" duration="75" analysisdata="" frame_size="1600x900" in="0" id="47" groupname="09.d" type="5"/>
+  <kdenlive_producer file_size="143944" file_hash="13badae6b27e0bc6eb73b65198acca15" aspect_ratio="1" out="74" name="snapshot120.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/09.d/snapshot120.png" groupid="2" duration="75" analysisdata="" frame_size="1600x900" in="0" id="48" groupname="09.d" type="5"/>
+  <kdenlive_producer file_size="146411" file_hash="d8193b74642b6fccbd62fc95a89c978c" aspect_ratio="1" out="74" name="snapshot121.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/09.d/snapshot121.png" groupid="2" duration="75" analysisdata="" frame_size="1600x900" in="0" id="49" groupname="09.d" type="5"/>
+  <kdenlive_producer file_size="152166" file_hash="63b8fc2ac03ea64825779b42c3cfd242" aspect_ratio="1" out="74" name="snapshot122.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/09.d/snapshot122.png" groupid="2" duration="75" analysisdata="" frame_size="1600x900" in="0" id="50" groupname="09.d" type="5"/>
+  <kdenlive_producer file_size="149935" file_hash="64203f7879a55ddf96d4729f63b456c2" aspect_ratio="1" out="74" name="snapshot123.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/09.d/snapshot123.png" groupid="2" duration="75" analysisdata="" frame_size="1600x900" in="0" id="51" groupname="09.d" type="5"/>
+  <kdenlive_producer file_size="149122" file_hash="3f3a93038d1ed926c973bf04449f03bf" aspect_ratio="1" out="74" name="snapshot124.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/09.d/snapshot124.png" groupid="2" duration="75" analysisdata="" frame_size="1600x900" in="0" id="52" groupname="09.d" type="5"/>
+  <kdenlive_producer file_size="147627" file_hash="5d16df4f6687c6ca775ef0d4302c3cb0" aspect_ratio="1" out="74" name="snapshot125.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/09.d/snapshot125.png" groupid="2" duration="75" analysisdata="" frame_size="1600x900" in="0" id="53" groupname="09.d" type="5"/>
+  <kdenlive_producer file_size="120814" file_hash="0bd9e63be767bb86369e4602abb5e5f4" aspect_ratio="1" out="74" name="snapshot126.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/14.d/snapshot126.png" groupid="3" duration="75" analysisdata="" frame_size="1600x900" in="0" id="54" groupname="14.d" type="5"/>
+  <kdenlive_producer file_size="121407" file_hash="412c15b58beee3eda2c296c083d66cd5" aspect_ratio="1" out="74" name="snapshot127.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/14.d/snapshot127.png" groupid="3" duration="75" analysisdata="" frame_size="1600x900" in="0" id="55" groupname="14.d" type="5"/>
+  <kdenlive_producer file_size="121410" file_hash="e358baac54f5478127a680ac6730a4dd" aspect_ratio="1" out="74" name="snapshot128.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/14.d/snapshot128.png" groupid="3" duration="75" analysisdata="" frame_size="1600x900" in="0" id="56" groupname="14.d" type="5"/>
+  <kdenlive_producer file_size="124057" file_hash="3581145a34805b9d9117f4a07430f7f7" aspect_ratio="1" out="74" name="snapshot129.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/14.d/snapshot129.png" groupid="3" duration="75" analysisdata="" frame_size="1600x900" in="0" id="57" groupname="14.d" type="5"/>
+  <kdenlive_producer file_size="125150" file_hash="d1db5dbe6d044773f999288027cbce8e" aspect_ratio="1" out="74" name="snapshot130.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/14.d/snapshot130.png" groupid="3" duration="75" analysisdata="" frame_size="1600x900" in="0" id="58" groupname="14.d" type="5"/>
+  <kdenlive_producer file_size="128198" file_hash="44e2a42afed1ffbf19cb40150a51653a" aspect_ratio="1" out="74" name="snapshot131.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/14.d/snapshot131.png" groupid="3" duration="75" analysisdata="" frame_size="1600x900" in="0" id="59" groupname="14.d" type="5"/>
+  <kdenlive_producer file_size="129238" file_hash="6b0d8583fac28da0d417f2e598a96cc2" aspect_ratio="1" out="74" name="snapshot132.png" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第6讲 游戏里没有选择恐惧症/original/14.d/snapshot132.png" groupid="3" duration="75" analysisdata="" frame_size="1600x900" in="0" id="60" groupname="14.d" type="5"/>
+  <markers/>
+  <groups/>
+ </kdenlivedoc>
+</mlt>

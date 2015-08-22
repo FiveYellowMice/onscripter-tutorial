@@ -1,0 +1,255 @@
+;mode800
+
+*define
+effect 2,10,1000
+effect 3,6,1000
+effect 4,10,500
+bgmfadeout 20000
+game
+*start
+setwindow 10,490,26,3,30,30,0,5,20,0,1,#999999,0,480,800,110
+click
+bgm "bgm/hbx.ogg"
+bg "bg/shot0002.png",2
+dwave 0,"voice/ch01.ogg"
+当我第一次知道要用ＯＮＳｃｒｉｐｔｅｒ做一个Ｇａｌｇａｍｅ的时候，我是拒绝的。\
+bg "bg/shot0005.png",3
+dwave 0,"voice/ch02.ogg"
+因为我觉得呀，你不能叫我做，我就马上开始写脚本。\
+dwave 0,"voice/ch03.ogg"
+第一，我要试一下……\
+bg "bg/shot0007.png",3
+dwave 0,"voice/ch04.ogg"
+我做了一个场景以后加了很多特技，那游戏@
+bg "bg/shot0009.png",1
+Ｄｕａｎｇ————！
+quake 10,500
+\
+dwave 0,"voice/ch05.ogg"
+很高，很大，很上。\
+bg "bg/shot0010.png",4
+dwave 0,"voice/ch06.ogg"
+结果玩家一定会出来骂我，根本没有这样的游戏，证明上面那个是假的。\
+bg "bg/shot0006.png",4
+dwave 0,"voice/ch07.ogg"
+我说先要给我试一下，后来我也知道它是非常易学的，而且没有那种令人望而生畏的代码的。\
+dwave 0,"voice/ch08.ogg"
+那做了这个游戏，做完了这个游戏之后呢，起码我做起来很容易。\
+bg "bg/shot0008.png",3
+dwave 0,"voice/ch09.ogg"
+现在呢，每周还在发教程。\
+bg black,2
+bg white,2
+dwave 0,"voice/na01.ogg"
+大家好，这里是ＦｉｖｅＹｅｌｌｏｗＭｉｃｅ给大家带来的鬼畜——@
+啊不对，小白也能学会的Ｇａｌｇａｍｅ制作的第５讲。\
+dwave 0,"voice/na02.ogg"
+我想大家都已经注意到在“Ｄｕａｎｇ”的时候，游戏窗口发生的震动效果了。\
+dwave 0,"voice/na03.ogg"
+没错，这一讲，我们就来为我们的游戏加特技（特效）。\
+dwave 0,"voice/na04.ogg"
+在第１讲中我们已经学到了ｂｇ命令，是用来显示或替换掉已有的一张背景图片的，就像这样。\
+bg "bg/e1.jpg",10,500
+dwave 0,"voice/na05.ogg"
+背景就这样以５００毫秒的渐变被替换了。\
+dwave 0,"voice/na06.ogg"
+要完成刚才那样的动作，我们使用的是这样的一条命令。\
+bg "bg/t1.jpg",4
+dwave 0,"voice/na07.ogg"
+ｂｇ，图片路径，效果编号，以及效果持续时间。\
+dwave 0,"voice/na08.ogg"
+根据第１讲的内容，这段１０，５００是让图片以渐变５００毫秒的方式显示。\
+dwave 0,"voice/na09.ogg"
+但是如果我的游戏中有好几次都要用到这个效果，该怎么办？\
+dwave 0,"voice/na10.ogg"
+每次都复制一遍１０，５００吗？太麻烦了。\
+dwave 0,"voice/na11.ogg"
+还好ＯＮＳｃｒｉｐｔｅｒ允许我们在ｄｅｆｉｎｅ区域里加上一条命令，我们就不用重复写好多次１０，５００了。\
+bg "bg/t7.jpg",4
+dwave 0,"voice/na12.ogg"
+ｄｅｆｉｎｅ区，就是在游戏脚本中开始的地方，星号ｄｅｆｉｎｅ跟ｇａｍｅ之间的区域。\
+dwave 0,"voice/na13.ogg"
+英文ｄｅｆｉｎｅ的意思就是“定义”，所以这里一般是用来定义游戏中的一些东西的地方。\
+dwave 0,"voice/na14.ogg"
+我们在ｄｅｆｉｎｅ区里加上这样一条命令。\
+bg "bg/t2.jpg",4
+dwave 0,"voice/na15.ogg"
+ｅｆｆｅｃｔ命令，只能出现在ｄｅｆｉｎｅ区里面，它至少有３个参数。\
+dwave 0,"voice/na16.ogg"
+后两个是跟我们之前写的效果参数一样，１０，５００，也就是渐变５００毫秒。\
+dwave 0,"voice/na17.ogg"
+这第一个参数，我们叫做自定义效果编号，在这里是２，则代表我们把２号定为１０，５００所代表的效果。\
+dwave 0,"voice/na18.ogg"
+注意，为了方便区分，我们把在第１讲学的那些效果编号，在此处是第２个参数，我们把它叫做系统效果编号，这些效果编号是定死的，不可更改的。\
+dwave 0,"voice/na19.ogg"
+这些系统效果编号的一部分，可以在第１讲的素材中的一个文本文件中查到。\
+dwave 0,"voice/na20.ogg"
+而第１个参数，是可以让我们自己定义的，所以叫做自定义效果编号。\
+bg "bg/t3.jpg",4
+dwave 0,"voice/na21.ogg"
+那么我们在定义了２这个自定义效果编号之后呢，要是想要在游戏里面用渐变５００毫秒的效果，就不用写上１０，５００这一长串，只要写上一个２就足够了。\
+dwave 0,"voice/na22.ogg"
+此时，这个２就代表１０，５００。\
+bg "bg/t4.jpg",4
+dwave 0,"voice/na23.ogg"
+同样的，我们也可以使用ｅｆｆｅｃｔ命令定义３，４，５，６……最大可以到２５５，不过我想应该没有人会定义这么多。\
+bg "bg/e2.jpg",4
+dwave 0,"voice/na24.ogg"
+举个例子，如果我在３后面写上６，５００，根据第１讲的内容，６，５００代表的是左帷幕效果，持续５００毫秒，就像这样。\
+bg "bg/t6.jpg",6,500
+dwave 0,"voice/na25.ogg"
+本来我是要像上面这么写，但是我在定义了ｅｆｆｅｃｔ　３，６，５００之后就可以按照下面这么写了。\
+bg "bg/t5.jpg",4
+dwave 0,"voice/na26.ogg"
+其他的数字也一样，你可以按照自己游戏的实际情况，来定义你自己的自定义效果编号。\
+dwave 0,"voice/na27.ogg"
+如果我们想使用一个效果，但是认为这个效果在这个游戏中只会用到一次或寥寥几次，为它专门定义一个自定义效果编号不值得。\
+bg "bg/t1.jpg",4
+dwave 0,"voice/na28.ogg"
+那么我们也不用去为它定义一个自定义效果编号，只要用传统的方式，写上系统效果编号和持续时间就可以了。\
+bg "bg/e1.jpg",4
+dwave 0,"voice/na29.ogg"
+有了自定义效果编号，我么就可以剩下很多时间。\
+dwave 0,"voice/na30.ogg"
+不过一些仔细的人可能就想问了，ｂｇ命令在图片路径后面既可以跟系统效果编号，也可以跟自定义效果编号。\
+dwave 0,"voice/na31.ogg"
+它们都是数字，ＯＮＳｃｒｉｐｔｅｒ要怎样区分我用的是自定义效果编号还是系统效果编号呢？\
+bg "bg/t3.jpg",4
+dwave 0,"voice/na32.ogg"
+其实很好理解，系统效果编号除了１　瞬间显示以外，后面都会再跟着一个持续时间的参数，比如５００毫秒。\
+dwave 0,"voice/na33.ogg"
+而自定义效果编号只有一个数字，后面不需要再写别的参数了。\
+dwave 0,"voice/na34.ogg"
+所以ＯＮＳｃｒｉｐｔｅｒ在看到你在图片路径之后，只写了１个参数，那么它就会认为你用的是自定义效果编号。\
+dwave 0,"voice/na35.ogg"
+否则他就会认为此处是系统效果编号。\
+dwave 0,"voice/na36.ogg"
+但是因为系统效果编号１是瞬间显示，同样没有时间参数，所以我们定义的自定义效果编号只能从２开始。\
+dwave 0,"voice/na37.ogg"
+同样的道理不仅适用于ｂｇ命令，也适用于第４讲学到的ｌｄ和ｃｌ命令，以及以后会学到的更多有关效果的命令。\
+bg black,2
+bg "bg/e3.jpg",2
+dwave 0,"voice/na38.ogg"
+自定义效果编号介绍完了，我们就可以学习更高级的特技（效）了。\
+dwave 0,"voice/na39.ogg"
+我们在第１讲中只介绍了１至１４号系统效果编号，实际上ＯＮＳｃｒｉｐｔｅｒ还有０，１５、１６、１７、１８这４个比较高级的效果。\
+dwave 0,"voice/na40.ogg"
+因为比较高级，所以才拖到现在来讲。\
+dwave 0,"voice/na41.ogg"
+０号效果是“在下一次刷新时显示”，也就是说，图片不会立即显示，而是等到下一次切换背景或是显示立绘的时候，才会一同显示出来。\
+dwave 0,"voice/na42.ogg"
+这样做有什么用呢？\
+bg "bg/t8.jpg",4
+dwave 0,"voice/na43.ogg"
+如果我用这样的命令来显示背景和立绘，那么就会先渐变１０００毫秒出现背景，再渐变１０００毫秒出现立绘，就像这样。\
+bg "bg/e4.jpg",2
+ld c,":a;chara/a.png",2
+dwave 0,"voice/na44.ogg"
+但是有时候我们会觉得这样太不爽快了，想要让背景和立绘一起渐变出来，该怎么办呢？\
+dwave 0,"voice/na45.ogg"
+这时候０号效果就拍上用场了。\
+bg "bg/t9.jpg",4
+dwave 0,"voice/na46.ogg"
+我们让背景先以０号效果显示，这样它就暂时不会真正显示出来，而是等到下一次屏幕刷新的时候再出来。\
+dwave 0,"voice/na47.ogg"
+而在这里，下一次屏幕刷新的时候就是立绘出现的时候，立绘以渐变１０００毫秒的效果出来，背景也就跟着它一块儿出来。就像这样。\
+bg "bg/e4.jpg",0
+ld c,":a;chara/a.png",2
+dwave 0,"voice/na48.ogg"
+同样它也适用于让两张立绘同时显示的时候。\
+bg "bg/t10.jpg",4
+dwave 0,"voice/na49.ogg"
+如果我使用这两条命令，就会先显示左边的立绘，再显示右边的立绘。\
+ld l,":a;chara/a.png",10,1000
+ld r,":a;chara/b.png",10,1000
+dwave 0,"voice/na50.ogg"
+如果我们想让两张立绘同时显示，@
+bg "bg/t11.jpg",4
+dwave 0,"voice/na51.ogg"
+就给先显示的那张立绘０号效果。\
+ld l,":a;chara/a.png",0
+ld r,":a;chara/b.png",10,1000
+dwave 0,"voice/na52.ogg"
+这样两张立绘就会同时显示。\
+bg black,2
+bg "bg/t12.jpg",2
+dwave 0,"voice/na53.ogg"
+接下来介绍１５号效果，是使用掩模文件淡入淡出。\
+dwave 0,"voice/na54.ogg"
+因为这个效果还需要一个掩模文件，所以参数除了持续时间以外，后面还有个掩模文件的路径。\
+dwave 0,"voice/na55.ogg"
+那么这个掩模文件到底是什么？\
+bg "rule/4.jpg",4
+dwave 0,"voice/na56.ogg"
+掩模文件就是像这样的一张与游戏分辨率（在这里是８００ｘ６００）相同的黑白图片。\
+dwave 0,"voice/na57.ogg"
+越黑的地方显示地越快，越白的地方显示地越慢。\
+bg "bg/t12.jpg",4
+dwave 0,"voice/na58.ogg"
+光这样说很难理解，所以我就拿屏幕上的这条命令为例展示一下，ｒｕｌｅ／４。ｊｐｇ就是我刚刚展示的那张掩模文件。\
+bg "bg/e1.jpg",15,1000,"rule/4.jpg"
+dwave 0,"voice/na59.ogg"
+看，感觉如何？\
+dwave 0,"voice/na60.ogg"
+如果我使用别的掩模文件，那么背景切换的效果可以是……\
+bg "bg/e2.jpg",15,1000,"rule/1.jpg"
+dwave 0,"voice/na61.ogg"
+这样的。\
+bg "bg/e3.jpg",15,1000,"rule/2.jpg"
+dwave 0,"voice/na61.ogg"
+这样的。\
+bg "bg/e4.jpg",15,1000,"rule/3.jpg"
+dwave 0,"voice/na61.ogg"
+这样的。\
+bg "bg/e1.jpg",15,1000,"rule/5.jpg"
+dwave 0,"voice/na62.ogg"
+或者这样的。\
+bg "bg/t13.jpg",4
+dwave 0,"voice/na63.ogg"
+不过这样参数就更长了，后面还要写上掩模文件的路径。\
+dwave 0,"voice/na64.ogg"
+所以通常我们用掩模文件的时候，都是先用ｅｆｆｅｃｔ定义好自定义效果编号，再使用的。\
+dwave 0,"voice/na65.ogg"
+否则要是每次使用同样的掩模文件的时候都得复制这么一长串参数，会大大降低游戏制作效率的。\
+bg black,2
+bg "bg/e2.jpg",2
+dwave 0,"voice/na66.ogg"
+限于时间关系，我就不讲解１６，１７，１８号命令了。\
+dwave 0,"voice/na67.ogg"
+什么？你很失望？\
+dwave 0,"voice/na68.ogg"
+没关系，其实那三个都不是特别重要，如果你感兴趣，可以查看素材中的说明并自己尝试。\
+bg "bg/shot0009.png",4
+dwave 0,"voice/na69.ogg"
+那么这一讲的最后一个知识点，ｑｕａｋｅ命令。\
+dwave 0,"voice/na70.ogg"
+ｑｕａｋｅ在英文中的意思是“地震”。\
+dwave 0,"voice/na71.ogg"
+顾名思义，这条命令就是我在一开始“Ｄｕａｎｇ”的时候，加的特技。\
+bg "bg/t14.jpg",4
+dwave 0,"voice/na72.ogg"
+ｑｕａｋｅ命令有两个参数，非常好记，第１个是震动的幅度，以像素为单位，我这里用的是１０。\
+dwave 0,"voice/na73.ogg"
+第２个参数是持续的时间，我这里是５００毫秒。\
+dwave 0,"voice/na74.ogg"
+那么准备好了没有？\
+bg "bg/shot0009.png",1
+dwave 0,"voice/na75.ogg"
+quake 10,500
+Ｄｕａｎｇ！\
+dwave 0,"voice/na75.ogg"
+quake 10,500
+Ｄｕａｎｇ！\
+dwave 0,"voice/na75.ogg"
+quake 10,500
+Ｄｕａｎｇ！\
+bgmstop
+bg black,2
+bg "bg/t15.jpg",2
+wait 5000
+bg "bg/t16.jpg",2
+wait 5000
+bg "bg/t17.jpg",2
+wait 5000
+bg black,2
+end

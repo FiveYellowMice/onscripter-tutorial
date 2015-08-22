@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- 如果你看到了这句话，说明……你用的根本就不是浏览器。 -->
+
+<html>
+	<head>
+		<title>第3讲 耳机党福利 - 小白也能学会的Galgame制作</title>
+		<meta charset="utf-8" />
+	</head>
+	
+	<body>
+		<p><a href="javascript: history.go(-1)">&lt;返回</a> | <a href="http://onstut.pe.hu/">首页</a></p>
+		<h1>第3讲 耳机党福利</h1>
+		<!--Insert video player-->
+		<p>不过我还是希望你到<a href="http://www.bilibili.com/video/av2437221/" target="_blank">原始地址</a>去观看。</p>
+		<div style="border: 1px solid #000000">
+			<p>第3讲终于来了！这是我期末考试之后的第一发。对了，各位中考高考的朋友们感觉还好吗？</p>
+			<p>从今以后<b>理论上</b>不会再有软件安利了，安利了3个还不够吗？</p>
+			<p>想了解有关转换媒体格式的，<a href="l03/ffmpeg.html" target="_blank">点击这里</a>。</p>
+			<p>无料BGM下载网站：<a href="http://tieba.baidu.com/p/3242721650" target="_blank">汇总帖子</a>。</p>
+			<p>
+				<b>素材下载：</b>  <em>先看一遍视频再上手实践效果更佳</em><br />
+				<a href="https://onedrive.live.com/redir?resid=5d33c85adba8d353!1377&authkey=!AE6CUvGlKOV85l0&ithint=folder%2c" target="_blank">OneDrive</a>（推荐，素材在upload目录里）  <a href="../cant-open.html">（什么？打不开？）</a><br />
+				<a href="http://pan.baidu.com/s/1jGpbM6a" target="_blank">百度云</a>  （失效了？请<a href="../contact-author.html">告诉我</a>）
+			</p>
+		</div>
+		
+		<div id="disqus_thread"></div>
+		<script type="text/javascript">
+			/* * * CONFIGURATION VARIABLES * * */
+			var disqus_shortname = 'onstut';
+			var disqus_identifier = 'l03';
+			
+			/* * * DON'T EDIT BELOW THIS LINE * * */
+			(function() {
+				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	</body>
+</html>

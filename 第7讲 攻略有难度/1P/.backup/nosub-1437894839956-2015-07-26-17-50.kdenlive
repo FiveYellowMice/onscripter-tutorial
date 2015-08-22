@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt root="/home/alex" title="Anonymous Submission" LC_NUMERIC="en_AU.UTF-8" version="0.9.6">
+ <profile description="HD 720p 15 fps" height="720" width="1280" sample_aspect_den="1" frame_rate_num="15" progressive="1" colorspace="709" sample_aspect_num="1" display_aspect_num="16" display_aspect_den="9" frame_rate_den="1"/>
+ <producer in="0" out="500" id="black">
+  <property name="mlt_type">producer</property>
+  <property name="length">15000</property>
+  <property name="eof">pause</property>
+  <property name="resource">black</property>
+  <property name="aspect_ratio">0</property>
+  <property name="mlt_service">colour</property>
+ </producer>
+ <playlist id="black_track">
+  <entry in="0" out="3685" producer="black"/>
+ </playlist>
+ <producer title="Anonymous Submission" in="0" out="3344" id="2_2_audio">
+  <property name="mlt_type">producer</property>
+  <property name="length">3345</property>
+  <property name="eof">pause</property>
+  <property name="resource">Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/1P/2.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">49039</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">111335</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+ </producer>
+ <playlist id="playlist1">
+  <blank length="2128"/>
+  <entry in="1313" out="1349" producer="2_2_audio"/>
+  <blank length="153"/>
+  <entry in="1554" out="1580" producer="2_2_audio"/>
+  <blank length="456"/>
+  <entry in="2240" out="2269" producer="2_2_audio"/>
+ </playlist>
+ <producer title="Anonymous Submission" in="0" out="1110" id="1_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">1111</property>
+  <property name="eof">pause</property>
+  <property name="resource">Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/1P/1.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">87593</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">112234</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer title="Anonymous Submission" in="0" out="3344" id="2_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">3345</property>
+  <property name="eof">pause</property>
+  <property name="resource">Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/1P/2.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">49039</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">111335</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer title="Anonymous Submission" in="0" out="3344" id="2_2_video">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">3345</property>
+  <property name="eof">pause</property>
+  <property name="resource">Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/1P/2.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">896</property>
+  <property name="meta.media.0.codec.frame_rate">15</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">49039</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">22050</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">111335</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.36.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <playlist id="playlist2">
+  <entry in="11" out="38" producer="1_1"/>
+  <entry in="41" out="761" producer="1_1"/>
+  <entry in="764" out="769" producer="1_1"/>
+  <entry in="771" out="884" producer="1_1"/>
+  <entry in="900" out="1085" producer="1_1"/>
+  <entry in="8" out="15" producer="2_1"/>
+  <entry in="22" out="30" producer="2_1"/>
+  <entry in="50" out="155" producer="2_1"/>
+  <entry in="165" out="309" producer="2_1"/>
+  <entry in="330" out="391" producer="2_1"/>
+  <entry in="410" out="485" producer="2_1"/>
+  <entry in="493" out="636" producer="2_1"/>
+  <entry in="646" out="817" producer="2_1"/>
+  <entry in="881" out="1056" producer="2_1"/>
+  <entry in="1076" out="1189" producer="2_1"/>
+  <entry in="1215" out="1257" producer="2_1"/>
+  <entry in="1263" out="1280" producer="2_1"/>
+  <entry in="1294" out="1330" producer="2_2_video"/>
+  <entry in="1353" out="1491" producer="2_1"/>
+  <entry in="1497" out="1510" producer="2_1"/>
+  <entry in="1511" out="1537" producer="2_2_video"/>
+  <entry in="1581" out="1729" producer="2_1"/>
+  <entry in="1823" out="1925" producer="2_1"/>
+  <entry in="2016" out="2151" producer="2_1"/>
+  <entry in="2161" out="2201" producer="2_1"/>
+  <entry in="2213" out="2239" producer="2_1"/>
+  <entry in="2248" out="2264" producer="2_2_video"/>
+  <entry in="2269" out="2281" producer="2_2_video"/>
+  <entry in="2313" out="2481" producer="2_1"/>
+  <entry in="2582" out="2640" producer="2_1"/>
+  <entry in="2652" out="2674" producer="2_1"/>
+  <entry in="2678" out="2743" producer="2_1"/>
+  <entry in="2749" out="2790" producer="2_1"/>
+  <entry in="2803" out="3004" producer="2_1"/>
+  <entry in="3024" out="3050" producer="2_1"/>
+  <entry in="3056" out="3322" producer="2_1"/>
+ </playlist>
+ <playlist id="playlist3"/>
+ <tractor title="Anonymous Submission" in="0" out="3685" id="maintractor" global_feed="1">
+  <property name="meta.volume">1</property>
+  <track producer="black_track"/>
+  <track hide="video" producer="playlist1"/>
+  <track producer="playlist2"/>
+  <track producer="playlist3"/>
+  <transition id="transition0">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition1">
+   <property name="a_track">1</property>
+   <property name="b_track">3</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+ </tractor>
+ <kdenlivedoc projectfolder="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/1P" version="0.88" profile="/home/alex/.local/share/kdenlive//profiles/customprofile0" kdenliveversion="15.04.3">
+  <customeffects/>
+  <documentproperties generateproxy="0" enableproxy="0" zoom="3" position="3685" zonein="0" proxyimageminsize="2000" proxyminsize="1000" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -vcodec mpeg2video -g 5 -s 640x480 -qscale 7" documentid="1437894839956" generateimageproxy="0" proxyextension="ts" verticalzoom="1" zoneout="100"/>
+  <documentmetadata/>
+  <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Oxygen-Sans'; font-size:10pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></documentnotes>
+  <profileinfo description="HD 720p 15 fps" height="720" width="1280" frame_rate_num="15" sample_aspect_den="1" progressive="1" sample_aspect_num="1" display_aspect_num="16" display_aspect_den="9" frame_rate_den="1"/>
+  <tracksinfo>
+   <trackinfo locked="0" blind="1" trackname="Audio 1" mute="0" type="audio"/>
+   <trackinfo locked="0" blind="0" trackname="Video 2" mute="0"/>
+   <trackinfo locked="0" blind="0" trackname="Video 1" mute="0"/>
+  </tracksinfo>
+  <kdenlive_producer file_size="1889385" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/1P/1.mp4" progressive="1" default_video="0" video_max="0" file_hash="3b2ee44d07247ae6d801108a8445f99e" fps="15" name="1.mp4" channels="1" audiocodec="AAC (Advanced Audio Coding)" pix_fmt="yuv420p" frame_size="1600x896" audio_max="60" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" analysisdata="" id="1" default_audio="1" aspect_ratio="1" frequency="22050" type="3" colorspace="709" videocodecid="h264" duration="1111">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2avc1mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer file_size="4568199" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第7讲 攻略有难度/1P/2.mp4" progressive="1" default_video="0" video_max="0" file_hash="49ff077cd83c6bfdf2944c8e1c5fde5c" fps="15" name="2.mp4" channels="1" audiocodec="AAC (Advanced Audio Coding)" pix_fmt="yuv420p" frame_size="1600x896" audio_max="61" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" analysisdata="" id="2" default_audio="1" aspect_ratio="1" frequency="22050" type="3" colorspace="709" videocodecid="h264" duration="3345">
+   <metaproperty name="meta.attr.0.stream.handler_name" tool="">VideoHandler</metaproperty>
+   <metaproperty name="meta.attr.1.stream.handler_name" tool="">SoundHandler</metaproperty>
+   <metaproperty name="meta.attr.compatible_brands" tool="">isomiso2avc1mp41</metaproperty>
+   <metaproperty name="meta.attr.encoder" tool="">Lavf56.36.100</metaproperty>
+   <metaproperty name="meta.attr.major_brand" tool="">isom</metaproperty>
+   <metaproperty name="meta.attr.minor_version" tool="">512</metaproperty>
+  </kdenlive_producer>
+  <markers/>
+  <groups>
+   <group>
+    <clipitem track="2" position="2128"/>
+    <clipitem track="1" position="2128"/>
+   </group>
+  </groups>
+ </kdenlivedoc>
+</mlt>

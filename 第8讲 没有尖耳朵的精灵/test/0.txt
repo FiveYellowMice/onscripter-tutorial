@@ -1,0 +1,9 @@
+*define
+game
+*start
+bg white,10,500
+lsp 2,":a;google-chrome.png",200,200
+lsp 1,":a;firefox.png",220,220
+print 1
+click
+end

@@ -1,0 +1,12 @@
+*define
+game
+*start
+bgm "bgm/01.mp3"
+dwave 0,"voice/na01.ogg"
+今天是晴天\
+dwave 0,"voice/na02.ogg"
+明天多云\
+dwave 0,"voice/na03.ogg"
+dwave 1,"se/btn16.ogg"
+后天下雨\
+end
