@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt LC_NUMERIC="en_AU.UTF-8" version="0.9.8" root="/home/alex" title="Anonymous Submission">
+ <profile progressive="1" height="720" display_aspect_num="16" frame_rate_den="1" sample_aspect_den="1" display_aspect_den="9" width="1280" colorspace="709" sample_aspect_num="1" description="HD 720p 15 fps" frame_rate_num="15"/>
+ <producer in="0" out="500" id="black">
+  <property name="mlt_type">producer</property>
+  <property name="length">15000</property>
+  <property name="eof">pause</property>
+  <property name="resource">black</property>
+  <property name="aspect_ratio">0</property>
+  <property name="mlt_service">colour</property>
+ </producer>
+ <playlist id="black_track">
+  <entry in="0" out="443" producer="black"/>
+ </playlist>
+ <playlist id="playlist1"/>
+ <producer in="0" out="443" id="1_1" title="Anonymous Submission">
+  <property name="mlt_type">producer</property>
+  <property name="length">444</property>
+  <property name="eof">pause</property>
+  <property name="resource">Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/01.ogv</property>
+  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.1.stream.type">video</property>
+  <property name="meta.media.1.stream.frame_rate">15</property>
+  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.width">1600</property>
+  <property name="meta.media.1.codec.height">896</property>
+  <property name="meta.media.1.codec.frame_rate">15</property>
+  <property name="meta.media.1.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.1.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.name">theora</property>
+  <property name="meta.media.1.codec.long_name">Theora</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.RECORDMYDESKTOP.markup">0.3.8.1</property>
+  <property name="meta.media.2.stream.type">audio</property>
+  <property name="meta.media.2.codec.sample_fmt">fltp</property>
+  <property name="meta.media.2.codec.sample_rate">22050</property>
+  <property name="meta.media.2.codec.channels">1</property>
+  <property name="meta.media.2.codec.name">vorbis</property>
+  <property name="meta.media.2.codec.long_name">Vorbis</property>
+  <property name="meta.media.2.codec.bit_rate">89991</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+ </producer>
+ <playlist id="playlist2">
+  <entry in="0" out="443" producer="1_1"/>
+ </playlist>
+ <playlist id="playlist3"/>
+ <tractor in="0" out="443" id="maintractor" title="Anonymous Submission" global_feed="1">
+  <property name="meta.volume">1</property>
+  <track producer="black_track"/>
+  <track hide="video" producer="playlist1"/>
+  <track producer="playlist2"/>
+  <track producer="playlist3"/>
+  <transition id="transition0">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition1">
+   <property name="a_track">1</property>
+   <property name="b_track">3</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+ </tractor>
+ <kdenlivedoc kdenliveversion="15.04.3" profile="/home/alex/.local/share/kdenlive//profiles/customprofile0" version="0.88" projectfolder="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题">
+  <customeffects/>
+  <documentproperties zoneout="100" proxyminsize="1000" zoom="3" generateimageproxy="0" proxyextension="ts" proxyimageminsize="2000" position="0" zonein="0" generateproxy="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -vcodec mpeg2video -g 5 -s 640x480 -qscale 7" enableproxy="0" documentid="1440304421904" verticalzoom="1"/>
+  <documentmetadata/>
+  <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Oxygen-Sans'; font-size:10pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></documentnotes>
+  <profileinfo progressive="1" frame_rate_den="1" height="720" display_aspect_num="16" sample_aspect_den="1" display_aspect_den="9" width="1280" sample_aspect_num="1" description="HD 720p 15 fps" frame_rate_num="15"/>
+  <tracksinfo>
+   <trackinfo trackname="Audio 1" locked="0" blind="1" type="audio" mute="0"/>
+   <trackinfo trackname="Video 2" locked="0" blind="0" mute="0"/>
+   <trackinfo trackname="Video 1" locked="0" blind="0" mute="0"/>
+  </tracksinfo>
+  <kdenlive_producer default_audio="2" audio_max="53" videocodec="Theora" fps="15" videocodecid="theora" file_hash="ae55a92005d7a3d09aad32858447bdb6" name="01.ogv" frame_size="1600x896" duration="444" id="1" channels="1" type="3" analysisdata="" default_video="1" progressive="1" aspect_ratio="1" pix_fmt="yuv420p" colorspace="709" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/01.ogv" frequency="22050" audiocodec="Vorbis" video_max="1" file_size="1701366">
+   <metaproperty name="meta.attr.1.stream.RECORDMYDESKTOP" tool="">0.3.8.1</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer default_audio="2" audio_max="63" videocodec="Theora" fps="15" videocodecid="theora" file_hash="fde1254a18827783d28b0e85f4bfae5d" name="02.ogv" frame_size="1600x896" duration="638" id="2" channels="1" type="3" analysisdata="" default_video="1" progressive="1" aspect_ratio="1" pix_fmt="yuv420p" colorspace="709" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/02.ogv" frequency="22050" audiocodec="Vorbis" video_max="1" file_size="3938994">
+   <metaproperty name="meta.attr.1.stream.RECORDMYDESKTOP" tool="">0.3.8.1</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer default_audio="2" audio_max="48" videocodec="Theora" fps="15" videocodecid="theora" file_hash="6c63284595c455da6749533526d298af" name="03.ogv" frame_size="1600x896" duration="893" id="3" channels="1" type="3" analysisdata="" default_video="1" progressive="1" aspect_ratio="1" pix_fmt="yuv420p" colorspace="709" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/03.ogv" frequency="22050" audiocodec="Vorbis" video_max="1" file_size="4181810">
+   <metaproperty name="meta.attr.1.stream.RECORDMYDESKTOP" tool="">0.3.8.1</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer default_audio="2" audio_max="61" videocodec="Theora" fps="-nan" videocodecid="theora" file_hash="2e2c5dac7c8b0b75a01e8c6fed58b129" name="04.ogv" frame_size="1600x896" duration="4296" id="4" channels="1" type="3" analysisdata="" default_video="1" progressive="1" aspect_ratio="1" pix_fmt="yuv420p" colorspace="709" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/04.ogv" frequency="22050" audiocodec="Vorbis" video_max="1" file_size="25462890">
+   <metaproperty name="meta.attr.1.stream.RECORDMYDESKTOP" tool="">0.3.8.1</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer default_audio="2" audio_max="49" videocodec="Theora" fps="15" videocodecid="theora" file_hash="b257471de0cdf3d6cd2acd8c2921d398" name="05.ogv" frame_size="1600x896" duration="2515" id="5" channels="1" type="3" analysisdata="" default_video="1" progressive="1" aspect_ratio="1" pix_fmt="yuv420p" colorspace="709" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/05.ogv" frequency="22050" audiocodec="Vorbis" video_max="1" file_size="11573995">
+   <metaproperty name="meta.attr.1.stream.RECORDMYDESKTOP" tool="">0.3.8.1</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer default_audio="2" audio_max="58" videocodec="Theora" fps="15" videocodecid="theora" file_hash="daa5716e2efd6eb0f9cbdf0da29be193" name="06.ogv" frame_size="1600x896" duration="4300" id="6" channels="1" type="3" analysisdata="" default_video="1" progressive="1" aspect_ratio="1" pix_fmt="yuv420p" colorspace="709" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/06.ogv" frequency="22050" audiocodec="Vorbis" video_max="1" file_size="23819463">
+   <metaproperty name="meta.attr.1.stream.RECORDMYDESKTOP" tool="">0.3.8.1</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer default_audio="2" audio_max="50" videocodec="Theora" fps="15" videocodecid="theora" file_hash="f60fb26b3f815c92be7d753666946ae3" name="07.ogv" frame_size="1600x896" duration="1681" id="7" channels="1" type="3" analysisdata="" default_video="1" progressive="1" aspect_ratio="1" pix_fmt="yuv420p" colorspace="709" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/07.ogv" frequency="22050" audiocodec="Vorbis" video_max="1" file_size="6509797">
+   <metaproperty name="meta.attr.1.stream.RECORDMYDESKTOP" tool="">0.3.8.1</metaproperty>
+  </kdenlive_producer>
+  <markers/>
+  <groups/>
+ </kdenlivedoc>
+</mlt>
