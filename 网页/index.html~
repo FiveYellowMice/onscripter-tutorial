@@ -71,6 +71,18 @@
 			</tr>
 			<tr>
 				<td>
+					<a href="lectures/l08.html">
+						<b>第8讲 没有尖耳朵的精灵</b><br />
+						<img src="image/cover-08.png" alt="第8讲封面" width="240" height="150" />
+					</a>
+				</td>
+				<td>
+					<a href="lectures/l09.html">
+						<b>第9讲 只要有标题画面，语文水平再差也没有问题</b><br />
+						<img src="image/cover-09.png" alt="第9讲封面" width="240" height="150" />
+					</a>
+				</td>
+				<td>
 					<a href="coming-soon.html">
 						Coming soon...<br />
 						<img src="image/coming-soon.png" alt="?" width="240" height="150" />
