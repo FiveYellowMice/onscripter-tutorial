@@ -1,0 +1,582 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt version="0.9.8" root="/run/media/alex/SBPD/Video/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题" title="Anonymous Submission" LC_NUMERIC="en_AU.UTF-8">
+ <profile width="1280" frame_rate_den="1" height="720" display_aspect_num="16" colorspace="709" description="HD 720p 15 fps" progressive="1" sample_aspect_den="1" sample_aspect_num="1" frame_rate_num="15" display_aspect_den="9"/>
+ <producer in="0" out="500" id="black">
+  <property name="mlt_type">producer</property>
+  <property name="length">15000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/black</property>
+  <property name="aspect_ratio">0</property>
+  <property name="mlt_service">colour</property>
+ </producer>
+ <playlist id="black_track">
+  <entry in="0" out="9485" producer="black"/>
+ </playlist>
+ <playlist id="playlist1"/>
+ <producer in="0" out="443" title="Anonymous Submission" id="1_1">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">444</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/01.ogv</property>
+  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.1.stream.type">video</property>
+  <property name="meta.media.1.stream.frame_rate">15</property>
+  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.width">1600</property>
+  <property name="meta.media.1.codec.height">896</property>
+  <property name="meta.media.1.codec.frame_rate">15</property>
+  <property name="meta.media.1.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.1.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.name">theora</property>
+  <property name="meta.media.1.codec.long_name">Theora</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.RECORDMYDESKTOP.markup">0.3.8.1</property>
+  <property name="meta.media.2.stream.type">audio</property>
+  <property name="meta.media.2.codec.sample_fmt">fltp</property>
+  <property name="meta.media.2.codec.sample_rate">22050</property>
+  <property name="meta.media.2.codec.channels">1</property>
+  <property name="meta.media.2.codec.name">vorbis</property>
+  <property name="meta.media.2.codec.long_name">Vorbis</property>
+  <property name="meta.media.2.codec.bit_rate">89991</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="637" title="Anonymous Submission" id="2_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">638</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/02.ogv</property>
+  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.1.stream.type">video</property>
+  <property name="meta.media.1.stream.frame_rate">15</property>
+  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.width">1600</property>
+  <property name="meta.media.1.codec.height">896</property>
+  <property name="meta.media.1.codec.frame_rate">15</property>
+  <property name="meta.media.1.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.1.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.name">theora</property>
+  <property name="meta.media.1.codec.long_name">Theora</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.RECORDMYDESKTOP.markup">0.3.8.1</property>
+  <property name="meta.media.2.stream.type">audio</property>
+  <property name="meta.media.2.codec.sample_fmt">fltp</property>
+  <property name="meta.media.2.codec.sample_rate">22050</property>
+  <property name="meta.media.2.codec.channels">1</property>
+  <property name="meta.media.2.codec.name">vorbis</property>
+  <property name="meta.media.2.codec.long_name">Vorbis</property>
+  <property name="meta.media.2.codec.bit_rate">89991</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="892" title="Anonymous Submission" id="3_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">893</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/03.ogv</property>
+  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.1.stream.type">video</property>
+  <property name="meta.media.1.stream.frame_rate">15</property>
+  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.width">1600</property>
+  <property name="meta.media.1.codec.height">896</property>
+  <property name="meta.media.1.codec.frame_rate">15</property>
+  <property name="meta.media.1.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.1.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.name">theora</property>
+  <property name="meta.media.1.codec.long_name">Theora</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.RECORDMYDESKTOP.markup">0.3.8.1</property>
+  <property name="meta.media.2.stream.type">audio</property>
+  <property name="meta.media.2.codec.sample_fmt">fltp</property>
+  <property name="meta.media.2.codec.sample_rate">22050</property>
+  <property name="meta.media.2.codec.channels">1</property>
+  <property name="meta.media.2.codec.name">vorbis</property>
+  <property name="meta.media.2.codec.long_name">Vorbis</property>
+  <property name="meta.media.2.codec.bit_rate">89991</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="4295" title="Anonymous Submission" id="4_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">4296</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/04.ogv</property>
+  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.1.stream.type">video</property>
+  <property name="meta.media.1.stream.frame_rate">-nan</property>
+  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.width">1600</property>
+  <property name="meta.media.1.codec.height">896</property>
+  <property name="meta.media.1.codec.frame_rate">15</property>
+  <property name="meta.media.1.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.1.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.name">theora</property>
+  <property name="meta.media.1.codec.long_name">Theora</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.RECORDMYDESKTOP.markup">0.3.8.1</property>
+  <property name="meta.media.2.stream.type">audio</property>
+  <property name="meta.media.2.codec.sample_fmt">fltp</property>
+  <property name="meta.media.2.codec.sample_rate">22050</property>
+  <property name="meta.media.2.codec.channels">1</property>
+  <property name="meta.media.2.codec.name">vorbis</property>
+  <property name="meta.media.2.codec.long_name">Vorbis</property>
+  <property name="meta.media.2.codec.bit_rate">89991</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="2514" title="Anonymous Submission" id="5_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">2515</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/05.ogv</property>
+  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.1.stream.type">video</property>
+  <property name="meta.media.1.stream.frame_rate">15</property>
+  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.width">1600</property>
+  <property name="meta.media.1.codec.height">896</property>
+  <property name="meta.media.1.codec.frame_rate">15</property>
+  <property name="meta.media.1.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.1.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.name">theora</property>
+  <property name="meta.media.1.codec.long_name">Theora</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.RECORDMYDESKTOP.markup">0.3.8.1</property>
+  <property name="meta.media.2.stream.type">audio</property>
+  <property name="meta.media.2.codec.sample_fmt">fltp</property>
+  <property name="meta.media.2.codec.sample_rate">22050</property>
+  <property name="meta.media.2.codec.channels">1</property>
+  <property name="meta.media.2.codec.name">vorbis</property>
+  <property name="meta.media.2.codec.long_name">Vorbis</property>
+  <property name="meta.media.2.codec.bit_rate">89991</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="4299" title="Anonymous Submission" id="6_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">4300</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/06.ogv</property>
+  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.1.stream.type">video</property>
+  <property name="meta.media.1.stream.frame_rate">15</property>
+  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.width">1600</property>
+  <property name="meta.media.1.codec.height">896</property>
+  <property name="meta.media.1.codec.frame_rate">15</property>
+  <property name="meta.media.1.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.1.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.name">theora</property>
+  <property name="meta.media.1.codec.long_name">Theora</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.RECORDMYDESKTOP.markup">0.3.8.1</property>
+  <property name="meta.media.2.stream.type">audio</property>
+  <property name="meta.media.2.codec.sample_fmt">fltp</property>
+  <property name="meta.media.2.codec.sample_rate">22050</property>
+  <property name="meta.media.2.codec.channels">1</property>
+  <property name="meta.media.2.codec.name">vorbis</property>
+  <property name="meta.media.2.codec.long_name">Vorbis</property>
+  <property name="meta.media.2.codec.bit_rate">89991</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="1680" title="Anonymous Submission" id="7_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">1681</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/07.ogv</property>
+  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.1.stream.type">video</property>
+  <property name="meta.media.1.stream.frame_rate">15</property>
+  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.width">1600</property>
+  <property name="meta.media.1.codec.height">896</property>
+  <property name="meta.media.1.codec.frame_rate">15</property>
+  <property name="meta.media.1.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.1.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.name">theora</property>
+  <property name="meta.media.1.codec.long_name">Theora</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.RECORDMYDESKTOP.markup">0.3.8.1</property>
+  <property name="meta.media.2.stream.type">audio</property>
+  <property name="meta.media.2.codec.sample_fmt">fltp</property>
+  <property name="meta.media.2.codec.sample_rate">22050</property>
+  <property name="meta.media.2.codec.channels">1</property>
+  <property name="meta.media.2.codec.name">vorbis</property>
+  <property name="meta.media.2.codec.long_name">Vorbis</property>
+  <property name="meta.media.2.codec.bit_rate">89991</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">896</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <playlist id="playlist2">
+  <entry in="17" out="350" producer="1_1"/>
+  <entry in="373" out="421" producer="1_1"/>
+  <entry in="12" out="480" producer="2_1"/>
+  <entry in="487" out="520" producer="2_1"/>
+  <entry in="556" out="612" producer="2_1"/>
+  <entry in="14" out="302" producer="3_1"/>
+  <entry in="353" out="427" producer="3_1"/>
+  <entry in="445" out="577" producer="3_1"/>
+  <entry in="589" out="643" producer="3_1"/>
+  <entry in="652" out="873" producer="3_1"/>
+  <entry in="12" out="54" producer="4_1"/>
+  <entry in="71" out="351" producer="4_1"/>
+  <entry in="399" out="460" producer="4_1"/>
+  <entry in="482" out="498" producer="4_1"/>
+  <entry in="604" out="616" producer="4_1"/>
+  <entry in="646" out="679" producer="4_1"/>
+  <entry in="729" out="736" producer="4_1"/>
+  <entry in="817" out="846" producer="4_1"/>
+  <entry in="979" out="994" producer="4_1"/>
+  <entry in="1066" out="1162" producer="4_1"/>
+  <entry in="1225" out="1248" producer="4_1"/>
+  <entry in="1273" out="1304" producer="4_1"/>
+  <entry in="1329" out="1360" producer="4_1"/>
+  <entry in="1386" out="1429" producer="4_1"/>
+  <entry in="1481" out="1573" producer="4_1"/>
+  <entry in="1629" out="1807" producer="4_1"/>
+  <entry in="1816" out="1820" producer="4_1"/>
+  <entry in="1884" out="1916" producer="4_1"/>
+  <entry in="2091" out="2293" producer="4_1"/>
+  <entry in="2334" out="2372" producer="4_1"/>
+  <entry in="2419" out="2462" producer="4_1"/>
+  <entry in="2490" out="2521" producer="4_1"/>
+  <entry in="2538" out="2628" producer="4_1"/>
+  <entry in="2679" out="2765" producer="4_1"/>
+  <entry in="2824" out="2906" producer="4_1"/>
+  <entry in="2925" out="2950" producer="4_1"/>
+  <entry in="3043" out="3127" producer="4_1"/>
+  <entry in="3186" out="3196" producer="4_1"/>
+  <entry in="3213" out="3362" producer="4_1"/>
+  <entry in="3375" out="3466" producer="4_1"/>
+  <entry in="3474" out="3512" producer="4_1"/>
+  <entry in="3540" out="3579" producer="4_1"/>
+  <entry in="3586" out="3646" producer="4_1"/>
+  <entry in="3718" out="3922" producer="4_1"/>
+  <entry in="3931" out="3978" producer="4_1"/>
+  <entry in="4019" out="4112" producer="4_1"/>
+  <entry in="4148" out="4186" producer="4_1"/>
+  <entry in="4215" out="4253" producer="4_1"/>
+  <entry in="4265" out="4275" producer="4_1"/>
+  <entry in="21" out="408" producer="5_1"/>
+  <entry in="439" out="491" producer="5_1"/>
+  <entry in="500" out="508" producer="5_1"/>
+  <entry in="510" out="520" producer="5_1"/>
+  <entry in="531" out="745" producer="5_1"/>
+  <entry in="758" out="775" producer="5_1"/>
+  <entry in="780" out="827" producer="5_1"/>
+  <entry in="849" out="917" producer="5_1"/>
+  <entry in="923" out="970" producer="5_1"/>
+  <entry in="986" out="1073" producer="5_1"/>
+  <entry in="1081" out="1132" producer="5_1"/>
+  <entry in="1142" out="1161" producer="5_1"/>
+  <entry in="1185" out="1214" producer="5_1"/>
+  <entry in="1243" out="1328" producer="5_1"/>
+  <entry in="1350" out="1395" producer="5_1"/>
+  <entry in="1398" out="1407" producer="5_1"/>
+  <entry in="1417" out="1528" producer="5_1"/>
+  <entry in="1556" out="1572" producer="5_1"/>
+  <entry in="1575" out="1621" producer="5_1"/>
+  <entry in="1623" out="1779" producer="5_1"/>
+  <entry in="1781" out="1787" producer="5_1"/>
+  <entry in="1967" out="2119" producer="5_1"/>
+  <entry in="2141" out="2201" producer="5_1"/>
+  <entry in="2211" out="2259" producer="5_1"/>
+  <entry in="2291" out="2315" producer="5_1"/>
+  <entry in="2362" out="2390" producer="5_1"/>
+  <entry in="2403" out="2447" producer="5_1"/>
+  <entry in="2470" out="2481" producer="5_1"/>
+  <entry in="2497" out="2501" producer="5_1"/>
+  <entry in="17" out="388" producer="6_1"/>
+  <entry in="412" out="491" producer="6_1"/>
+  <entry in="541" out="618" producer="6_1"/>
+  <entry in="637" out="701" producer="6_1"/>
+  <entry in="819" out="884" producer="6_1"/>
+  <entry in="907" out="919" producer="6_1"/>
+  <entry in="955" out="969" producer="6_1"/>
+  <entry in="1022" out="1043" producer="6_1"/>
+  <entry in="1115" out="1167" producer="6_1"/>
+  <entry in="1305" out="1386" producer="6_1"/>
+  <entry in="1609" out="1639" producer="6_1"/>
+  <entry in="1777" out="1818" producer="6_1"/>
+  <entry in="1896" out="1945" producer="6_1"/>
+  <entry in="1960" out="2000" producer="6_1"/>
+  <entry in="2109" out="2144" producer="6_1"/>
+  <entry in="2166" out="2172" producer="6_1"/>
+  <entry in="2243" out="2288" producer="6_1"/>
+  <entry in="2428" out="2563" producer="6_1"/>
+  <entry in="2606" out="2609" producer="6_1"/>
+  <entry in="2620" out="2647" producer="6_1"/>
+  <entry in="2659" out="2686" producer="6_1"/>
+  <entry in="2733" out="2776" producer="6_1"/>
+  <entry in="2807" out="2820" producer="6_1"/>
+  <entry in="2836" out="2854" producer="6_1"/>
+  <entry in="3014" out="3100" producer="6_1"/>
+  <entry in="3122" out="3132" producer="6_1"/>
+  <entry in="3151" out="3213" producer="6_1"/>
+  <entry in="3227" out="3247" producer="6_1"/>
+  <entry in="3260" out="3298" producer="6_1"/>
+  <entry in="3337" out="3375" producer="6_1"/>
+  <entry in="3385" out="3407" producer="6_1"/>
+  <entry in="3422" out="3436" producer="6_1"/>
+  <entry in="3487" out="3512" producer="6_1"/>
+  <entry in="3563" out="3617" producer="6_1"/>
+  <entry in="3778" out="3909" producer="6_1"/>
+  <entry in="4041" out="4142" producer="6_1"/>
+  <entry in="4171" out="4197" producer="6_1"/>
+  <entry in="12" out="161" producer="7_1"/>
+  <entry in="186" out="232" producer="7_1"/>
+  <entry in="259" out="351" producer="7_1"/>
+  <entry in="371" out="449" producer="7_1"/>
+  <entry in="464" out="505" producer="7_1"/>
+  <entry in="530" out="552" producer="7_1"/>
+  <entry in="566" out="659" producer="7_1"/>
+  <entry in="681" out="842" producer="7_1"/>
+  <entry in="894" out="930" producer="7_1"/>
+  <entry in="959" out="1186" producer="7_1"/>
+  <entry in="1247" out="1281" producer="7_1"/>
+  <entry in="1321" out="1525" producer="7_1"/>
+  <entry in="1543" out="1565" producer="7_1"/>
+  <entry in="1614" out="1680" producer="7_1"/>
+ </playlist>
+ <producer in="0" out="74" title="Anonymous Submission" id="9">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/bottomleft.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer in="0" out="74" title="Anonymous Submission" id="8">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">75</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/frame.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <playlist id="playlist3">
+  <blank length="3566"/>
+  <entry in="0" out="74" producer="9"/>
+  <blank length="2750"/>
+  <entry in="0" out="74" producer="8"/>
+ </playlist>
+ <tractor in="0" out="9485" title="Anonymous Submission" global_feed="1" id="maintractor">
+  <property name="meta.volume">1</property>
+  <track producer="black_track"/>
+  <track producer="playlist1" hide="video"/>
+  <track producer="playlist2"/>
+  <track producer="playlist3"/>
+  <transition id="transition0">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition1">
+   <property name="a_track">1</property>
+   <property name="b_track">3</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition in="3566" out="3640" id="transition2">
+   <property name="a_track">2</property>
+   <property name="b_track">3</property>
+   <property name="distort">0</property>
+   <property name="geometry">0/0:100%x100%:100%</property>
+   <property name="fill">1</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">affine</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+   <property name="keyed">1</property>
+   <property name="rotate_x">0</property>
+   <property name="rotate_y">0</property>
+   <property name="rotate_z">0</property>
+   <property name="shear_x">0</property>
+   <property name="shear_y">0</property>
+   <property name="shear_z">0</property>
+  </transition>
+ </tractor>
+ <kdenlivedoc version="0.88" kdenliveversion="15.04.3" profile="/home/alex/.local/share/kdenlive//profiles/customprofile0" projectfolder="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题">
+  <customeffects/>
+  <documentproperties zoneout="100" proxyimageminsize="2000" renderurl="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/nosub.mp4" zonein="0" renderexportaudio="0" renderratio="1" renderrescalewidth="320" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -vcodec mpeg2video -g 5 -s 640x480 -qscale 7" renderzone="0" rendertctype="0" renderprofile="H.264/AAC High Profile" renderrescaleheight="180" proxyextension="ts" renderaudiobitrate="160" rendertwopass="0" enableproxy="0" renderscanning="0" documentid="1440304421904" rendertcoverlay="0" generateproxy="0" renderguide="0" renderrescale="0" generateimageproxy="0" renderendguide="-1" renderstartguide="-1" zoom="3" renderdestination="" renderplay="0" proxyminsize="1000" verticalzoom="1" rendercategory="MP4" renderbitrate="20" position="3804"/>
+  <documentmetadata/>
+  <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Oxygen-Sans'; font-size:10pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></documentnotes>
+  <profileinfo width="1280" frame_rate_den="1" height="720" display_aspect_num="16" description="HD 720p 15 fps" progressive="1" sample_aspect_den="1" frame_rate_num="15" sample_aspect_num="1" display_aspect_den="9"/>
+  <tracksinfo>
+   <trackinfo trackname="Audio 1" type="audio" locked="0" mute="0" blind="1"/>
+   <trackinfo trackname="Video 2" locked="0" mute="0" blind="0"/>
+   <trackinfo trackname="Video 1" locked="0" mute="0" blind="0"/>
+  </tracksinfo>
+  <kdenlive_producer name="01.ogv" duration="444" default_audio="2" pix_fmt="yuv420p" file_size="1701366" frame_size="1600x896" frequency="22050" video_max="1" audio_max="53" progressive="1" file_hash="ae55a92005d7a3d09aad32858447bdb6" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/01.ogv" colorspace="709" default_video="1" videocodecid="theora" videocodec="Theora" aspect_ratio="1" audiocodec="Vorbis" id="1" fps="15" type="3" channels="1" analysisdata="">
+   <metaproperty name="meta.attr.1.stream.RECORDMYDESKTOP" tool="">0.3.8.1</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer name="02.ogv" duration="638" default_audio="2" pix_fmt="yuv420p" file_size="3938994" frame_size="1600x896" frequency="22050" video_max="1" audio_max="63" progressive="1" file_hash="fde1254a18827783d28b0e85f4bfae5d" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/02.ogv" colorspace="709" default_video="1" videocodecid="theora" videocodec="Theora" aspect_ratio="1" audiocodec="Vorbis" id="2" fps="15" type="3" channels="1" analysisdata="">
+   <metaproperty name="meta.attr.1.stream.RECORDMYDESKTOP" tool="">0.3.8.1</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer name="03.ogv" duration="893" default_audio="2" pix_fmt="yuv420p" file_size="4181810" frame_size="1600x896" frequency="22050" video_max="1" audio_max="48" progressive="1" file_hash="6c63284595c455da6749533526d298af" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/03.ogv" colorspace="709" default_video="1" videocodecid="theora" videocodec="Theora" aspect_ratio="1" audiocodec="Vorbis" id="3" fps="15" type="3" channels="1" analysisdata="">
+   <metaproperty name="meta.attr.1.stream.RECORDMYDESKTOP" tool="">0.3.8.1</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer name="04.ogv" duration="4296" default_audio="2" pix_fmt="yuv420p" file_size="25462890" frame_size="1600x896" frequency="22050" video_max="1" audio_max="61" progressive="1" file_hash="2e2c5dac7c8b0b75a01e8c6fed58b129" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/04.ogv" colorspace="709" default_video="1" videocodecid="theora" videocodec="Theora" aspect_ratio="1" audiocodec="Vorbis" id="4" fps="-nan" type="3" channels="1" analysisdata="">
+   <metaproperty name="meta.attr.1.stream.RECORDMYDESKTOP" tool="">0.3.8.1</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer name="05.ogv" duration="2515" default_audio="2" pix_fmt="yuv420p" file_size="11573995" frame_size="1600x896" frequency="22050" video_max="1" audio_max="49" progressive="1" file_hash="b257471de0cdf3d6cd2acd8c2921d398" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/05.ogv" colorspace="709" default_video="1" videocodecid="theora" videocodec="Theora" aspect_ratio="1" audiocodec="Vorbis" id="5" fps="15" type="3" channels="1" analysisdata="">
+   <metaproperty name="meta.attr.1.stream.RECORDMYDESKTOP" tool="">0.3.8.1</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer name="06.ogv" duration="4300" default_audio="2" pix_fmt="yuv420p" file_size="23819463" frame_size="1600x896" frequency="22050" video_max="1" audio_max="58" progressive="1" file_hash="daa5716e2efd6eb0f9cbdf0da29be193" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/06.ogv" colorspace="709" default_video="1" videocodecid="theora" videocodec="Theora" aspect_ratio="1" audiocodec="Vorbis" id="6" fps="15" type="3" channels="1" analysisdata="">
+   <metaproperty name="meta.attr.1.stream.RECORDMYDESKTOP" tool="">0.3.8.1</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer name="07.ogv" duration="1681" default_audio="2" pix_fmt="yuv420p" file_size="6509797" frame_size="1600x896" frequency="22050" video_max="1" audio_max="50" progressive="1" file_hash="f60fb26b3f815c92be7d753666946ae3" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/07.ogv" colorspace="709" default_video="1" videocodecid="theora" videocodec="Theora" aspect_ratio="1" audiocodec="Vorbis" id="7" fps="15" type="3" channels="1" analysisdata="">
+   <metaproperty name="meta.attr.1.stream.RECORDMYDESKTOP" tool="">0.3.8.1</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer in="0" out="74" name="frame.png" type="5" frame_size="1280x720" file_hash="96f01eb38cc5b6f7c0291801a5b11bb1" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/frame.png" duration="75" analysisdata="" aspect_ratio="1" file_size="26489" id="8"/>
+  <kdenlive_producer in="0" out="74" transparency="1" name="bottomleft.png" type="5" thumbnail="37" frame_size="1280x720" file_hash="0201438f2735959ea2ff777833637146" resource="/home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/第9讲 只要有标题画面，语文水平再差也没有问题/original/bottomleft.png" duration="75" analysisdata="" aspect_ratio="1" file_size="4472" id="9"/>
+  <markers/>
+  <groups/>
+ </kdenlivedoc>
+</mlt>
