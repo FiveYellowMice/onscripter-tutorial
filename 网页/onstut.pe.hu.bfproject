@@ -16,7 +16,7 @@ view_left_panel: 1
 bookmarks_filename_mode: 0
 e2c.convert_xml: 1
 c2e.convert_iso: 0
-opendir: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/lectures
+opendir: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/shuibiao
 wrap_text_default: 0
 default_mime_type: text/html
 snr_casesens: 0
@@ -40,7 +40,6 @@ recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%8
 recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/lectures/ffmpeg.html
 recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/contact-author.html
 recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/lectures/l03/ffmpeg.html
-recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/shuibiao/index.html
 recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/statement.html
 recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/cant-open.html
 recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/lectures/l01.html
@@ -53,11 +52,12 @@ recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%8
 recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/lectures/l00.html
 recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/lectures/l08.html
 recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/lectures/l09.html
-recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/index.html
 recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/coming-soon.html
+recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/index.html
 recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/rss.xml
+recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/shuibiao/index.html
 snr_replacetype: 0
-savedir: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/lectures
+savedir: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/shuibiao
 spell_check_default: 1
 spell_insert_entities: 0
 last_filefilter: 
@@ -81,9 +81,9 @@ recent_dirs: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83
 recent_dirs: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/image
 recent_dirs: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/downloads
 recent_dirs: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/lectures/l03
-recent_dirs: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/shuibiao
-recent_dirs: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5
 recent_dirs: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/lectures
+recent_dirs: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5
+recent_dirs: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/shuibiao
 filegloblist: *.txt
 filegloblist: *.shtml
 filegloblist: *.py
