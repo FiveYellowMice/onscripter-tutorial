@@ -1,7 +1,7 @@
 c2e.convert_special: 0
 e2c.convert_num: 0
-openfiles: /home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/网页/index.html:2135:1536:0:
-openfiles: /home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/网页/coming-soon.html:523:0:1:
+openfiles: /home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/网页/index.html:2412:1536:1:
+openfiles: /home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/网页/coming-soon.html:505:0:0:
 openfiles: /home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/网页/rss.xml:2834:1599:0:
 openfiles: /home/alex/Videos/Projects/小白也能轻松学会的Galgame制作/网页/lectures/l09.html:1184:16:0:
 snr_recursion_level: 5
@@ -52,10 +52,10 @@ recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%8
 recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/lectures/l00.html
 recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/lectures/l08.html
 recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/shuibiao/index.html
-recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/lectures/l09.html
-recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/index.html
 recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/coming-soon.html
+recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/index.html
 recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/rss.xml
+recent_files: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5/lectures/l09.html
 snr_replacetype: 0
 savedir: file:///home/alex/Videos/Projects/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%AD%A6%E4%BC%9A%E7%9A%84Galgame%E5%88%B6%E4%BD%9C/%E7%BD%91%E9%A1%B5
 spell_check_default: 1
