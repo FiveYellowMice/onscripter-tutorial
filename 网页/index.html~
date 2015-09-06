@@ -82,12 +82,12 @@
 						<img src="image/cover-09.png" alt="第9讲封面" width="240" height="150" />
 					</a>
 				</td>
-				<td>
+				<!--<td>
 					<a href="coming-soon.html">
 						Coming soon...<br />
 						<img src="image/coming-soon.png" alt="?" width="240" height="150" />
 					</a>
-				</td>
+				</td>-->
 			</tr>
 		</table>
 		
