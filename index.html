@@ -16,7 +16,7 @@ layout: default
 		<td>
 			<a href="{% if lecture.url %}{{ lecture.url }}{% else %}{{ site.baseurl }}/lectures/{{ lecture.number }}.html{% endif %}">
 				<b>{{ lecture.title }}</b><br>
-				<img src="/image/cover-{{ lecture.number }}.png" alt="封面" width="240" height="150" />
+				<img src="{{ site.baseurl }}/image/cover-{{ lecture.number }}.png" alt="封面" width="240" height="150" />
 			</a>
 		</td>
 	{% assign tre = forloop.index | modulo: 4 %}
