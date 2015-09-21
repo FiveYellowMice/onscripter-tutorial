@@ -1,3 +1,22 @@
+body {
+	font-size: 16px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
 code {
-	background-color: #AAAAAA;
+	background-color: #EEF;
+	font-size: 15px;
+	border: 1px solid #e8e8e8;
+	border-radius: 3px;
+}
+
+.introduction {
+	background-color: #F4F4BE;
+	border: 2px solid #000000;
+	text-align: center;
+	margin: auto;
 }
