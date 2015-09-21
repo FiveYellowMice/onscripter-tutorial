@@ -20,3 +20,22 @@ code {
 	text-align: center;
 	margin: auto;
 }
+
+.lectures-list {
+	overflow: auto;
+	max-width: 976px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.lecture-item {
+	padding: 2px;
+	float: left;
+}
+
+.footer {
+	font-size: 12px;
+	margin-top: 20px;
+}

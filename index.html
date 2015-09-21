@@ -7,21 +7,13 @@ layout: default
 <p>一个早就不应该中二的少年作出的为了普及电脑知识，推广 ONScripter ，<b>顺便</b>刷人气的系列视频教程。</p>
 <br><br>
 
-<table>
+<div class="lectures-list">
 	{% for lecture in site.data.lectures %}
-	{% assign trs = forloop.index0 | modulo: 4 %}
-	{% if trs == 0 %}
-	<tr>
-	{% endif %}
-		<td>
-			<a href="{% if lecture.url %}{{ lecture.url }}{% else %}{{ site.baseurl }}/lectures/{{ lecture.number }}.html{% endif %}">
-				<b>{{ lecture.title }}</b><br>
-				<img src="{{ site.baseurl }}/image/cover-{{ lecture.number }}.png" alt="封面" width="240" height="150" />
-			</a>
-		</td>
-	{% assign tre = forloop.index | modulo: 4 %}
-	{% if tre == 0 or forloop.last %}
-	</tr>
-	{% endif %}
+	<div class="lecture-item">
+		<a href="{% if lecture.url %}{{ lecture.url }}{% else %}{{ site.baseurl }}/lectures/{{ lecture.number }}.html{% endif %}">
+			<b>{{ lecture.title }}</b><br>
+			<img src="{{ site.baseurl }}/image/cover-{{ lecture.number }}.png" alt="封面" width="240" height="150" />
+		</a>
+	</div>
 	{% endfor %}
-</table>
+</div>
