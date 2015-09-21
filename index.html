@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<h1>{{ site.title }}</h1>
+<div style="background-color: #F4F4BE; border: 2px solid #000000; width: 970px"><p>{{ site.description | newline_to_br }}</p></div>
+<p>一个早就不应该中二的少年作出的为了普及电脑知识，推广 ONScripter ，<b>顺便</b>刷人气的系列视频教程。</p>
+<br><br>
+
+<table>
+	{% for lecture in site.data.lectures %}
+	{% assign trs = forloop.index0 | modulo: 4 %}
+	{% if trs == 0 %}
+	<tr>
+	{% endif %}
+		<td>
+			<a href="{% if lecture.url %}{{ lecture.url }}{% else %}{{ site.baseurl }}/lectures/{{ lecture.number }}.html{% endif %}">
+				<b>{{ lecture.title }}</b><br>
+				<img src="/image/cover-{{ lecture.number }}.png" alt="封面" width="240" height="150" />
+			</a>
+		</td>
+	{% assign tre = forloop.index | modulo: 4 %}
+	{% if tre == 0 or forloop.last %}
+	</tr>
+	{% endif %}
+	{% endfor %}
+</table>

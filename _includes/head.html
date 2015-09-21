@@ -1,0 +1,18 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+	<meta name="description" content="{{ site.description }}">
+	
+	<!--<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">-->
+	<link rel="canonical" href="{{ page.url | replace: 'index.html','' | prepend: site.url }}">
+	
+	{% if site.enforce_ssl %}
+    <script type="text/javascript">
+        var enforce = "{{ site.enforce_ssl }}";
+        if ((enforce == window.location.host) && (window.location.protocol != "https:"))
+            window.location = window.location.toString().replace(/^http:/, "https:");
+    </script>
+    {% endif %}
+</head>

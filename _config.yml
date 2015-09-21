@@ -1,0 +1,20 @@
+# Site settings
+title: 小白也能学会的 Galgame 制作
+description: |
+  看到五花八门的 Galgame ，你可否想过自己也做一个？却又发现技术不足？
+  没关系，那不是你需要劳心费神的地方，有了 ONScripter ，几乎任何人都可以轻松上手游戏的制作。你更应该专注的，是游戏的内容。
+url: "https://fiveyellowmice.github.io/onscripter-tutorial"
+
+# Build settings
+markdown: redcarpet
+redcarpet: 
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
+enforce_ssl: fiveyellowmice.github.io
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: "lectures"
+    values:
+      layout: "lecture"
