@@ -1,0 +1,27 @@
+---
+layout: null
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0"><channel>
+	
+	<title>{{ site.title | xml_escape }}</title>
+	<link>{{ site.url }}</link>
+	<description>{{ site.description | xml_escape }}</description>
+	<atom:link href="{{ site.url }}/rss.xml" rel="self" type="application/rss+xml" />
+	<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+	<generator>Jekyll v{{ jekyll.version }}</generator>
+	
+	{% for lecture in site.data.lectures %}
+	<item>
+		<title>{{ lecture.title }}</title>
+		<link>{{ site.url }}/lectures/{{ lecture.number }}.html</link>
+		<guid>{{ site.url }}/lectures/{{ lecture.number }}.html</guid>
+		<pubDate>{{ lecture.date }}</pubDate>
+		<description>{{ lecture.description | xml_escape }}</description>
+	</item>
+	{% endfor %}
+	
+</channel></rss>

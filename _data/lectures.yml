@@ -1,23 +1,43 @@
 - number: '00'
   title: 第0讲 你好，世界！
+  date: Tue, 12 May 2015 18:34:08 +1000
+  description: 这是第 0 讲，主要介绍了一些背景，历史，还有最基本的 Hello World 的制作。
 - number: '01'
   title: 第1讲 上帝说，要有光
+  date: Mon, 18 May 2015 00:10:10 +1000
+  description: 这是第 1 讲，游戏不再是黑底白字了。
 - number: '02'
   title: 第2讲 从百草园，到三味书屋
+  date: Thu, 28 May 2015 01:17:06 +1000
+  description: 这是第 2 讲，虽然我们开始的时间不长，但是我想还是得回到一些相对枯燥的基础知识上。
 - number: '03'
   title: 第3讲 耳机党福利
+  date: Sun, 14 Jun 2015 14:11:42 +1000
+  description: 第 3 讲终于来了！这是我期末考试之后的第一发。对了，各位中考高考的朋友们感觉还好吗？
 - number: '04'
   title: 第4讲 我脱了裤子，你就让我看...
+  date: Sun, 21 Jun 2015 01:44:16 +1000
+  description: 这是第四讲，请不要脱裤子。
 - number: '05'
   title: 第5讲 特技加特技！
+  date: Sun, 28 Jun 2015 18:31:39 +1000
+  description: 这是第 5 讲，希望成龙大哥身体健康。以后我们的游戏还要多多加特技！
 - number: '06'
   title: 第6讲 游戏里没有选择恐惧症
+  date: Fri, 10 Jul 2015 02:51:28 +1000
+  description: 第 6 讲来了！更新推迟了两次的说……
 - number: '07'
   title: 第7讲 攻略有难度
+  date: Sun, 26 Jul 2015 20:54:30 +1000
+  description: 之前谁说我消失了的？这不我回来了。
 - number: '08'
   title: 第8讲 没有尖耳朵的精灵
+  date: Wed, 12 Aug 2015 00:56:27 +1000
+  description: 倾情奉献满满10分钟。
 - number: '09'
   title: 第9讲 只要有标题画面，语文水...
+  date: Sun, 23 Aug 2015 18:06:34 +1000
+  description: 我实在是想不出这回介绍该写什么了，反正就是最简单的标题画面吧。
 - number: 'eol'
   title: EOL
   url: "https://fiveyellowmice.github.io/posts/2015/09/dropped-onscripter-tutorial.html"
