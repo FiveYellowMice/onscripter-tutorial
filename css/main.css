@@ -42,9 +42,23 @@ article img {
 	padding-left: 30px;
 }
 
-.lecture-item {
-	padding: 2px;
+.lectures-list .lecture-item {
+	padding-left: 2px;
+	padding-right: 2px;
 	float: left;
+}
+
+.lectures-list .lecture-item .lecture-title {
+	font-weight: bold;
+	white-space: nowrap;
+	max-width: 240px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.lectures-list .lecture-item img {
+	width: 240px;
+	height: 150px;
 }
 
 embed.video {

@@ -12,8 +12,8 @@ dsq_id: main
 	{% for lecture in site.data.lectures %}
 	<div class="lecture-item">
 		<a href="{% if lecture.url %}{{ lecture.url }}{% else %}{{ site.baseurl }}/lectures/{{ lecture.number }}.html{% endif %}">
-			<b>{{ lecture.title }}</b><br>
-			<img src="{{ site.baseurl }}/image/cover-{{ lecture.number }}.png" alt="封面" width="240" height="150" />
+			<div class="lecture-title">{{ lecture.title }}</div>
+			<img src="{{ site.baseurl }}/image/cover-{{ lecture.number }}.png" alt="封面">
 		</a>
 	</div>
 	{% endfor %}
