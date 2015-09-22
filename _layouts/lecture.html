@@ -4,13 +4,13 @@ layout: default
 
 {% include header.html %}
 <h1>{{ page.title }}</h1>
-<embed height="452" width="100%" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="http://share.acg.tv/flash.swf" flashvars="aid={{ page.av_number }}&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+<embed class="video" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="http://share.acg.tv/flash.swf" flashvars="aid={{ page.av_number }}&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
 <p>不过我还是希望你到<a href="http://www.bilibili.com/video/av{{ page.av_number }}/" target="_blank">原始地址</a>去观看。</p>
 
-<div style="border: 1px solid #000000">
+<div class="lecture-note">
 	{{ content }}
 	
-	<p>
+	<p class="resource-downloads">
 		<b>素材下载：</b>  <em>先看一遍视频再上手实践效果更佳</em><br>
 		<a href="https://github.com/FiveYellowMice/onscripter-tutorial/tree/master/{{ page.title }}">GitHub</a> （推荐，素材在 upload 目录里）  （<a href="{{ site.baseurl }}/cant-open.html">什么？打不开？</a>）<br />
 		<a href="http://pan.baidu.com/s/{{ page.bdcloud_id }}">百度云</a>  （失效了？请<a href="{{ site.baseurl }}/contact-author.html">告诉我</a>）

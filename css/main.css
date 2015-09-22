@@ -39,6 +39,15 @@ article img {
 	float: left;
 }
 
+embed.video {
+	height: 452px;
+	width: 100%;
+}
+
+.lecture-note {
+	border: 1px solid #000000;
+}
+
 .footer {
 	font-size: 12px;
 	margin-top: 20px;
