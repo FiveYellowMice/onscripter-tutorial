@@ -14,6 +14,10 @@ code {
 	border-radius: 3px;
 }
 
+article h3 {
+	text-align: center;
+}
+
 article img {
 	max-width: 100%;
 }
