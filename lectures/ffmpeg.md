@@ -34,17 +34,17 @@ Linux 和 OS X 直接打开终端输入 `ffmpeg` （ Debian 系是 `avconv` ）�
 然后cd到你要转换的文件所在的目录，比如我把文件放在了 `C:\Users\Alex\Music` 里面，就运行 `cd C:\Users\Alex\Music` 然后回车，注意如果路径包含空格，请用半角引号把 **路径** 包起来。  
 ![查看文件路径]({{ site.baseurl }}/image/ffmpeg/directory-01.png)
 ![复制]({{ site.baseurl }}/image/ffmpeg/directory-02.png)
-![粘贴]({{ site.baseurl }}/image/ffmpeg/directory-03.png)  
+![粘贴]({{ site.baseurl }}/image/ffmpeg/directory-03.png)
 ![按回车]({{ site.baseurl }}/image/ffmpeg/directory-04.png)
 ![完毕]({{ site.baseurl }}/image/ffmpeg/directory-05.png)  
-**注意：** 如果你使用的是 Windows ，且目标目录跟 FFmpeg 所处的地方不在一个盘符，需要 **再“运行”** 一下盘符。比如目标目录是D盘，则运行 `d:` （大小写无关）。
+**注意：** 如果你使用的是 Windows ，且目标目录跟 FFmpeg 所处的地方不在一个盘符，需要 **再“运行”** 一下盘符。比如目标目录是 D 盘，则运行 `d:` （大小写无关）。
 
 然后运行 `ls` （ OS X 和 Linux ）或 `dir` （ Windows ）来查看当前目录的文件，如果输出的是你想要来到的目录（在我这儿是 `C:\Users\Alex\Music` ）中的文件，则 `cd` 成功了。  
 ![运行 dir 的结果]({{ site.baseurl }}/image/ffmpeg/dir.png)
 
 然后开始转码，我这里以将 `btn16.mp3` 这个音频文件转换为 `libvorbis` 编码，并在同目录下保存为 `btn16.ogg` 作为例子。
 
-先输入 **ffmpeg**  ，但别着急按回车，右边还要输入别的东西。  
+先输入 `ffmpeg`  ，但别着急按回车，右边还要输入别的东西。  
 因为我们的输入文件叫做 `btn16.mp3` ，所以在后面加上 `-i btn16.mp3` ，注意如果文件名包含空格，请用双引号把 **文件名** 包起来。  
 因为我们要把它的音频流（因为这是音频文件，只有个音频流，如果是视频就不一样了）转换为 `libvorbis` 编码，就加上 `-c:a libvorbis` ~~， c 代表 codec ， a 代表 audio~~ 。  
 因为我们要把转换后的文件保存为 `btn16.ogg` ，所以在 **最后** 加上 `btn16.ogg` ，注意如果文件名包含空格，请用双引号把文件名包起来。
@@ -56,7 +56,7 @@ Linux 和 OS X 直接打开终端输入 `ffmpeg` （ Debian 系是 `avconv` ）�
 你的输出可能跟我不一样，但只要没出现红色的 `ERROR` 之类的字样，一般就是没有问题地完成了。  
 ![运行，完成]({{ site.baseurl }}/image/ffmpeg/proc.png)
 
-如果你接下来不需要再转换别的文件，那么就可以直接关掉窗口，然后你会发现原来的地方多了个叫 `btn16.ogg` 的文件。大多数音乐播放器都可以播放它（ `Windows Media Player` 不算）。
+如果你接下来不需要再转换别的文件，那么就可以直接关掉窗口，然后你会发现原来的地方多了个叫 `btn16.ogg` 的文件。大多数音乐播放器都可以播放它（ Windows Media Player 不算）。
 
 一切正常的话，把它复制到你的游戏目录（或游戏目录中的目录）里面，可以继续写脚本了！
 
