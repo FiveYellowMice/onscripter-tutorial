@@ -1,6 +1,7 @@
 ---
 layout: appendix
 title: 第3讲附录 FFmpeg
+dsq_id: l03
 ---
 
 视频中提到了， `dwave` 命令不支持 .mp3 格式的音频文件，需要用转码软件转成 .wav 或者 .ogg 格式。

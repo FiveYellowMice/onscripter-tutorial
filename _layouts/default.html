@@ -9,6 +9,9 @@
 		
 		{% include footer.html %}
 		
+		{% if page.dsq_id %}
+		{% include disqus_comment.html %}
+		{% endif %}
 	</body>
 	
 </html>
