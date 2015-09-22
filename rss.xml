@@ -4,7 +4,7 @@ layout: null
 
 <?xml version="1.0" encoding="utf-8"?>
 
-<rss version="2.0"><channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel>
 	
 	<title>{{ site.title | xml_escape }}</title>
 	<link>{{ site.url }}</link>
