@@ -18,6 +18,10 @@ article h3 {
 	text-align: center;
 }
 
+article blockquote {
+	color: #999999;
+}
+
 article img {
 	max-width: 100%;
 }
