@@ -17,8 +17,8 @@ layout: null
 	{% for lecture in site.data.lectures %}
 	<item>
 		<title>{{ lecture.title }}</title>
-		<link>{{ site.url }}/lectures/{{ lecture.number }}.html</link>
-		<guid>{{ site.url }}/lectures/{{ lecture.number }}.html</guid>
+		<link>{% if lecture.url %}{{ lecture.url }}{% else %}{{ site.url }}/lectures/{{ lecture.number }}.html{% endif %}</link>
+		<guid>{% if lecture.url %}{{ lecture.url }}{% else %}{{ site.url }}/lectures/{{ lecture.number }}.html{% endif %}</guid>
 		<pubDate>{{ lecture.date }}</pubDate>
 		<description>{{ lecture.description | xml_escape }}</description>
 	</item>
