@@ -19,3 +19,4 @@ defaults:
       path: "lectures"
     values:
       layout: "lecture"
+      video: true

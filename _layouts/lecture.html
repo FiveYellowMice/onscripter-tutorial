@@ -4,7 +4,14 @@ layout: default
 
 {% include header.html %}
 <h1>{{ page.title }}</h1>
-<embed class="video" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="http://share.acg.tv/flash.swf" flashvars="aid={{ page.av_number }}&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+
+<!--<embed class="video" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="http://share.acg.tv/flash.swf" flashvars="aid={{ page.av_number }}&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>-->
+<video id="main-video" class="video video-js" controls preload="auto" data-setup="{}">
+	<source src="{{ page.video_source }}" type="video/mp4">
+	<p class="vjs-no-js">如果要观看此视频，请启用 JavaScript ，并考虑升级到一个<a href="http://videojs.com/html5-video-support/" target="_blank">支持 HTML5 视频</a>的浏览器。</p>
+</video>
+<script src="https://vjs.zencdn.net/5.0.2/video.js"></script>
+
 <p>不过我还是希望你到<a href="http://www.bilibili.com/video/av{{ page.av_number }}/" target="_blank">原始地址</a>去观看。</p>
 
 <div class="lecture-note">
